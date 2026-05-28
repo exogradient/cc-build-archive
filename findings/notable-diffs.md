@@ -4,6 +4,19 @@ _Auto-maintained by `scripts/update-findings.py`. Do not edit by hand._
 
 Flagged notable if `prompt_delta_chars` ≥ 300, or any wire tool, static-binary tool, or embedded system-reminder was added/removed/changed. Most recent first. Full per-diff content lives under `findings/diffs/<from>__to__<to>/` (always present, regardless of how this file lists it).
 
+## `2.1.153.9bb` → `2.1.154.608`
+
+- **Default model**: `claude-opus-4-7` → `claude-opus-4-8`
+- **Prompt delta**: -20746 chars (instructions block)
+- **Output config (effort)**: `{'effort': 'xhigh'}` → `{'effort': 'high'}`
+- **Cache breakpoints**: `['system[1]', 'system[2]', 'messages[0][2]']` → `['system[1]', 'system[2]', 'messages[0][1]']`
+- **API betas**: added `mid-conversation-system-2026-04-07`
+- **Tools added**: `Workflow`
+- **Tools with changed definition**: `Agent` (description), `AskUserQuestion` (description), `Bash` (description), `Edit` (description), `Glob` (description), `Grep` (description), `Read` (description), `WebFetch` (description), `WebSearch` (description), `Write` (description)
+- **System reminders (binary)**: 1 modified (see `system-reminders.matrix`)
+- **Wire reminders (skills/context)**: 1 removed (see `wire-reminders.matrix`)
+- [Tool definition diffs](diffs/2.1.153.9bb__to__2.1.154.608/tools.diff) · [all artifacts](diffs/2.1.153.9bb__to__2.1.154.608/)
+
 ## `2.1.141.e27` → `2.1.142.1aa`
 
 - **Prompt delta**: +1 chars (instructions block)

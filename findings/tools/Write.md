@@ -3,18 +3,18 @@
 _Auto-maintained by `scripts/update-findings.py`. Do not edit by hand._
 
 - Currently present: yes
-- Definition changes: 0
+- Definition changes: 1
 
 ## Change log
 
-_Present since `2.1.110.610` or earlier; no changes observed in the archive window._
+- `2.1.154.608` — ~ `description`
 
 ## Current definition
 
 ```json
 {
   "name": "Write",
-  "description": "Writes a file to the local filesystem.\n\nUsage:\n- This tool will overwrite the existing file if there is one at the provided path.\n- If this is an existing file, you MUST use the Read tool first to read the file's contents. This tool will fail if you did not read the file first.\n- Prefer the Edit tool for modifying existing files \u2014 it only sends the diff. Only use this tool to create new files or for complete rewrites.\n- NEVER create documentation files (*.md) or README files unless explicitly requested by the User.\n- Only use emojis if the user explicitly requests it. Avoid writing emojis to files unless asked.",
+  "description": "Writes a file to the local filesystem, overwriting if one exists.\n\nWhen to use: creating a new file, or fully replacing one you've already Read. Overwriting an existing file you haven't Read will fail. For partial changes, use Edit instead.",
   "input_schema": {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "type": "object",

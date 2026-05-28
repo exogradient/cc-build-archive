@@ -1,0 +1,43 @@
+---
+from: 2.1.153.9bb
+to: 2.1.154.608
+from_capture_date: 2026-05-28T02:28:21.819Z
+to_capture_date: 2026-05-28T15:40:27.975Z
+from_build_time: 2026-05-27T20:03:21Z
+to_build_time: 2026-05-28T12:27:24Z
+prompt_block2_chars_from: 26132
+prompt_block2_chars_to: 5386
+prompt_delta_chars: -20746
+model_from: claude-opus-4-7
+model_to: claude-opus-4-8
+max_tokens_from: 64000
+max_tokens_to: 64000
+thinking_from: {"type": "adaptive"}
+thinking_to: {"type": "adaptive"}
+output_config_from: {"effort": "xhigh"}
+output_config_to: {"effort": "high"}
+context_management_from: {"edits": [{"type": "clear_thinking_20251015", "keep": "all"}]}
+context_management_to: {"edits": [{"type": "clear_thinking_20251015", "keep": "all"}]}
+api_betas_from: claude-code-20250219,context-1m-2025-08-07,interleaved-thinking-2025-05-14,context-management-2025-06-27,prompt-caching-scope-2026-01-05,effort-2025-11-24
+api_betas_to: claude-code-20250219,context-1m-2025-08-07,interleaved-thinking-2025-05-14,context-management-2025-06-27,prompt-caching-scope-2026-01-05,mid-conversation-system-2026-04-07,effort-2025-11-24
+tools_count_from: 26
+tools_count_to: 27
+tools_added: ["Workflow"]
+tools_removed: []
+tools_changed: ["Agent", "AskUserQuestion", "Bash", "Edit", "Glob", "Grep", "Read", "WebFetch", "WebSearch", "Write"]
+tools_changed_detail: {"Agent": ["description"], "AskUserQuestion": ["description"], "Bash": ["description"], "Edit": ["description"], "Glob": ["description"], "Grep": ["description"], "Read": ["description"], "WebFetch": ["description"], "WebSearch": ["description"], "Write": ["description"]}
+binary_tools_count_from: 43
+binary_tools_count_to: 43
+binary_tools_added: []
+binary_tools_removed: []
+binary_tools_changed: []
+reminders_count_from: 15
+reminders_count_to: 15
+reminders_added: []
+reminders_removed: []
+reminders_modified: [{"from_sha1": "80286e7f", "to_sha1": "8ce424e8", "similarity": 0.992}]
+cache_breakpoints_from: ["system[1]", "system[2]", "messages[0][2]"]
+cache_breakpoints_to: ["system[1]", "system[2]", "messages[0][1]"]
+wire_reminders_added: []
+wire_reminders_removed: ["ed2a4099"]
+wire_reminders_modified: []

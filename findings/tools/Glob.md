@@ -3,18 +3,18 @@
 _Auto-maintained by `scripts/update-findings.py`. Do not edit by hand._
 
 - Currently present: yes
-- Definition changes: 0
+- Definition changes: 1
 
 ## Change log
 
-_Present since `2.1.110.610` or earlier; no changes observed in the archive window._
+- `2.1.154.608` — ~ `description`
 
 ## Current definition
 
 ```json
 {
   "name": "Glob",
-  "description": "- Fast file pattern matching tool that works with any codebase size\n- Supports glob patterns like \"**/*.js\" or \"src/**/*.ts\"\n- Returns matching file paths sorted by modification time\n- Use this tool when you need to find files by name patterns\n- When you are doing an open ended search that may require multiple rounds of globbing and grepping, use the Agent tool instead",
+  "description": "Fast file pattern matching. Supports glob patterns like \"**/*.js\" or \"src/**/*.ts\". Returns matching file paths sorted by modification time.",
   "input_schema": {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "type": "object",
