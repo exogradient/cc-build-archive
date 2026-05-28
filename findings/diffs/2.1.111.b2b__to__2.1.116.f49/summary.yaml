@@ -1,0 +1,43 @@
+---
+from: 2.1.111.b2b
+to: 2.1.116.f49
+from_capture_date: 2026-05-28T03:44:40.741Z
+to_capture_date: 2026-05-28T03:45:06.993Z
+from_build_time: 2026-04-16T14:24:43Z
+to_build_time: 2026-04-20T13:57:26Z
+prompt_block2_chars_from: 25967
+prompt_block2_chars_to: 25835
+prompt_delta_chars: -132
+model_from: claude-sonnet-4-6
+model_to: claude-sonnet-4-6
+max_tokens_from: 32000
+max_tokens_to: 32000
+thinking_from: {"type": "adaptive"}
+thinking_to: {"type": "adaptive"}
+output_config_from: {"effort": "high"}
+output_config_to: {"effort": "high"}
+context_management_from: {"edits": [{"type": "clear_thinking_20251015", "keep": "all"}]}
+context_management_to: {"edits": [{"type": "clear_thinking_20251015", "keep": "all"}]}
+api_betas_from: claude-code-20250219,interleaved-thinking-2025-05-14,context-management-2025-06-27,prompt-caching-scope-2026-01-05,effort-2025-11-24
+api_betas_to: claude-code-20250219,interleaved-thinking-2025-05-14,context-management-2025-06-27,prompt-caching-scope-2026-01-05,effort-2025-11-24
+tools_count_from: 23
+tools_count_to: 23
+tools_added: []
+tools_removed: []
+tools_changed: ["Bash"]
+tools_changed_detail: {"Bash": ["description"]}
+binary_tools_count_from: 41
+binary_tools_count_to: 41
+binary_tools_added: []
+binary_tools_removed: []
+binary_tools_changed: []
+reminders_count_from: 15
+reminders_count_to: 17
+reminders_added: ["2788c953", "f5d45ce8"]
+reminders_removed: []
+reminders_modified: [{"from_sha1": "ee4482fc", "to_sha1": "23a0d591", "similarity": 0.983}]
+cache_breakpoints_from: ["system[1]", "system[2]", "messages[0][2]"]
+cache_breakpoints_to: ["system[1]", "system[2]", "messages[0][2]"]
+wire_reminders_added: []
+wire_reminders_removed: []
+wire_reminders_modified: [{"from_sha1": "58416545", "to_sha1": "439df73b", "similarity": 0.998}]

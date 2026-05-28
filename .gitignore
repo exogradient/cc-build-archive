@@ -1,0 +1,9 @@
+.DS_Store
+captures/pending-*/
+captures/*/_proxy.log
+# Raw per-request proxy logs from each capture run. Useless archival —
+# `full-request.json` is the canonical extracted body for the analyzed
+# request; 001/002 are startup probes that contain no signal.
+captures/*/captures/
+*.tgz
+log/

@@ -1,0 +1,16 @@
+metric                   2.1.128.9fd        2.1.129.49a       
+--------------------------------------------------------------
+reminders                16                 16                
+unchanged                15
+modified (paired)        1
+added (net)              0
+removed (net)            0
+
+MODIFIED REMINDERS:
+  similarity=0.99  baf5c49b → d99111b8  (240b → 240b)
+    --- baf5c49b
+    +++ d99111b8
+    @@ -1 +1 @@
+    -${K?`Brief mode is now enabled. Use the ${O_H} tool for all user-facing output \u2014 plain text outside it is hidden from the user's view.`:`Brief mode is now disabled. The ${O_H} tool is no longer available \u2014 reply with plain text.`}
+    +${K?`Brief mode is now enabled. Use the ${f_H} tool for all user-facing output \u2014 plain text outside it is hidden from the user's view.`:`Brief mode is now disabled. The ${f_H} tool is no longer available \u2014 reply with plain text.`}
+

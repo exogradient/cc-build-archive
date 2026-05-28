@@ -1,0 +1,16 @@
+metric                   2.1.110.610        2.1.111.b2b       
+--------------------------------------------------------------
+reminders                15                 15                
+unchanged                14
+modified (paired)        1
+added (net)              0
+removed (net)            0
+
+MODIFIED REMINDERS:
+  similarity=0.99  209bfdde → ee4482fc  (240b → 240b)
+    --- 209bfdde
+    +++ ee4482fc
+    @@ -1 +1 @@
+    -${K?`Brief mode is now enabled. Use the ${P6H} tool for all user-facing output \u2014 plain text outside it is hidden from the user's view.`:`Brief mode is now disabled. The ${P6H} tool is no longer available \u2014 reply with plain text.`}
+    +${K?`Brief mode is now enabled. Use the ${v6H} tool for all user-facing output \u2014 plain text outside it is hidden from the user's view.`:`Brief mode is now disabled. The ${v6H} tool is no longer available \u2014 reply with plain text.`}
+

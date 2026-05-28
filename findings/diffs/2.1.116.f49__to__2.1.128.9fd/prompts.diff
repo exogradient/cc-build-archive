@@ -1,0 +1,14 @@
+--- 2.1.116.f49
++++ 2.1.128.9fd
+@@ -206,5 +206,5 @@
+ You have been invoked in the following environment: 
+  - Primary working directory: /private/var/folders/<OSTMP>/T/cc-capture.<RANDOM>
+-  - Is a git repository: false
++ - Is a git repository: false
+  - Additional working directories:
+   - /var/folders/<OSTMP>/T/cc-capture.<RANDOM>
+@@ -218,3 +218,4 @@
+  - Fast mode for Claude Code uses Claude Opus 4.6 with faster output (it does not downgrade to a smaller model). It can be toggled with /fast and is only available on Opus 4.6.
+ 
++# Context management
+ When working with tool results, write down any important information you might need later in your response, as the original tool result may be cleared later.

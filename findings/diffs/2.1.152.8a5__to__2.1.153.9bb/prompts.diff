@@ -1,0 +1,24 @@
+--- 2.1.152.8a5
++++ 2.1.153.9bb
+@@ -74,5 +74,5 @@
+ # auto memory
+ 
+-You have a persistent, file-based memory system at `/var/folders/<OSTMP>/T/cc-home.<RANDOM>/.claude/projects/-private-var-folders-q4-<OSTMP>-T-cc-capture-<RANDOM>/memory/`. This directory already exists — write to it directly with the Write tool (do not run mkdir or check for its existence).
++You have a persistent, file-based memory system at `/tmp/cc-home.<RANDOM>/.claude/projects/-tmp-cc-capture-<RANDOM>/memory/`. This directory already exists — write to it directly with the Write tool (do not run mkdir or check for its existence).
+ 
+ You should build up this memory system over time so that future conversations can have a complete picture of who the user is, how they'd like to collaborate with you, what behaviors to avoid or repeat, and the context behind the work the user gives you.
+@@ -208,11 +208,9 @@
+ # Environment
+ You have been invoked in the following environment: 
+- - Primary working directory: /private/var/folders/<OSTMP>/T/cc-capture.<RANDOM>
++ - Primary working directory: /tmp/cc-capture.<RANDOM>
+  - Is a git repository: false
+- - Additional working directories:
+-  - /var/folders/<OSTMP>/T/cc-capture.<RANDOM>
+- - Platform: darwin
++ - Platform: linux
+  - Shell: <SHELL>
+- - OS Version: Darwin 24.6.0
++ - OS Version: Linux 6.17.0-1015-azure
+  - You are powered by the model named Opus 4.7 (1M context). The exact model ID is claude-opus-4-7[1m].
+  - Assistant knowledge cutoff is January 2026.

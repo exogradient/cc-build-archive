@@ -1,0 +1,48 @@
+tool                   | 2.1.116.f49      | 2.1.128.9fd     
+------------------------------------------------------------
+Agent                  | 297bd18f         | 297bd18f        
+AskUserQuestion        | 3f9afcfa         | 3f9afcfa        
+Bash                   | 002e2af9         | 002e2af9        
+Config                 | ca9efd03         | -               
+CronCreate             | c9fade51         | c9fade51        
+CronDelete             | 3de8b56a         | 3de8b56a        
+CronList               | 7ee5dd8c         | 7ee5dd8c        
+Edit                   | 7d818e21         | 7d818e21        
+EnterPlanMode          | 8fe7cb02         | 8fe7cb02        
+EnterWorktree          | bdec9e12         | bdec9e12        
+ExitPlanMode           | 285ba7e5         | 285ba7e5        
+ExitWorktree           | b3bd3ab4         | b3bd3ab4        
+Glob                   | 07261727         | 07261727        
+Grep                   | 6b472f29         | 6b472f29        
+LSP                    | 9b4902cc         | 9b4902cc        
+ListMcpResourcesTool   | 1933f379         | 1933f379        
+Monitor                | 4cc7adc6         | 4cc7adc6        
+NotebookEdit           | 9dccea54         | 9dccea54        
+PowerShell             | 737ae43f         | 737ae43f        
+PushNotification       | dde56982         | dde56982        
+REPL                   | 7e3e0ebf         | 7e3e0ebf        
+Read                   | 09279172         | 09279172        
+ReadMcpResourceTool    | 79361ea8         | 79361ea8        
+RemoteTrigger          | 21dfd888         | 82b6c40a          ← DIVERGENT
+ScheduleWakeup         | 30d6f8ed         | 30d6f8ed        
+SendMessage            | 0273c1dc         | 0273c1dc        
+SendUserMessage        | 089f1228         | 089f1228        
+ShareOnboardingGuide   | -                | 74b5d353        
+Skill                  | 3c4a8268         | 3c4a8268        
+StructuredOutput       | e67f88c5         | e67f88c5        
+TaskCreate             | b3307c1d         | b3307c1d        
+TaskGet                | cb27ef0a         | cb27ef0a        
+TaskList               | 4ab675d3         | 4ab675d3        
+TaskOutput             | cecd311c         | cecd311c        
+TaskStop               | 17b5e08d         | 17b5e08d        
+TaskUpdate             | 112aed64         | 112aed64        
+TeamCreate             | 9ffc67f4         | 9ffc67f4        
+TeamDelete             | 12107f87         | 12107f87        
+TodoWrite              | 68873ef2         | 68873ef2        
+WebFetch               | 56627b03         | 56627b03        
+WebSearch              | 10c42400         | 10c42400        
+Write                  | d966c7ef         | d966c7ef        
+
+Added: ['ShareOnboardingGuide']
+Removed: ['Config']
+Changed (shared name, different definition): ['RemoteTrigger']

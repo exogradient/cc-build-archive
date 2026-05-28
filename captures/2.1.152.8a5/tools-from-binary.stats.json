@@ -1,0 +1,10 @@
+{
+  "binary": "/opt/homebrew/lib/node_modules/@anthropic-ai/claude-code/bin/claude.exe",
+  "binary_bytes": 214210080,
+  "search_hint_count": 43,
+  "name_props_resolved": 456,
+  "tools_paired": 43,
+  "tools_with_description": 20,
+  "description_filled_from_string_table": 8,
+  "orphan_hints": []
+}

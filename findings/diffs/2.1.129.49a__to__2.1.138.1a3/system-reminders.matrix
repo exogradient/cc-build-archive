@@ -1,0 +1,19 @@
+metric                   2.1.129.49a        2.1.138.1a3       
+--------------------------------------------------------------
+reminders                16                 15                
+unchanged                14
+modified (paired)        1
+added (net)              0
+removed (net)            1
+
+MODIFIED REMINDERS:
+  similarity=0.04  7d073e48 → 41e429c5  (124b → 240b)
+    --- 7d073e48
+    +++ 41e429c5
+    @@ -1 +1 @@
+    -Respond with just the action or changes and without a thinking block, unless this is a redesign or requires fresh reasoning.
+    +${K?`Brief mode is now enabled. Use the ${QqH} tool for all user-facing output \u2014 plain text outside it is hidden from the user's view.`:`Brief mode is now disabled. The ${QqH} tool is no longer available \u2014 reply with plain text.`}
+
+REMOVED REMINDERS:
+  [d99111b8] (240b) ${K?`Brief mode is now enabled. Use the ${f_H} tool for all user-facing output \u2014 plain text outside it is hidden fr
+

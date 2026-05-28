@@ -1,0 +1,43 @@
+---
+from: 2.1.116.f49
+to: 2.1.128.9fd
+from_capture_date: 2026-05-28T03:45:06.993Z
+to_capture_date: 2026-05-28T03:46:08.975Z
+from_build_time: 2026-04-20T13:57:26Z
+to_build_time: 2026-05-04T17:32:00Z
+prompt_block2_chars_from: 25835
+prompt_block2_chars_to: 25855
+prompt_delta_chars: 20
+model_from: claude-sonnet-4-6
+model_to: claude-sonnet-4-6
+max_tokens_from: 32000
+max_tokens_to: 32000
+thinking_from: {"type": "adaptive"}
+thinking_to: {"type": "adaptive"}
+output_config_from: {"effort": "high"}
+output_config_to: {"effort": "high"}
+context_management_from: {"edits": [{"type": "clear_thinking_20251015", "keep": "all"}]}
+context_management_to: {"edits": [{"type": "clear_thinking_20251015", "keep": "all"}]}
+api_betas_from: claude-code-20250219,interleaved-thinking-2025-05-14,context-management-2025-06-27,prompt-caching-scope-2026-01-05,effort-2025-11-24
+api_betas_to: claude-code-20250219,interleaved-thinking-2025-05-14,context-management-2025-06-27,prompt-caching-scope-2026-01-05,effort-2025-11-24
+tools_count_from: 23
+tools_count_to: 23
+tools_added: []
+tools_removed: []
+tools_changed: ["Agent", "Read"]
+tools_changed_detail: {"Agent": ["description"], "Read": ["description"]}
+binary_tools_count_from: 41
+binary_tools_count_to: 41
+binary_tools_added: ["ShareOnboardingGuide"]
+binary_tools_removed: ["Config"]
+binary_tools_changed: ["RemoteTrigger"]
+reminders_count_from: 17
+reminders_count_to: 16
+reminders_added: []
+reminders_removed: ["2788c953"]
+reminders_modified: [{"from_sha1": "a8bb98dd", "to_sha1": "4b9c79a8", "similarity": 0.02}, {"from_sha1": "23a0d591", "to_sha1": "baf5c49b", "similarity": 0.983}]
+cache_breakpoints_from: ["system[1]", "system[2]", "messages[0][2]"]
+cache_breakpoints_to: ["system[1]", "system[2]", "messages[0][2]"]
+wire_reminders_added: []
+wire_reminders_removed: []
+wire_reminders_modified: [{"from_sha1": "439df73b", "to_sha1": "50b813c4", "similarity": 0.992}]

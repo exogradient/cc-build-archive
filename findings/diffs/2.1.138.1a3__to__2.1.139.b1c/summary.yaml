@@ -1,0 +1,43 @@
+---
+from: 2.1.138.1a3
+to: 2.1.139.b1c
+from_capture_date: 2026-05-28T03:46:46.717Z
+to_capture_date: 2026-05-28T03:46:52.074Z
+from_build_time: 2026-05-09T04:04:51Z
+to_build_time: 2026-05-11T17:03:24Z
+prompt_block2_chars_from: 25869
+prompt_block2_chars_to: 26273
+prompt_delta_chars: 404
+model_from: claude-opus-4-7
+model_to: claude-opus-4-7
+max_tokens_from: 64000
+max_tokens_to: 64000
+thinking_from: {"type": "adaptive"}
+thinking_to: {"type": "adaptive"}
+output_config_from: {"effort": "xhigh"}
+output_config_to: {"effort": "xhigh"}
+context_management_from: {"edits": [{"type": "clear_thinking_20251015", "keep": "all"}]}
+context_management_to: {"edits": [{"type": "clear_thinking_20251015", "keep": "all"}]}
+api_betas_from: claude-code-20250219,context-1m-2025-08-07,interleaved-thinking-2025-05-14,context-management-2025-06-27,prompt-caching-scope-2026-01-05,effort-2025-11-24
+api_betas_to: claude-code-20250219,context-1m-2025-08-07,interleaved-thinking-2025-05-14,context-management-2025-06-27,prompt-caching-scope-2026-01-05,effort-2025-11-24
+tools_count_from: 23
+tools_count_to: 23
+tools_added: []
+tools_removed: []
+tools_changed: ["Agent"]
+tools_changed_detail: {"Agent": ["description"]}
+binary_tools_count_from: 41
+binary_tools_count_to: 41
+binary_tools_added: []
+binary_tools_removed: []
+binary_tools_changed: []
+reminders_count_from: 15
+reminders_count_to: 15
+reminders_added: []
+reminders_removed: []
+reminders_modified: [{"from_sha1": "41e429c5", "to_sha1": "76e64186", "similarity": 0.983}]
+cache_breakpoints_from: ["system[1]", "system[2]", "messages[0][2]"]
+cache_breakpoints_to: ["system[1]", "system[2]", "messages[0][2]"]
+wire_reminders_added: []
+wire_reminders_removed: []
+wire_reminders_modified: []

@@ -1,0 +1,44 @@
+# Wire-captured tools (what the binary sent on this request).
+# Fingerprint = sha256 of the full tool definition (description,
+# input_schema, etc.) minus cache_control. See tools.diff for
+# the actual content delta on any divergent tool.
+#
+# Note: tools-from-binary.matrix is a SEPARATE artifact derived
+# from static extraction of the binary's JS. It only captures
+# {name, search_hint, max_result_size_chars} per tool — so
+# changes to `description` or `input_schema` show up here but
+# not there. Divergence here without divergence in
+# tools-from-binary is expected, not a bug.
+
+tool                   | 2.1.150.474      | 2.1.152.8a5     
+------------------------------------------------------------
+Agent                  | 3e9d6816         | 3e9d6816        
+AskUserQuestion        | e84afc40         | 65466e9c          ← DIVERGENT
+Bash                   | e59bcec1         | e59bcec1        
+CronCreate             | 29ef73e9         | 29ef73e9        
+CronDelete             | beeecc9a         | beeecc9a        
+CronList               | 9ac9faa4         | 9ac9faa4        
+Edit                   | 6bdcd43f         | 6bdcd43f        
+EnterPlanMode          | 0dce2115         | 0dce2115        
+EnterWorktree          | 6fb404f5         | 6fb404f5        
+ExitPlanMode           | 89bdd090         | 89bdd090        
+ExitWorktree           | ea0c77fa         | ea0c77fa        
+Glob                   | 121bf597         | 121bf597        
+Grep                   | a860f8dc         | a860f8dc        
+NotebookEdit           | 0ede60fe         | 0ede60fe        
+Read                   | 6a29b7e6         | 6a29b7e6        
+ScheduleWakeup         | 7a50c310         | 7a50c310        
+Skill                  | 2425030b         | 2425030b        
+TaskCreate             | 8ec37fde         | 8ec37fde        
+TaskGet                | a284beeb         | a284beeb        
+TaskList               | a12e31e9         | a12e31e9        
+TaskOutput             | 05cd98e8         | 05cd98e8        
+TaskStop               | e88dff3d         | e88dff3d        
+TaskUpdate             | e1b33f46         | e1b33f46        
+WebFetch               | f13fcaeb         | f13fcaeb        
+WebSearch              | 8d5e9a53         | 8d5e9a53        
+Write                  | 30262f39         | 30262f39        
+
+Added: []
+Removed: []
+Changed (shared name, different definition): ['AskUserQuestion']

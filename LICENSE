@@ -1,0 +1,28 @@
+Attribution 4.0 International (CC BY 4.0)
+
+This work — the data captures, the auto-generated diffs, the findings, and
+the README — is licensed under the Creative Commons Attribution 4.0
+International License. To view a copy of this license, visit
+https://creativecommons.org/licenses/by/4.0/
+
+You are free to:
+  - Share — copy and redistribute the material in any medium or format
+  - Adapt — remix, transform, and build upon the material for any purpose,
+    even commercially
+
+Under the following terms:
+  - Attribution — You must give appropriate credit, provide a link to the
+    license, and indicate if changes were made. You may do so in any
+    reasonable manner, but not in any way that suggests the licensor
+    endorses you or your use.
+
+The data captured in this repository consists of system prompts and tool
+definitions sent on the wire by publicly distributed Claude Code binaries
+(downloaded from the public npm registry). Reproduction is for research,
+analysis, and commentary purposes. Anthropic retains any rights they may
+have in the underlying prompt and tool description text; this archive
+asserts no copyright over Anthropic's content, only over the organization,
+analysis, and methodology applied here.
+
+If Anthropic requests removal of any specific content, contact the
+maintainer; we will comply within 48 hours.

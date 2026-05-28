@@ -1,0 +1,12 @@
+{
+  "binary": "/var/folders/<OSTMP>/T/cc-capture.R65Hkv/package/claude",
+  "binary_bytes": 214210080,
+  "raw_open_tags": 67,
+  "raw_close_tags": 36,
+  "complete_reminders": 15,
+  "encoding_counts": {
+    "utf-8": 12,
+    "utf-16-le": 3
+  },
+  "unpaired_open_tags": 31
+}

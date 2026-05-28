@@ -1,0 +1,41 @@
+# Wire-captured tools (what the binary sent on this request).
+# Fingerprint = sha256 of the full tool definition (description,
+# input_schema, etc.) minus cache_control. See tools.diff for
+# the actual content delta on any divergent tool.
+#
+# Note: tools-from-binary.matrix is a SEPARATE artifact derived
+# from static extraction of the binary's JS. It only captures
+# {name, search_hint, max_result_size_chars} per tool — so
+# changes to `description` or `input_schema` show up here but
+# not there. Divergence here without divergence in
+# tools-from-binary is expected, not a bug.
+
+tool                   | 2.1.116.f49      | 2.1.128.9fd     
+------------------------------------------------------------
+Agent                  | 8db1330f         | fc09c248          ← DIVERGENT
+AskUserQuestion        | e84afc40         | e84afc40        
+Bash                   | 841791e4         | 841791e4        
+CronCreate             | 29ef73e9         | 29ef73e9        
+CronDelete             | beeecc9a         | beeecc9a        
+CronList               | 9ac9faa4         | 9ac9faa4        
+Edit                   | 6bdcd43f         | 6bdcd43f        
+EnterPlanMode          | 233bc48b         | 233bc48b        
+EnterWorktree          | 121b0f2a         | 121b0f2a        
+ExitPlanMode           | 89bdd090         | 89bdd090        
+ExitWorktree           | ea0c77fa         | ea0c77fa        
+Glob                   | 121bf597         | 121bf597        
+Grep                   | 1c94b960         | 1c94b960        
+NotebookEdit           | 0ede60fe         | 0ede60fe        
+Read                   | 219de5ff         | 6a29b7e6          ← DIVERGENT
+ScheduleWakeup         | 4b8c5bf3         | 4b8c5bf3        
+Skill                  | 2425030b         | 2425030b        
+TaskOutput             | 05cd98e8         | 05cd98e8        
+TaskStop               | e88dff3d         | e88dff3d        
+TodoWrite              | 9a5053fa         | 9a5053fa        
+WebFetch               | f13fcaeb         | f13fcaeb        
+WebSearch              | 8d5e9a53         | 8d5e9a53        
+Write                  | 30262f39         | 30262f39        
+
+Added: []
+Removed: []
+Changed (shared name, different definition): ['Agent', 'Read']

@@ -1,0 +1,7 @@
+--- 2.1.111.b2b
++++ 2.1.116.f49
+@@ -219,4 +219,2 @@
+ 
+ When working with tool results, write down any important information you might need later in your response, as the original tool result may be cleared later.
+-
+-Length limits: keep text between tool calls to ≤25 words. Keep final responses to ≤100 words unless the task requires more detail.
