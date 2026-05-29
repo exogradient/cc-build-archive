@@ -1,30 +1,6 @@
 {
   "@anthropic-ai/claude-code": {
     "active": {
-      "2.1.145": {
-        "fingerprint": {
-          "fileCount": 7,
-          "integrity": "sha512-SPZBgJDfDjbUbDg0wF+DTtuZ0TqcpCVeo3tOGDcMoCV94FttFOgPWzTpMRD6vTpu7P98kXkUrmpysDO9K/dAyg==",
-          "shasum": "be3f6d9d344e3f827ed5317b3e91e1d4d508e649",
-          "unpackedSize": 136524
-        }
-      },
-      "2.1.146": {
-        "fingerprint": {
-          "fileCount": 7,
-          "integrity": "sha512-1XaW5RY1enQYlZCoAPnXI3hxchpMR3PfCozFCNHEjTZKIeevjFyBAUMYdzd35EB3fGIn89D5R7HKcztpnG0FPg==",
-          "shasum": "2067df984dac3300def6558749a92565981eedfa",
-          "unpackedSize": 136524
-        }
-      },
-      "2.1.147": {
-        "fingerprint": {
-          "fileCount": 7,
-          "integrity": "sha512-FtBKJ360bJ3anTn/TDfI8f35fS9X4YpganUkWv82zdqe/6U5kTZOl00f9pS4sA8B2LJAJMY/XQS7+1HsYzdn7g==",
-          "shasum": "a2d0f6bd30034df5b43535e6437cbc46a733eca5",
-          "unpackedSize": 136524
-        }
-      },
       "2.1.148": {
         "fingerprint": {
           "fileCount": 7,
@@ -96,9 +72,9 @@
       }
     },
     "dist_tags": {
-      "latest": "2.1.156",
+      "latest": "2.1.157",
       "next": "2.1.157",
-      "stable": "2.1.145"
+      "stable": "2.1.148"
     }
   },
   "@anthropic-ai/claude-code-darwin-arm64": {
@@ -205,30 +181,6 @@
   },
   "@anthropic-ai/claude-code-linux-x64": {
     "active": {
-      "2.1.145": {
-        "fingerprint": {
-          "fileCount": 4,
-          "integrity": "sha512-bLuRixDBBFHofpfPvf11yp+VxQ4iDTohrCS3EkEsEiQ4YRmCwxeEIZDtdzhiPTVsRsHvsdByKOfBrQC677p9zQ==",
-          "shasum": "34779fa423bb1b75971673ddeb7994579507e856",
-          "unpackedSize": 234023194
-        }
-      },
-      "2.1.146": {
-        "fingerprint": {
-          "fileCount": 4,
-          "integrity": "sha512-OL1laix9AFc/n6/vVynQQtUsMQrHJXtpQs7m1sp3na7gRqxdr9TEUSQ7ZcoCD6uuFdXZnVHf6+tI14Og/D2RLQ==",
-          "shasum": "69ed0706818012dd7ca438fe7a603e572f395ff0",
-          "unpackedSize": 236513562
-        }
-      },
-      "2.1.147": {
-        "fingerprint": {
-          "fileCount": 4,
-          "integrity": "sha512-gMK8+a8QRMm/GKsFZrX2iMZrovZx3pZK61LY8iiHsLJ0yVuLzuTlJwygskvb+fEUsF7X0MWxYq5IVWIW+E/T8w==",
-          "shasum": "379d31408e2f324074fe17449cca1a168b5a3ea8",
-          "unpackedSize": 237037850
-        }
-      },
       "2.1.148": {
         "fingerprint": {
           "fileCount": 4,
@@ -299,9 +251,9 @@
       }
     },
     "dist_tags": {
-      "latest": "2.1.156",
+      "latest": "2.1.157",
       "next": "2.1.157",
-      "stable": "2.1.145"
+      "stable": "2.1.148"
     }
   },
   "_meta": {
