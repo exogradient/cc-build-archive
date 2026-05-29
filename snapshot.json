@@ -79,30 +79,6 @@
   },
   "@anthropic-ai/claude-code-darwin-arm64": {
     "active": {
-      "2.1.145": {
-        "fingerprint": {
-          "fileCount": 4,
-          "integrity": "sha512-nY4mqeGqqHOdRDM8XIKfakaKFu/t9EbwYGE8Tx+f/MxuzblSH1iD54TfQuq2cbTqUSaqEqiHkGM2jxoZxPcTEQ==",
-          "shasum": "eb7313f0d871ae4abe88f3a35187d96854e78bb7",
-          "unpackedSize": 208547041
-        }
-      },
-      "2.1.146": {
-        "fingerprint": {
-          "fileCount": 4,
-          "integrity": "sha512-1xRFcJRazPa/UU8IalR+2rP9Glwylc3OFlENm1+/PmdIa604s5B1wNygkvcqhVmE8rJO65uyJXjfB3CKtq0PQA==",
-          "shasum": "613eedb41fc0a125e1232836d9d5b3cbd6360089",
-          "unpackedSize": 211056865
-        }
-      },
-      "2.1.147": {
-        "fingerprint": {
-          "fileCount": 4,
-          "integrity": "sha512-hnLDcy4SvqWELl7E5MHfWZB4xxoeDNNrQpeN9xP9fBB5QWesnH47ng49T7aphRJFKj2/uJkLV2nGe96ONLFJkg==",
-          "shasum": "91cf531d3b372ebac3088377a70c7b86f2a479ee",
-          "unpackedSize": 211585249
-        }
-      },
       "2.1.148": {
         "fingerprint": {
           "fileCount": 4,
@@ -174,9 +150,9 @@
       }
     },
     "dist_tags": {
-      "latest": "2.1.156",
+      "latest": "2.1.157",
       "next": "2.1.157",
-      "stable": "2.1.145"
+      "stable": "2.1.148"
     }
   },
   "@anthropic-ai/claude-code-linux-x64": {
