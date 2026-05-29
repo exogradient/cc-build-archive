@@ -4,6 +4,13 @@ _Auto-maintained by `scripts/update-findings.py`. Do not edit by hand._
 
 Flagged notable if `prompt_delta_chars` ≥ 300, or any wire tool, static-binary tool, or embedded system-reminder was added/removed/changed. Most recent first. Full per-diff content lives under `findings/diffs/<from>__to__<to>/` (always present, regardless of how this file lists it).
 
+## `2.1.156.588` → `2.1.157.152`
+
+- **Prompt delta**: +0 chars (instructions block)
+- **Tools with changed definition**: `EnterWorktree` (description)
+- **System reminders (binary)**: 1 modified (see `system-reminders.matrix`)
+- [Tool definition diffs](diffs/2.1.156.588__to__2.1.157.152/tools.diff) · [all artifacts](diffs/2.1.156.588__to__2.1.157.152/)
+
 ## `2.1.153.9bb` → `2.1.154.608`
 
 - **Default model**: `claude-opus-4-7` → `claude-opus-4-8`
