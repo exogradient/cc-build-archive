@@ -9,6 +9,28 @@ _Auto-maintained by `scripts/update-findings.py`. Do not edit by hand._
 
 - `2.1.111.b2b` — ~ `description`; ~ `input_schema.properties.skill.description`
 
+  <details><summary>description diff (1272 → 1315 chars)</summary>
+
+  ```diff
+   
+  -When users reference a "slash command" or "/<something>" (e.g., "/commit", "/review-pr"), they are referring to a skill.
+  +When users reference a "slash command" or "/<something>", they are referring to a skill.
+   Use this tool to invoke it.
+   How to invoke:
+  -- Use this tool with the skill name and optional arguments
+  -- Examples:
+  -  - `skill: "pdf"` - invoke the pdf skill
+  -  - `skill: "commit", args: "-m 'Fix bug'"` - invoke with arguments
+  -  - `skill: "review-pr", args: "123"` - invoke with arguments
+  -  - `skill: "ms-office-suite:pdf"` - invoke using fully qualified name
+  +- Set `skill` to the exact name of an available skill (no leading slash).
+  +For plugin-namespaced skills use the fully qualified `plugin:skill` form.
+  +- Set `args` to pass optional arguments.
+    … (+5 more diff lines — see the version's tools.diff)
+  ```
+
+  </details>
+
 ## Current definition
 
 ```json

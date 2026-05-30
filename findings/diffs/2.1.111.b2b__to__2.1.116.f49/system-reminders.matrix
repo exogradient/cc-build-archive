@@ -2,17 +2,9 @@ metric                   2.1.111.b2b        2.1.116.f49
 --------------------------------------------------------------
 reminders                15                 17                
 unchanged                14
-modified (paired)        1
+modified (paired)        0
 added (net)              2
 removed (net)            0
-
-MODIFIED REMINDERS:
-  similarity=0.98  ee4482fc → 23a0d591  (240b → 240b)
-    --- ee4482fc
-    +++ 23a0d591
-    @@ -1 +1 @@
-    -${K?`Brief mode is now enabled. Use the ${v6H} tool for all user-facing output \u2014 plain text outside it is hidden from the user's view.`:`Brief mode is now disabled. The ${v6H} tool is no longer available \u2014 reply with plain text.`}
-    +${K?`Brief mode is now enabled. Use the ${J0H} tool for all user-facing output \u2014 plain text outside it is hidden from the user's view.`:`Brief mode is now disabled. The ${J0H} tool is no longer available \u2014 reply with plain text.`}
 
 ADDED REMINDERS:
   [2788c953] (3283b) You are now producing a post-turn summary for this Claude Code session. Read the conversation that just happened and pro

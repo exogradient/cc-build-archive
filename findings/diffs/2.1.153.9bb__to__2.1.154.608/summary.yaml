@@ -10,34 +10,21 @@ prompt_block2_chars_to: 5386
 prompt_delta_chars: -20746
 model_from: claude-opus-4-7
 model_to: claude-opus-4-8
-max_tokens_from: 64000
-max_tokens_to: 64000
-thinking_from: {"type": "adaptive"}
-thinking_to: {"type": "adaptive"}
 output_config_from: {"effort": "xhigh"}
 output_config_to: {"effort": "high"}
-context_management_from: {"edits": [{"type": "clear_thinking_20251015", "keep": "all"}]}
-context_management_to: {"edits": [{"type": "clear_thinking_20251015", "keep": "all"}]}
 api_betas_from: claude-code-20250219,context-1m-2025-08-07,interleaved-thinking-2025-05-14,context-management-2025-06-27,prompt-caching-scope-2026-01-05,effort-2025-11-24
 api_betas_to: claude-code-20250219,context-1m-2025-08-07,interleaved-thinking-2025-05-14,context-management-2025-06-27,prompt-caching-scope-2026-01-05,mid-conversation-system-2026-04-07,effort-2025-11-24
 tools_count_from: 26
 tools_count_to: 27
 tools_added: ["Workflow"]
-tools_removed: []
-tools_changed: ["Agent", "AskUserQuestion", "Bash", "Edit", "Glob", "Grep", "Read", "WebFetch", "WebSearch", "Write"]
 tools_changed_detail: {"Agent": ["description"], "AskUserQuestion": ["description"], "Bash": ["description"], "Edit": ["description"], "Glob": ["description"], "Grep": ["description"], "Read": ["description"], "WebFetch": ["description"], "WebSearch": ["description"], "Write": ["description"]}
-binary_tools_count_from: 43
-binary_tools_count_to: 43
-binary_tools_added: []
-binary_tools_removed: []
-binary_tools_changed: []
-reminders_count_from: 15
-reminders_count_to: 15
-reminders_added: []
-reminders_removed: []
-reminders_modified: [{"from_sha1": "80286e7f", "to_sha1": "8ce424e8", "similarity": 0.992}]
 cache_breakpoints_from: ["system[1]", "system[2]", "messages[0][2]"]
 cache_breakpoints_to: ["system[1]", "system[2]", "messages[0][1]"]
-wire_reminders_added: []
 wire_reminders_removed: ["ed2a4099"]
-wire_reminders_modified: []
+env_vars_added: ["CLAUDE_CODE_DISABLE_CLAUDE_CODE_SKILL", "CLAUDE_CODE_FORCE_MID_CONVERSATION_SYSTEM", "CLAUDE_CODE_SKILL_DESCRIPTION", "CLAUDE_CODE_SKILL_NAME", "CLAUDE_PTY_ORPHAN_CHECK_MS"]
+env_vars_removed: ["CLAUDE_CODE_MID_CONVERSATION_SYSTEM"]
+telemetry_events_added: ["tengu_amber_redwood3", "tengu_basalt_meadow", "tengu_bg_daemon_spawn_versions_fallback", "tengu_birch_kettle", "tengu_cedar_hollow_7m", "tengu_claude_code_skill_loaded", "tengu_cobalt_thicket", "tengu_hook_prompt_too_long_retry", "tengu_opus48_launch_shown", "tengu_render_glyph_cardinality", "tengu_ultra_effort", "tengu_wif_implicit_profile_skipped_stored_login", "tengu_xterm_atlas_reset"]
+telemetry_events_removed: ["tengu_fennel_kite_model", "tengu_fg_left_arrow_agents", "tengu_mcp_retry_on_tools_list_error", "tengu_opus47_launch_shown", "tengu_streaming_tool_execution2", "tengu_streaming_tool_execution_not_used", "tengu_streaming_tool_execution_used", "tengu_vellum_lantern"]
+model_ids_added: ["claude-code-docs", "claude-opus-4-8"]
+endpoints_added: ["https://api.anthropic.com/v1/models/claude-opus-4-8", "https://code.claude.com/docs", "https://code.claude.com/docs/en/amazon-bedrock.md", "https://code.claude.com/docs/en/changelog.md", "https://code.claude.com/docs/en/claude-code-on-the-web.md", "https://code.claude.com/docs/en/claude-directory.md", "https://code.claude.com/docs/en/cli-reference.md", "https://code.claude.com/docs/en/commands.md", "https://code.claude.com/docs/en/common-workflows.md", "https://code.claude.com/docs/en/costs.md", "https://code.claude.com/docs/en/env-vars.md", "https://code.claude.com/docs/en/github-actions.md", "https://code.claude.com/docs/en/google-vertex-ai.md", "https://code.claude.com/docs/en/hooks.md", "https://code.claude.com/docs/en/interactive-mode.md", "https://code.claude.com/docs/en/jetbrains.md", "https://code.claude.com/docs/en/mcp.md", "https://code.claude.com/docs/en/memory.md", "https://code.claude.com/docs/en/microsoft-foundry.md", "https://code.claude.com/docs/en/network-config.md", "https://code.claude.com/docs/en/output-styles.md", "https://code.claude.com/docs/en/permission-modes", "https://code.claude.com/docs/en/permissions.md", "https://code.claude.com/docs/en/plugins.md", "https://code.claude.com/docs/en/sandboxing.md", "https://code.claude.com/docs/en/security.md", "https://code.claude.com/docs/en/settings.md", "https://code.claude.com/docs/en/skills.md", "https://code.claude.com/docs/en/sub-agents.md", "https://code.claude.com/docs/en/vs-code.md"]
+endpoints_removed: ["https://api.anthropic.com/v1/models/claude-opus-4-7"]

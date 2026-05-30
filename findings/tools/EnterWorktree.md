@@ -8,7 +8,36 @@ _Auto-maintained by `scripts/update-findings.py`. Do not edit by hand._
 ## Change log
 
 - `2.1.138.1a3` — ~ `description`
+
+  <details><summary>description diff (2182 → 2329 chars)</summary>
+
+  ```diff
+   
+  -- In a git repository: creates a new git worktree inside `.claude/worktrees/` with a new branch based on HEAD
+  +- In a git repository: creates a new git worktree inside `.claude/worktrees/` on a new branch.
+  +The base ref is governed by the `worktree.baseRef` setting: `fresh` (default) branches from origin/<default-branch>; `head` branches from your current local HEAD
+   - Outside a git repository: delegates to WorktreeCreate/WorktreeRemove hooks for VCS-agnostic isolation
+  ```
+
+  </details>
 - `2.1.157.152` — ~ `description`
+
+  <details><summary>description diff (2329 → 3031 chars)</summary>
+
+  ```diff
+   - Must be in a git repository, OR have WorktreeCreate/WorktreeRemove hooks configured in settings.json
+  -- Must not already be in a worktree
+  +- Must not already be in a worktree session when creating a new worktree (`name`); switching into another existing worktree via `path` is allowed
+   
+   
+  +Switching with `path` also works when the session is already in a worktree (the previous worktree is left on disk, untouched, and only the new one is tracked for exit-time cleanup), and from agents whose working directory was pinned at launch (subagent isolation or explicit cwd).
+  +In both cases the target must be a worktree under `.claude/worktrees/` of the same repository, and from a pinned agent the switch only affects this agent, not the parent session.
+  +After a further switch, previously-visited worktrees are no longer writable — re-issue EnterWorktree with `path` to return to one.
+  +
+   ## Parameters
+  ```
+
+  </details>
 
 ## Current definition
 

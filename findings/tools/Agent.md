@@ -8,9 +8,85 @@ _Auto-maintained by `scripts/update-findings.py`. Do not edit by hand._
 ## Change log
 
 - `2.1.111.b2b` — ~ `description`
+
+  <details><summary>description diff (6839 → 6839 chars)</summary>
+
+  ```diff
+   Available agent types and the tools they have access to:
+  -- general-purpose: General-purpose agent for researching complex questions, searching for code, and executing multi-step tasks.
+  -When you are searching for a keyword or file and are not confident that you will find the right match in the first few tries use this agent to perform the search for you.
+  -(Tools: *)
+  -- statusline-setup: Use this agent to configure the user's Claude Code status line setting.
+  -(Tools: Read, Edit)
+   - Explore: Fast agent specialized for exploring codebases.
+   (Tools: All tools except Agent, ExitPlanMode, Edit, Write, NotebookEdit)
+  +- general-purpose: General-purpose agent for researching complex questions, searching for code, and executing multi-step tasks.
+  +When you are searching for a keyword or file and are not confident that you will find the right match in the first few tries use this agent to perform the search for you.
+  +(Tools: *)
+   - Plan: Software architect agent for designing implementation plans.
+   (Tools: All tools except Agent, ExitPlanMode, Edit, Write, NotebookEdit)
+  +- statusline-setup: Use this agent to configure the user's Claude Code status line setting.
+    … (+2 more diff lines — see the version's tools.diff)
+  ```
+
+  </details>
 - `2.1.128.9fd` — ~ `description`
+
+  <details><summary>description diff (6839 → 6960 chars)</summary>
+
+  ```diff
+   Available agent types and the tools they have access to:
+  -- Explore: Fast agent specialized for exploring codebases.
+  -Use this when you need to quickly find files by patterns (eg.
+  -"src/components/**/*.tsx"), search code for keywords (eg.
+  -"API endpoints"), or answer questions about the codebase (eg.
+  -"how do API endpoints work?").
+  -When calling this agent, specify the desired thoroughness level: "quick" for basic searches, "medium" for moderate exploration, or "very thorough" for comprehensive analysis across multiple locations and naming conventions.
+  +- Explore: Fast read-only search agent for locating code.
+  +Use it to find files by pattern (eg.
+  +"src/components/**/*.tsx"), grep for symbols or keywords (eg.
+  +"API endpoints"), or answer "where is X defined / which files reference Y." Do NOT use it for code review, design-doc auditing, cross-file consistency checks, or open-ended analysis — it reads excerpts rather than whole files and will miss content past its read window.
+  +When calling, specify search breadth: "quick" for a single targeted lookup, "medium" for moderate exploration, or "very thorough" to search across multiple locations and naming conventions.
+   (Tools: All tools except Agent, ExitPlanMode, Edit, Write, NotebookEdit)
+  ```
+
+  </details>
 - `2.1.139.b1c` — ~ `description`
+
+  <details><summary>description diff (6960 → 7093 chars)</summary>
+
+  ```diff
+   Available agent types and the tools they have access to:
+  +- claude: Catch-all for any task that doesn't fit a more specific agent.
+  +FleetView's default when no agent name is typed.
+  +(Tools: *)
+   - Explore: Fast read-only search agent for locating code.
+  ```
+
+  </details>
 - `2.1.154.608` — ~ `description`
+
+  <details><summary>description diff (7093 → 2681 chars)</summary>
+
+  ```diff
+   (Tools: *)
+  -- Explore: Fast read-only search agent for locating code.
+  -Use it to find files by pattern (eg.
+  -"src/components/**/*.tsx"), grep for symbols or keywords (eg.
+  -"API endpoints"), or answer "where is X defined / which files reference Y." Do NOT use it for code review, design-doc auditing, cross-file consistency checks, or open-ended analysis — it reads excerpts rather than whole files and will miss content past its read window.
+  -When calling, specify search breadth: "quick" for a single targeted lookup, "medium" for moderate exploration, or "very thorough" to search across multiple locations and naming conventions.
+  +- Explore: Read-only search agent for broad fan-out searches — when answering means sweeping many files, directories, or naming conventions and you only need the conclusion, not the file dumps.
+  +It reads excerpts rather than whole files, so it locates code; it doesn't review or audit it.
+  +Specify search breadth: "medium" for moderate exploration, "very thorough" for multiple locations and naming conventions.
+   (Tools: All tools except Agent, ExitPlanMode, Edit, Write, NotebookEdit)
+   
+  -## When not to use
+  +## When to use
+   
+    … (+84 more diff lines — see the version's tools.diff)
+  ```
+
+  </details>
 
 ## Current definition
 

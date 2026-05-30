@@ -9,6 +9,17 @@ _Auto-maintained by `scripts/update-findings.py`. Do not edit by hand._
 
 - `2.1.129.49a` — ~ `description`
 
+  <details><summary>description diff (4022 → 4016 chars)</summary>
+
+  ```diff
+   1.
+  -Thoroughly explore the codebase using Glob, Grep, and Read tools
+  +Thoroughly explore the codebase using Glob, Grep, and Read
+   2.
+  ```
+
+  </details>
+
 ## Current definition
 
 ```json

@@ -5,39 +5,6 @@ from_capture_date: 2026-05-25T22:39:27.636Z
 to_capture_date: 2026-05-26T21:49:55.179Z
 from_build_time: 2026-05-23T01:22:49Z
 to_build_time: 2026-05-26T19:23:17Z
-prompt_block2_chars_from: 26278
-prompt_block2_chars_to: 26278
 prompt_delta_chars: 0
-model_from: claude-opus-4-7
-model_to: claude-opus-4-7
-max_tokens_from: 64000
-max_tokens_to: 64000
-thinking_from: {"type": "adaptive"}
-thinking_to: {"type": "adaptive"}
-output_config_from: {"effort": "xhigh"}
-output_config_to: {"effort": "xhigh"}
-context_management_from: {"edits": [{"type": "clear_thinking_20251015", "keep": "all"}]}
-context_management_to: {"edits": [{"type": "clear_thinking_20251015", "keep": "all"}]}
-api_betas_from: claude-code-20250219,context-1m-2025-08-07,interleaved-thinking-2025-05-14,context-management-2025-06-27,prompt-caching-scope-2026-01-05,effort-2025-11-24
-api_betas_to: claude-code-20250219,context-1m-2025-08-07,interleaved-thinking-2025-05-14,context-management-2025-06-27,prompt-caching-scope-2026-01-05,effort-2025-11-24
-tools_count_from: 26
-tools_count_to: 26
-tools_added: []
-tools_removed: []
-tools_changed: ["AskUserQuestion"]
 tools_changed_detail: {"AskUserQuestion": ["description"]}
-binary_tools_count_from: 43
-binary_tools_count_to: 43
-binary_tools_added: []
-binary_tools_removed: []
-binary_tools_changed: []
-reminders_count_from: 15
-reminders_count_to: 15
-reminders_added: []
-reminders_removed: []
-reminders_modified: [{"from_sha1": "3e070756", "to_sha1": "a9501409", "similarity": 0.983}]
-cache_breakpoints_from: ["system[1]", "system[2]", "messages[0][2]"]
-cache_breakpoints_to: ["system[1]", "system[2]", "messages[0][2]"]
-wire_reminders_added: []
-wire_reminders_removed: []
 wire_reminders_modified: [{"from_sha1": "31d60b6a", "to_sha1": "ed2a4099", "similarity": 0.971}]

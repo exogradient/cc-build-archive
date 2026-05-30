@@ -9,6 +9,28 @@ _Auto-maintained by `scripts/update-findings.py`. Do not edit by hand._
 
 - `2.1.154.608` — ~ `description`
 
+  <details><summary>description diff (1094 → 360 chars)</summary>
+
+  ```diff
+  -Performs exact string replacements in files.
+  +Performs exact string replacement in a file.
+   
+  -Usage:
+  -- You must use your `Read` tool at least once in the conversation before editing.
+  -This tool will error if you attempt an edit without reading the file.
+  -- When editing text from Read tool output, ensure you preserve the exact indentation (tabs/spaces) as it appears AFTER the line number prefix.
+  -The line number prefix format is: line number + tab.
+  -Everything after that is the actual file content to match.
+  -Never include any part of the line number prefix in the old_string or new_string.
+  -- ALWAYS prefer editing existing files in the codebase.
+  -NEVER write new files unless explicitly required.
+  -- Only use emojis if the user explicitly requests it.
+  -Avoid adding emojis to files unless asked.
+    … (+8 more diff lines — see the version's tools.diff)
+  ```
+
+  </details>
+
 ## Current definition
 
 ```json

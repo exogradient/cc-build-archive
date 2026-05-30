@@ -9,6 +9,28 @@ _Auto-maintained by `scripts/update-findings.py`. Do not edit by hand._
 
 - `2.1.154.608` — ~ `description`
 
+  <details><summary>description diff (1479 → 374 chars)</summary>
+
+  ```diff
+  -IMPORTANT: WebFetch WILL FAIL for authenticated or private URLs.
+  -Before using this tool, check if the URL points to an authenticated service (e.g.
+  -Google Docs, Confluence, Jira, GitHub).
+  -If so, look for a specialized MCP tool that provides authenticated access.
+  +Fetches a URL, converts the page to markdown, and answers `prompt` against it using a small fast model.
+   
+  -- Fetches content from a specified URL and processes it using an AI model
+  -- Takes a URL and a prompt as input
+  -- Fetches the URL content, converts HTML to markdown
+  -- Processes the content with the prompt using a small, fast model
+  -- Returns the model's response about the content
+  -- Use this tool when you need to retrieve and analyze web content
+  -
+  -Usage notes:
+    … (+15 more diff lines — see the version's tools.diff)
+  ```
+
+  </details>
+
 ## Current definition
 
 ```json

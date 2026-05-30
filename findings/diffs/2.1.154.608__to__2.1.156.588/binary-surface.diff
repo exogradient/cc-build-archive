@@ -1,0 +1,7 @@
+# Binary surface delta  2.1.154.608 → 2.1.156.588
+# Categorized config/control surfaces extracted from the binary
+# (env vars, flags, telemetry, models, betas, endpoints, settings).
+
+## telemetry_events
+  + tengu_reorder_tool_uses_skipped_for_thinking
+

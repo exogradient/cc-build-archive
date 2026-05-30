@@ -1,0 +1,7 @@
+# Binary surface delta  2.1.157.152 → 2.1.158.5e6
+# Categorized config/control surfaces extracted from the binary
+# (env vars, flags, telemetry, models, betas, endpoints, settings).
+
+## env_vars
+  + CLAUDE_CODE_ENABLE_AUTO_MODE
+

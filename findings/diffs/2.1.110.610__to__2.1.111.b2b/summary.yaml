@@ -8,36 +8,7 @@ to_build_time: 2026-04-16T14:24:43Z
 prompt_block2_chars_from: 26416
 prompt_block2_chars_to: 25967
 prompt_delta_chars: -449
-model_from: claude-sonnet-4-6
-model_to: claude-sonnet-4-6
-max_tokens_from: 32000
-max_tokens_to: 32000
-thinking_from: {"type": "adaptive"}
-thinking_to: {"type": "adaptive"}
 output_config_from: null
 output_config_to: {"effort": "high"}
-context_management_from: {"edits": [{"type": "clear_thinking_20251015", "keep": "all"}]}
-context_management_to: {"edits": [{"type": "clear_thinking_20251015", "keep": "all"}]}
-api_betas_from: claude-code-20250219,interleaved-thinking-2025-05-14,context-management-2025-06-27,prompt-caching-scope-2026-01-05,effort-2025-11-24
-api_betas_to: claude-code-20250219,interleaved-thinking-2025-05-14,context-management-2025-06-27,prompt-caching-scope-2026-01-05,effort-2025-11-24
-tools_count_from: 23
-tools_count_to: 23
-tools_added: []
-tools_removed: []
-tools_changed: ["Agent", "Skill"]
 tools_changed_detail: {"Agent": ["description"], "Skill": ["description", "input_schema"]}
-binary_tools_count_from: 41
-binary_tools_count_to: 41
-binary_tools_added: []
-binary_tools_removed: []
-binary_tools_changed: []
-reminders_count_from: 15
-reminders_count_to: 15
-reminders_added: []
-reminders_removed: []
-reminders_modified: [{"from_sha1": "209bfdde", "to_sha1": "ee4482fc", "similarity": 0.992}]
-cache_breakpoints_from: ["system[1]", "system[2]", "messages[0][2]"]
-cache_breakpoints_to: ["system[1]", "system[2]", "messages[0][2]"]
-wire_reminders_added: []
-wire_reminders_removed: []
 wire_reminders_modified: [{"from_sha1": "4aee5ea4", "to_sha1": "58416545", "similarity": 0.934}]

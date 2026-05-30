@@ -4,7 +4,6 @@ _Auto-maintained by `scripts/update-findings.py`. Do not edit by hand._
 
 - First seen: `2.1.142.1aa` (2026-05-28T03:47:08)
 - Currently present: yes
-- Definition changes: 0
 
 ## Change log
 

@@ -2,7 +2,7 @@ metric                   2.1.142.1aa        2.1.150.474
 --------------------------------------------------------------
 reminders                15                 15                
 unchanged                13
-modified (paired)        2
+modified (paired)        1
 added (net)              0
 removed (net)            0
 
@@ -17,11 +17,4 @@ MODIFIED REMINDERS:
     +**IMPORTANT:** Always refer to active teammates by their NAME (e.g., "team-lead", "analyzer", "researcher"). Use an \`agentId\` (format \`a...-...\`, from the spawn result) only to resume a background agent that has already completed. When messaging, use the name directly:
      
      \`\`\`json
-
-  similarity=0.98  e90df424 → 3e070756  (240b → 238b)
-    --- e90df424
-    +++ 3e070756
-    @@ -1 +1 @@
-    -${K?`Brief mode is now enabled. Use the ${G7H} tool for all user-facing output \u2014 plain text outside it is hidden from the user's view.`:`Brief mode is now disabled. The ${G7H} tool is no longer available \u2014 reply with plain text.`}
-    +${K?`Brief mode is now enabled. Use the ${ii} tool for all user-facing output \u2014 plain text outside it is hidden from the user's view.`:`Brief mode is now disabled. The ${ii} tool is no longer available \u2014 reply with plain text.`}
 

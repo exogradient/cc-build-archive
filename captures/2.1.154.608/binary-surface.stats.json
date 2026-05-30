@@ -1,0 +1,14 @@
+{
+  "binary": "/tmp/claude-501/ccbindiff/pkg-2.1.154/claude",
+  "binary_bytes": 240420560,
+  "binary_sha256": "67f6cab7e6c124010f62ac18f8078bc09e0db6a5b9e8ae874e9e73033c451793",
+  "category_counts": {
+    "env_vars": 392,
+    "feature_flags": 47,
+    "telemetry_events": 1242,
+    "model_ids": 107,
+    "api_beta_tokens": 40,
+    "endpoints": 196,
+    "settings_keys": 48
+  }
+}

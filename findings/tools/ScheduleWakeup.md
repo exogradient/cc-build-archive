@@ -9,6 +9,28 @@ _Auto-maintained by `scripts/update-findings.py`. Do not edit by hand._
 
 - `2.1.141.e27` — ~ `description`
 
+  <details><summary>description diff (2285 → 2802 chars)</summary>
+
+  ```diff
+   Schedule when to resume work in /loop dynamic mode — the user invoked /loop without an interval, asking you to self-pace iterations of a specific task.
+  +
+  +Do NOT schedule a short-interval wakeup to poll for background work you started — when harness-tracked work finishes, you are re-invoked automatically, so polling is wasted.
+  +Instead schedule a long fallback (1200s+) so the loop survives if the work hangs or never notifies.
+  +The exception is external work the harness cannot track (a CI run, a deploy, a remote queue) — there, pick a delay matched to how fast that state actually changes.
+   
+   - **Under 5 minutes (60s–270s)**: cache stays warm.
+  -Right for active work — checking a build, polling for state that's about to change, watching a process you just started.
+  +Right for actively polling external state the harness can't notify you about — a CI run, a deploy, a remote queue.
+   - **5 minutes to 1 hour (300s–3600s)**: pay the cache miss.
+  -Right when there's no point checking sooner — waiting on something that takes minutes to change, or genuinely idle.
+  +Right when there's no point checking sooner — waiting on something that takes minutes to change, genuinely idle, or as the long fallback heartbeat when something else is the primary wake signal.
+   
+   
+    … (+7 more diff lines — see the version's tools.diff)
+  ```
+
+  </details>
+
 ## Current definition
 
 ```json

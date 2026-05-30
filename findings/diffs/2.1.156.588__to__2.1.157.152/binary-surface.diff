@@ -1,0 +1,37 @@
+# Binary surface delta  2.1.156.588 → 2.1.157.152
+# Categorized config/control surfaces extracted from the binary
+# (env vars, flags, telemetry, models, betas, endpoints, settings).
+
+## env_vars
+  + CLAUDE_BYTE_STREAM_IDLE_TIMEOUT_MS
+  + CLAUDE_CODE_LOOP_KEEPALIVE
+  + CLAUDE_CODE_SYNC_PLUGINS
+  + CLAUDE_CODE_SYNC_PLUGINS_INSTALL_TIMEOUT_MS
+  + CLAUDE_CODE_SYNC_PLUGINS_MCP_TIMEOUT_MS
+
+## telemetry_events
+  + attributionAgentHash
+  + attributionMcpServerHash
+  + attributionMcpToolHash
+  + attributionPluginHash
+  + attributionSkillHash
+  + tengu_byte_stream_idle_timeout_ms
+  + tengu_cedar_marsh
+  + tengu_compass_dial
+  + tengu_coordinator_panel
+  + tengu_fotw_nudge_shown
+  + tengu_kairos_loop_keepalive
+  + tengu_loop_ended
+  + tengu_loop_keepalive_fired
+  + tengu_plugin_install_failed
+  + tengu_plugins_sync_error
+  + tengu_plugins_sync_list_failed
+  + tengu_plugins_sync_mcp_skipped
+  + tengu_plugins_sync_mcp_timeout
+  + tengu_plugins_sync_success
+  + tengu_plugins_sync_wait_timeout
+  - tengu_anchor_tide
+
+## endpoints
+  + https://www.anthropic.com/legal/promotion-terms
+

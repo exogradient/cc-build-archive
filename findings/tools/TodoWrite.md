@@ -3,7 +3,6 @@
 _Auto-maintained by `scripts/update-findings.py`. Do not edit by hand._
 
 - Currently present: **no** (removed)
-- Definition changes: 0
 
 ## Change log
 
