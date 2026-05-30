@@ -1,0 +1,43 @@
+---
+from: 2.1.157.152
+to: 2.1.158.5e6
+from_capture_date: 2026-05-29T17:29:31.293Z
+to_capture_date: 2026-05-30T01:12:04.314Z
+from_build_time: 2026-05-29T16:21:19Z
+to_build_time: 2026-05-29T23:26:17Z
+prompt_block2_chars_from: 5386
+prompt_block2_chars_to: 5386
+prompt_delta_chars: 0
+model_from: claude-opus-4-8
+model_to: claude-opus-4-8
+max_tokens_from: 64000
+max_tokens_to: 64000
+thinking_from: {"type": "adaptive"}
+thinking_to: {"type": "adaptive"}
+output_config_from: {"effort": "high"}
+output_config_to: {"effort": "high"}
+context_management_from: {"edits": [{"type": "clear_thinking_20251015", "keep": "all"}]}
+context_management_to: {"edits": [{"type": "clear_thinking_20251015", "keep": "all"}]}
+api_betas_from: claude-code-20250219,context-1m-2025-08-07,interleaved-thinking-2025-05-14,context-management-2025-06-27,prompt-caching-scope-2026-01-05,mid-conversation-system-2026-04-07,effort-2025-11-24
+api_betas_to: claude-code-20250219,context-1m-2025-08-07,interleaved-thinking-2025-05-14,context-management-2025-06-27,prompt-caching-scope-2026-01-05,mid-conversation-system-2026-04-07,effort-2025-11-24
+tools_count_from: 27
+tools_count_to: 27
+tools_added: []
+tools_removed: []
+tools_changed: []
+tools_changed_detail: {}
+binary_tools_count_from: 43
+binary_tools_count_to: 43
+binary_tools_added: []
+binary_tools_removed: []
+binary_tools_changed: []
+reminders_count_from: None
+reminders_count_to: None
+reminders_added: []
+reminders_removed: []
+reminders_modified: []
+cache_breakpoints_from: ["system[1]", "system[2]", "messages[0][1]"]
+cache_breakpoints_to: ["system[1]", "system[2]", "messages[0][1]"]
+wire_reminders_added: []
+wire_reminders_removed: []
+wire_reminders_modified: []

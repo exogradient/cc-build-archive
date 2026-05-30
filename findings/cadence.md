@@ -7,5 +7,5 @@ _Auto-maintained by `scripts/plot-cadence.py`. Do not edit by hand._
 ## Headline stats
 
 - **Versions published (npm history)**: 416
-- **Builds observed since 2026-05-26**: 15
+- **Builds observed since 2026-05-26**: 16
 - **Current dist-tags**: stable=`2.1.148` · latest=`2.1.157`
