@@ -6,6 +6,14 @@ Flagged notable if `prompt_delta_chars` ≥ 300, a request-config lever moved (m
 
 **Diff dirs exist iff the transition is notable.** A diff dir under `findings/diffs/<from>__to__<to>/` is materialized exactly when this list includes the transition — both are governed by the same predicate (`auto-diff.is_notable_summary`). Non-notable transitions write nothing; the build still appears in `version-history.md` (it existed; its surface was identical to its predecessor's).
 
+## `2.1.158.5e6` → `2.1.159.28e`
+
+- **Prompt delta**: +0 chars (instructions block)
+- **Env vars**: added `CLAUDE_CODE_PEWTER_OWL`
+- **Telemetry events**: added `tengu_pewter_owl_model`
+- **API beta tokens (binary)**: added `summarize-connector-text-2026-03-13`
+- [Diff artifacts](diffs/2.1.158.5e6__to__2.1.159.28e/)
+
 ## `2.1.157.152` → `2.1.158.5e6`
 
 - **Prompt delta**: +0 chars (instructions block)
