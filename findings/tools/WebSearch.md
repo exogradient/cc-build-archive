@@ -3,7 +3,7 @@
 _Auto-maintained by `scripts/update-findings.py`. Do not edit by hand._
 
 - Currently present: yes
-- Definition changes: 1
+- Definition changes: 2
 
 ## Change log
 
@@ -30,13 +30,25 @@ _Auto-maintained by `scripts/update-findings.py`. Do not edit by hand._
   ```
 
   </details>
+- `2.1.160.bca` — ~ `description`
+
+  <details><summary>description diff (306 → 307 chars)</summary>
+
+  ```diff
+   
+  -- The current month is May 2026 — use this when searching for recent information.
+  +- The current month is June 2026 — use this when searching for recent information.
+   - `allowed_domains` / `blocked_domains` filter results.
+  ```
+
+  </details>
 
 ## Current definition
 
 ```json
 {
   "name": "WebSearch",
-  "description": "Search the web. Returns result blocks with titles and URLs. US-only.\n\n- The current month is May 2026 \u2014 use this when searching for recent information.\n- `allowed_domains` / `blocked_domains` filter results.\n- After answering from results, end with a \"Sources:\" list of the URLs you used as markdown links.",
+  "description": "Search the web. Returns result blocks with titles and URLs. US-only.\n\n- The current month is June 2026 \u2014 use this when searching for recent information.\n- `allowed_domains` / `blocked_domains` filter results.\n- After answering from results, end with a \"Sources:\" list of the URLs you used as markdown links.",
   "input_schema": {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "type": "object",
