@@ -1,0 +1,17 @@
+# Binary surface delta  2.1.160.bca → 2.1.161.b76
+# Categorized config/control surfaces extracted from the binary
+# (env vars, flags, telemetry, models, betas, endpoints, settings).
+
+## env_vars
+  + CLAUDE_CODE_DISABLE_MEMORY_BULK_INFLATE
+  + CLAUDE_CODE_DISABLE_REFUSAL_FALLBACK
+  + CLAUDE_CODE_OWNERSHIP_FRAME
+  + CLAUDE_CODE_SUPPRESS_SESSION_ATTRIBUTION
+
+## telemetry_events
+  + tengu_copper_thistle
+  + tengu_mcp_skills
+  + tengu_memory_bulk_inflate
+  + tengu_plugin_state_file_error
+  + tengu_walnut_prism
+

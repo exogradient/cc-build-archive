@@ -1,0 +1,12 @@
+---
+from: 2.1.160.bca
+to: 2.1.161.b76
+from_capture_date: 2026-06-01T20:03:28.846Z
+to_capture_date: 2026-06-02T17:38:35.417Z
+from_build_time: 2026-06-01T15:37:30Z
+to_build_time: 2026-06-02T01:45:55Z
+prompt_delta_chars: 0
+tools_changed_detail: {"TaskOutput": ["description"]}
+binary_tools_changed: ["SendMessage", "TeamCreate", "TeamDelete"]
+env_vars_added: ["CLAUDE_CODE_DISABLE_MEMORY_BULK_INFLATE", "CLAUDE_CODE_DISABLE_REFUSAL_FALLBACK", "CLAUDE_CODE_OWNERSHIP_FRAME", "CLAUDE_CODE_SUPPRESS_SESSION_ATTRIBUTION"]
+telemetry_events_added: ["tengu_copper_thistle", "tengu_mcp_skills", "tengu_memory_bulk_inflate", "tengu_plugin_state_file_error", "tengu_walnut_prism"]

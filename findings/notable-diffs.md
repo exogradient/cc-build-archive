@@ -6,6 +6,15 @@ Flagged notable if `prompt_delta_chars` ≥ 300, a request-config lever moved (m
 
 **Diff dirs exist iff the transition is notable.** A diff dir under `findings/diffs/<from>__to__<to>/` is materialized exactly when this list includes the transition — both are governed by the same predicate (`auto-diff.is_notable_summary`). Non-notable transitions write nothing; the build still appears in `version-history.md` (it existed; its surface was identical to its predecessor's).
 
+## `2.1.160.bca` → `2.1.161.b76`
+
+- **Prompt delta**: +0 chars (instructions block)
+- **Tools with changed definition**: `TaskOutput` (description)
+- **Binary tools with changed definition**: `SendMessage`, `TeamCreate`, `TeamDelete` (see `tools-from-binary.matrix`)
+- **Env vars**: added `CLAUDE_CODE_DISABLE_MEMORY_BULK_INFLATE`, `CLAUDE_CODE_DISABLE_REFUSAL_FALLBACK`, `CLAUDE_CODE_OWNERSHIP_FRAME`, `CLAUDE_CODE_SUPPRESS_SESSION_ATTRIBUTION`
+- **Telemetry events**: added `tengu_copper_thistle`, `tengu_mcp_skills`, `tengu_memory_bulk_inflate`, `tengu_plugin_state_file_error`, `tengu_walnut_prism`
+- [Tool definition diffs](diffs/2.1.160.bca__to__2.1.161.b76/tools.diff) · [all artifacts](diffs/2.1.160.bca__to__2.1.161.b76/)
+
 ## `2.1.159.28e` → `2.1.160.bca`
 
 - **Prompt delta**: +0 chars (instructions block)

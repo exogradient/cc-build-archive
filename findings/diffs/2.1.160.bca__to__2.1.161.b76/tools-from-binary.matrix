@@ -1,0 +1,50 @@
+tool                   | 2.1.160.bca      | 2.1.161.b76     
+------------------------------------------------------------
+Agent                  | 297bd18f         | 297bd18f        
+AskUserQuestion        | ef80643d         | ef80643d        
+Bash                   | 002e2af9         | 002e2af9        
+CronCreate             | 61f4f6a1         | 61f4f6a1        
+CronDelete             | d1b945ce         | d1b945ce        
+CronList               | 57b56722         | 57b56722        
+DesignSync             | f1f342f0         | f1f342f0        
+Edit                   | 7d818e21         | 7d818e21        
+EnterPlanMode          | 1d664b9a         | 1d664b9a        
+EnterWorktree          | 7fdea5f0         | 7fdea5f0        
+ExitPlanMode           | 398ea9e1         | 398ea9e1        
+ExitWorktree           | 2af8c567         | 2af8c567        
+Glob                   | 07261727         | 07261727        
+Grep                   | 6b472f29         | 6b472f29        
+LSP                    | eb9e3e55         | eb9e3e55        
+ListMcpResourcesTool   | 1933f379         | 1933f379        
+Monitor                | 0e39c027         | 0e39c027        
+NotebookEdit           | 0f3296e9         | 0f3296e9        
+PowerShell             | 737ae43f         | 737ae43f        
+PushNotification       | 9eec63e5         | 9eec63e5        
+REPL                   | 7e3e0ebf         | 7e3e0ebf        
+Read                   | 09279172         | 09279172        
+ReadMcpResourceTool    | 79361ea8         | 79361ea8        
+RemoteTrigger          | 273e0a7a         | 273e0a7a        
+ScheduleWakeup         | d65d1ffa         | d65d1ffa        
+SendMessage            | 065cd00e         | 28e54253          ← DIVERGENT
+SendUserFile           | 9925b3ec         | 9925b3ec        
+SendUserMessage        | 089f1228         | 089f1228        
+ShareOnboardingGuide   | 74b5d353         | 74b5d353        
+Skill                  | 3c4a8268         | 3c4a8268        
+StructuredOutput       | e67f88c5         | e67f88c5        
+TaskCreate             | 2f61ddc8         | 2f61ddc8        
+TaskGet                | c36f4586         | c36f4586        
+TaskList               | 31da34fb         | 31da34fb        
+TaskOutput             | b6b0faf7         | b6b0faf7        
+TaskStop               | 185f02c6         | 185f02c6        
+TaskUpdate             | 6f0a87a2         | 6f0a87a2        
+TeamCreate             | 92cf8fd3         | 883b7049          ← DIVERGENT
+TeamDelete             | 93ce2a12         | ac2d395a          ← DIVERGENT
+TodoWrite              | 1c744e68         | 1c744e68        
+WebFetch               | 856325df         | 856325df        
+WebSearch              | 6a8b4d19         | 6a8b4d19        
+Workflow               | 1a59c6e6         | 1a59c6e6        
+Write                  | d966c7ef         | d966c7ef        
+
+Added: []
+Removed: []
+Changed (shared name, different definition): ['SendMessage', 'TeamCreate', 'TeamDelete']
