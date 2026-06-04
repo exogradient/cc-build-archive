@@ -3,17 +3,40 @@
 _Auto-maintained by `scripts/update-findings.py`. Do not edit by hand._
 
 - Currently present: yes
+- Definition changes: 1
 
 ## Change log
 
-_Present since `2.1.110.610` or earlier; no changes observed in the archive window._
+- `2.1.163.7c7` — ~ `description`
+
+  <details><summary>description diff (513 → 619 chars)</summary>
+
+  ```diff
+  -Completely replaces the contents of a specific cell in a Jupyter notebook (.ipynb file) with new source.
+  -Jupyter notebooks are interactive documents that combine code, text, and visualizations, commonly used for data analysis and scientific computing.
+  -The notebook_path parameter must be an absolute path, not a relative path.
+  -The cell_number is 0-indexed.
+  -Use edit_mode=insert to add a new cell at the index specified by cell_number.
+  -Use edit_mode=delete to delete the cell at the index specified by cell_number.
+  +Replaces, inserts, or deletes a single cell in a Jupyter notebook (.ipynb file).
+  +
+  +Usage:
+  +- You must use the Read tool on the notebook in this conversation before editing — this tool will fail otherwise.
+  +- `notebook_path` must be an absolute path.
+  +- `cell_id` is the `id` attribute shown in the Read tool's `<cell id="...">` output.
+  +It is required for `replace` and `delete`.
+  +- `edit_mode` defaults to `replace`.
+    … (+2 more diff lines — see the version's tools.diff)
+  ```
+
+  </details>
 
 ## Current definition
 
 ```json
 {
   "name": "NotebookEdit",
-  "description": "Completely replaces the contents of a specific cell in a Jupyter notebook (.ipynb file) with new source. Jupyter notebooks are interactive documents that combine code, text, and visualizations, commonly used for data analysis and scientific computing. The notebook_path parameter must be an absolute path, not a relative path. The cell_number is 0-indexed. Use edit_mode=insert to add a new cell at the index specified by cell_number. Use edit_mode=delete to delete the cell at the index specified by cell_number.",
+  "description": "Replaces, inserts, or deletes a single cell in a Jupyter notebook (.ipynb file).\n\nUsage:\n- You must use the Read tool on the notebook in this conversation before editing \u2014 this tool will fail otherwise.\n- `notebook_path` must be an absolute path.\n- `cell_id` is the `id` attribute shown in the Read tool's `<cell id=\"...\">` output. It is required for `replace` and `delete`.\n- `edit_mode` defaults to `replace`. Use `insert` to add a new cell after the cell with the given `cell_id` (or at the beginning of the notebook if `cell_id` is omitted) \u2014 `cell_type` is required when inserting. Use `delete` to remove the cell.",
   "input_schema": {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "type": "object",

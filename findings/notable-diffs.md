@@ -6,6 +6,17 @@ Flagged notable if `prompt_delta_chars` ≥ 300, a request-config lever moved (m
 
 **Diff dirs exist iff the transition is notable.** A diff dir under `findings/diffs/<from>__to__<to>/` is materialized exactly when this list includes the transition — both are governed by the same predicate (`auto-diff.is_notable_summary`). Non-notable transitions write nothing; the build still appears in `version-history.md` (it existed; its surface was identical to its predecessor's).
 
+## `2.1.161.b76` → `2.1.163.7c7`
+
+- **Prompt delta**: +0 chars (instructions block)
+- **Tools removed**: `Glob`, `Grep`
+- **Tools with changed definition**: `Bash` (description), `EnterPlanMode` (description), `NotebookEdit` (description), `Workflow` (description)
+- **Env vars**: added `CLAUDE_CODE_ACT_DONT_REDERIVE`, `CLAUDE_CODE_AUTH_FAIL_EXIT_MS`, `CLAUDE_CODE_ENABLE_MENU_KIND_LANES`, `CLAUDE_CODE_INVOKED_SKILLS`, `CLAUDE_CODE_KB_COHESION_FIXES`, `CLAUDE_CODE_OAUTH_401_WAIT_MS`, `CLAUDE_CODE_REMOTE_HERMETIC_MODE`, `CLAUDE_CODE_SYNC_SKILLS_INSTALL_TIMEOUT_MS`, `CLAUDE_CODE_VELVET_FALCON`, `CLAUDE_GATEWAY_LOG_LEVEL`; removed `CLAUDE_CODE_FORCE_MEMORY_WRITE_SURVEY`, `CLAUDE_CODE_FORK_SUBAGENT_DEFAULT_ON`, `CLAUDE_CODE_FRAME_MODE`, `CLAUDE_CODE_MEMORY_WRITE_SURVEY_TIMEOUT_MS`
+- **Telemetry events**: added `tengu_auto_compact_prefix_overflow`, `tengu_bg_attach_upgrade`, `tengu_bg_prewarm_per_sweep`, `tengu_cedar_lantern`, `tengu_convolute_arcades_retry`, `tengu_convolute_arcades_retry_outcome`, `tengu_edit_tool_not_read_hypothetical`, `tengu_lone_surrogate_sanitized`, `tengu_maple_sundial`, `tengu_mcp_local_oauth_blocked_hosts`, `tengu_mint_lanes`, `tengu_native_cursor`, `tengu_oauth_401_recovered_from_rotation`, `tengu_oauth_401_zombie_exit`, `tengu_oauth_gateway_forced`, `tengu_oauth_refresh_token_cleared_on_disk`, `tengu_personal_mem_sync_started`, `tengu_precomputed_compact_rearm_capped`, `tengu_refusal_fallback_entry_recorded`, `tengu_reload_plugins_cache_impact`, `tengu_sdk_hook_callback_timeout`, `tengu_session_start`, `tengu_shutdown_signal`, `tengu_velvet_falcon_model`, `tengu_vscode_feedback_survey`; removed `tengu_memory_write_survey_event`, `tengu_slate_siskin`
+- **Model ids**: added `claude-empty-r`; removed `claude-in-chrome-default-enabled`
+- **Endpoints**: added `https://slack.mcp.claude.com/mcp`; removed `https://docs.anthropic.com/en/docs/claude-code/getting-started`
+- [Tool definition diffs](diffs/2.1.161.b76__to__2.1.163.7c7/tools.diff) · [all artifacts](diffs/2.1.161.b76__to__2.1.163.7c7/)
+
 ## `2.1.160.bca` → `2.1.161.b76`
 
 - **Prompt delta**: +0 chars (instructions block)
