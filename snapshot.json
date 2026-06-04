@@ -1,15 +1,6 @@
 {
   "@anthropic-ai/claude-code": {
     "active": {
-      "2.1.152": {
-        "fingerprint": {
-          "fileCount": 7,
-          "integrity": "sha512-pIw2rF+L++yBsrByBTJeA5yKFT/SLT3yXy2aXAPFHiMWJ1n+dV2f+nnkXPa/P8ojOWHEs5H63TNdqlnW9tiJNA==",
-          "shasum": "8d7dc7e2c83b2fb75ad77415ea0ec7e45aee2b6f",
-          "unpackedSize": 144791
-        },
-        "first_seen": "2026-05-26T21:49:48.661773+00:00"
-      },
       "2.1.153": {
         "fingerprint": {
           "fileCount": 7,
@@ -102,22 +93,13 @@
       }
     },
     "dist_tags": {
-      "latest": "2.1.162",
+      "latest": "2.1.163",
       "next": "2.1.163",
-      "stable": "2.1.152"
+      "stable": "2.1.153"
     }
   },
   "@anthropic-ai/claude-code-darwin-arm64": {
     "active": {
-      "2.1.152": {
-        "fingerprint": {
-          "fileCount": 4,
-          "integrity": "sha512-xs5jv9N62R9Mtwyhl7GADr+fYxMPvKW0cjTApxahOc/pn2+iw/R8Eh++YWGPLDjsIe1TFox2+cbnWgSnOONRmg==",
-          "shasum": "7ded00341f4d6f62c16c10f7118463e659486104",
-          "unpackedSize": 214210657
-        },
-        "first_seen": "2026-05-26T21:49:48.661773+00:00"
-      },
       "2.1.153": {
         "fingerprint": {
           "fileCount": 4,
@@ -210,21 +192,13 @@
       }
     },
     "dist_tags": {
-      "latest": "2.1.162",
+      "latest": "2.1.163",
       "next": "2.1.163",
-      "stable": "2.1.152"
+      "stable": "2.1.153"
     }
   },
   "@anthropic-ai/claude-code-linux-x64": {
     "active": {
-      "2.1.152": {
-        "fingerprint": {
-          "fileCount": 4,
-          "integrity": "sha512-TOGJ6lM1ZBWoiVg1lxdPK8cPFuz8T0oPERVQoiS/WJkejYcNHGsNVj/XpZhYoXI6uhhMuDsVVVbBBuKtGB34oQ==",
-          "shasum": "ea919c42245d92b1ec969a6019f50edc7a0cead9",
-          "unpackedSize": 239651098
-        }
-      },
       "2.1.153": {
         "fingerprint": {
           "fileCount": 4,
@@ -317,9 +291,9 @@
       }
     },
     "dist_tags": {
-      "latest": "2.1.162",
+      "latest": "2.1.163",
       "next": "2.1.163",
-      "stable": "2.1.152"
+      "stable": "2.1.153"
     }
   },
   "_meta": {
