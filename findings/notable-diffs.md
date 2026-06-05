@@ -6,6 +6,12 @@ Flagged notable if `prompt_delta_chars` ≥ 300, a request-config lever moved (m
 
 **Diff dirs exist iff the transition is notable.** A diff dir under `findings/diffs/<from>__to__<to>/` is materialized exactly when this list includes the transition — both are governed by the same predicate (`auto-diff.is_notable_summary`). Non-notable transitions write nothing; the build still appears in `version-history.md` (it existed; its surface was identical to its predecessor's).
 
+## `2.1.163.7c7` → `2.1.165.ecd`
+
+- **Prompt delta**: +0 chars (instructions block)
+- **Model ids**: removed `claude-empty-r`
+- [Diff artifacts](diffs/2.1.163.7c7__to__2.1.165.ecd/)
+
 ## `2.1.161.b76` → `2.1.163.7c7`
 
 - **Prompt delta**: +0 chars (instructions block)

@@ -1,0 +1,289 @@
+[
+  {
+    "name": "Agent",
+    "search_hint": "delegate work to a subagent",
+    "description": "Launch a new agent",
+    "max_result_size_chars": 100000,
+    "description_source": "js-source"
+  },
+  {
+    "name": "AskUserQuestion",
+    "search_hint": "prompt the user with a multiple-choice question",
+    "max_result_size_chars": 100000
+  },
+  {
+    "name": "Bash",
+    "search_hint": "execute shell commands",
+    "max_result_size_chars": 30000
+  },
+  {
+    "name": "CronCreate",
+    "search_hint": "schedule a recurring or one-shot prompt",
+    "defers": true,
+    "max_result_size_chars": 100000
+  },
+  {
+    "name": "CronDelete",
+    "search_hint": "cancel a scheduled cron job",
+    "defers": true,
+    "max_result_size_chars": 100000
+  },
+  {
+    "name": "CronList",
+    "search_hint": "list active cron jobs",
+    "defers": true,
+    "max_result_size_chars": 100000,
+    "description": "Cancel a scheduled cron job by ID",
+    "description_source": "string-table-heuristic"
+  },
+  {
+    "name": "DesignSync",
+    "search_hint": "sync local design system components to a claude.ai/design project",
+    "defers": true,
+    "max_result_size_chars": 300000,
+    "description": "fragment pr on PullRequest {",
+    "description_source": "string-table-heuristic"
+  },
+  {
+    "name": "Edit",
+    "search_hint": "modify file contents in place",
+    "description": "A tool for editing files",
+    "max_result_size_chars": 100000,
+    "description_source": "js-source"
+  },
+  {
+    "name": "EnterPlanMode",
+    "search_hint": "switch to plan mode to design an approach before coding",
+    "description": "Requests permission to enter plan mode for complex tasks requiring exploration and design",
+    "defers": true,
+    "max_result_size_chars": 100000,
+    "description_source": "js-source"
+  },
+  {
+    "name": "EnterWorktree",
+    "search_hint": "create an isolated git worktree and switch into it",
+    "description": "Creates an isolated worktree (via git or configured hooks) and switches the session into it",
+    "defers": true,
+    "max_result_size_chars": 100000,
+    "description_source": "js-source"
+  },
+  {
+    "name": "ExitPlanMode",
+    "search_hint": "present plan for approval and start coding (plan mode only)",
+    "description": "Prompts the user to exit plan mode and start coding",
+    "defers": true,
+    "max_result_size_chars": 100000,
+    "description_source": "js-source"
+  },
+  {
+    "name": "ExitWorktree",
+    "search_hint": "exit a worktree session and return to the original directory",
+    "description": "Exits a worktree session created by EnterWorktree and restores the original working directory",
+    "defers": true,
+    "max_result_size_chars": 100000,
+    "description_source": "js-source"
+  },
+  {
+    "name": "Glob",
+    "search_hint": "find files by name pattern or wildcard",
+    "max_result_size_chars": 100000,
+    "description": "- Fast file pattern matching tool that works with any codebase size",
+    "description_source": "string-table-heuristic"
+  },
+  {
+    "name": "Grep",
+    "search_hint": "search file contents with regex (ripgrep)",
+    "max_result_size_chars": 20000
+  },
+  {
+    "name": "LSP",
+    "search_hint": "code intelligence (definitions, references, symbols, hover)",
+    "defers": true,
+    "max_result_size_chars": 100000
+  },
+  {
+    "name": "ListMcpResourcesTool",
+    "search_hint": "list resources from connected MCP servers",
+    "max_result_size_chars": 100000,
+    "description": "Lists available resources from configured MCP servers.",
+    "description_source": "string-table-heuristic"
+  },
+  {
+    "name": "Monitor",
+    "search_hint": "watch, monitor, or keep an eye on a process/log/command \\u2014 stream each stdout line as a live notification",
+    "defers": true,
+    "max_result_size_chars": 10000
+  },
+  {
+    "name": "NotebookEdit",
+    "search_hint": "edit Jupyter notebook cells (.ipynb)",
+    "defers": true,
+    "max_result_size_chars": 100000
+  },
+  {
+    "name": "PowerShell",
+    "search_hint": "execute Windows PowerShell commands",
+    "max_result_size_chars": 30000
+  },
+  {
+    "name": "PushNotification",
+    "search_hint": "send a notification to the user via terminal and optionally mobile",
+    "defers": true,
+    "max_result_size_chars": 1000,
+    "description": "Send a notification to the user via their terminal and, when Remote Control is connected, also push to their mobile device",
+    "description_source": "string-table-heuristic"
+  },
+  {
+    "name": "REPL",
+    "search_hint": "execute JavaScript with programmatic tool access"
+  },
+  {
+    "name": "Read",
+    "search_hint": "read files, images, PDFs, notebooks",
+    "max_result_size_chars": 1
+  },
+  {
+    "name": "ReadMcpResourceTool",
+    "search_hint": "read a specific MCP resource by URI",
+    "max_result_size_chars": 100000,
+    "description": "Reads a specific resource from an MCP server.",
+    "description_source": "string-table-heuristic"
+  },
+  {
+    "name": "RemoteTrigger",
+    "search_hint": "manage scheduled remote agent routines",
+    "defers": true,
+    "max_result_size_chars": 100000
+  },
+  {
+    "name": "ScheduleWakeup",
+    "search_hint": "self-pace next iteration: pick a delay before resuming work or running the next /loop tick",
+    "defers": true,
+    "max_result_size_chars": 1000,
+    "description": "Schedule when to resume work in /loop dynamic mode (always pass the `prompt` arg). Call before ending the turn to keep the loop alive; omit the call to end it.",
+    "description_source": "string-table-heuristic"
+  },
+  {
+    "name": "SendMessage",
+    "search_hint": "send messages to agent teammates",
+    "defers": true,
+    "max_result_size_chars": 100000
+  },
+  {
+    "name": "SendUserFile",
+    "search_hint": "deliver files (screenshots, reports, artifacts) to the user",
+    "max_result_size_chars": 100000,
+    "description": "Send one or more files to the user",
+    "description_source": "string-table-heuristic"
+  },
+  {
+    "name": "SendUserMessage",
+    "search_hint": "send a message to the user \\u2014 your primary visible output channel",
+    "max_result_size_chars": 100000
+  },
+  {
+    "name": "ShareOnboardingGuide",
+    "search_hint": "upload ONBOARDING.md and get a team share link",
+    "max_result_size_chars": 1000
+  },
+  {
+    "name": "Skill",
+    "search_hint": "invoke a slash-command skill",
+    "max_result_size_chars": 100000
+  },
+  {
+    "name": "StructuredOutput",
+    "search_hint": "return the final response as structured JSON",
+    "description": "Return structured output in the requested format",
+    "max_result_size_chars": 100000,
+    "description_source": "js-source"
+  },
+  {
+    "name": "TaskCreate",
+    "search_hint": "create a task in the task list",
+    "defers": true,
+    "max_result_size_chars": 100000
+  },
+  {
+    "name": "TaskGet",
+    "search_hint": "retrieve a task by ID",
+    "defers": true,
+    "max_result_size_chars": 100000
+  },
+  {
+    "name": "TaskList",
+    "search_hint": "list all tasks",
+    "defers": true,
+    "max_result_size_chars": 100000
+  },
+  {
+    "name": "TaskOutput",
+    "search_hint": "read output/logs from a background task",
+    "description": "[Deprecated] \\u2014 for bash and remote_agent tasks, prefer Read on the output file path; for local_agent tasks, use the Agent tool result directly",
+    "defers": true,
+    "max_result_size_chars": 100000,
+    "description_source": "js-source"
+  },
+  {
+    "name": "TaskStop",
+    "search_hint": "kill a running background task",
+    "description": "Stop a running background task by ID",
+    "defers": true,
+    "max_result_size_chars": 100000,
+    "description_source": "js-source"
+  },
+  {
+    "name": "TaskUpdate",
+    "search_hint": "update a task",
+    "defers": true,
+    "max_result_size_chars": 100000
+  },
+  {
+    "name": "TeamCreate",
+    "search_hint": "create a multi-agent team",
+    "description": "Create a new team for coordinating multiple agents",
+    "defers": true,
+    "max_result_size_chars": 100000,
+    "description_source": "js-source"
+  },
+  {
+    "name": "TeamDelete",
+    "search_hint": "disband a team and clean up",
+    "description": "Clean up team and task directories when the team is complete",
+    "defers": true,
+    "max_result_size_chars": 100000,
+    "description_source": "js-source"
+  },
+  {
+    "name": "TodoWrite",
+    "search_hint": "manage the session task checklist",
+    "defers": true,
+    "max_result_size_chars": 100000
+  },
+  {
+    "name": "WebFetch",
+    "search_hint": "fetch and extract content from a URL",
+    "defers": true,
+    "max_result_size_chars": 100000,
+    "description": "- Fetches content from a specified URL and processes it using an AI model",
+    "description_source": "string-table-heuristic"
+  },
+  {
+    "name": "WebSearch",
+    "search_hint": "search the web for current information",
+    "defers": true,
+    "max_result_size_chars": 100000
+  },
+  {
+    "name": "Workflow",
+    "search_hint": "orchestrate subagents with deterministic JavaScript workflow",
+    "max_result_size_chars": 100000
+  },
+  {
+    "name": "Write",
+    "search_hint": "create or overwrite files",
+    "description": "Write a file to the local filesystem.",
+    "max_result_size_chars": 100000,
+    "description_source": "js-source"
+  }
+]

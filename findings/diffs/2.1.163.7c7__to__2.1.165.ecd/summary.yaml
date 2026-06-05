@@ -1,0 +1,9 @@
+---
+from: 2.1.163.7c7
+to: 2.1.165.ecd
+from_capture_date: 2026-06-04T17:56:05.395Z
+to_capture_date: 2026-06-05T05:22:54.507Z
+from_build_time: 2026-06-04T05:48:05Z
+to_build_time: 2026-06-05T04:32:54Z
+prompt_delta_chars: 0
+model_ids_removed: ["claude-empty-r"]

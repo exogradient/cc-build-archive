@@ -1,0 +1,7 @@
+# Binary surface delta  2.1.163.7c7 → 2.1.165.ecd
+# Categorized config/control surfaces extracted from the binary
+# (env vars, flags, telemetry, models, betas, endpoints, settings).
+
+## model_ids
+  - claude-empty-r
+
