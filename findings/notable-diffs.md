@@ -6,6 +6,16 @@ Flagged notable if `prompt_delta_chars` ≥ 300, a request-config lever moved (m
 
 **Diff dirs exist iff the transition is notable.** A diff dir under `findings/diffs/<from>__to__<to>/` is materialized exactly when this list includes the transition — both are governed by the same predicate (`auto-diff.is_notable_summary`). Non-notable transitions write nothing; the build still appears in `version-history.md` (it existed; its surface was identical to its predecessor's).
 
+## `2.1.165.ecd` → `2.1.166.4b6`
+
+- **Prompt delta**: +0 chars (instructions block)
+- **Tools with changed definition**: `Workflow` (description)
+- **Env vars**: added `CLAUDE_CODE_ARTIFACT`, `CLAUDE_CODE_ENABLE_DESIGN_SYNC`, `CLAUDE_CODE_FRAME_AUTO_OPEN`, `CLAUDE_CODE_WEBFETCH_PROXY_PATH`, `CLAUDE_PTY_HEARTBEAT_MS`
+- **Telemetry events**: added `tengu_api_fallback_last_resort`, `tengu_fullscreen_upsell_dialog_accepted`, `tengu_fullscreen_upsell_dialog_dismissed`, `tengu_fullscreen_upsell_dialog_shown`, `tengu_managed_settings_validation_errors`, `tengu_mcp_command_inline`, `tengu_refusal_fallback_suppressed`, `tengu_request_user_dialog_implicit_cancel`, `tengu_resume_worktree_fallback`, `tengu_shell_allow_rule_added`, `tengu_shell_allow_rules_at_init`, `tengu_velvet_hammer`, `tengu_velvet_mallet`, `tengu_voice_init_gate`, `tengu_write_tool_not_read_hypothetical`; removed `tengu_cedar_hollow_7m`, `tengu_fullscreen_upsell_shown`, `tengu_ws_transport_closed`, `tengu_ws_transport_reconnected`, `tengu_ws_transport_reconnecting`
+- **Model ids**: added `claude-empty-s`
+- **Endpoints**: added `https://support.claude.com/en/articles/15363606`
+- [Tool definition diffs](diffs/2.1.165.ecd__to__2.1.166.4b6/tools.diff) · [all artifacts](diffs/2.1.165.ecd__to__2.1.166.4b6/)
+
 ## `2.1.163.7c7` → `2.1.165.ecd`
 
 - **Prompt delta**: +0 chars (instructions block)

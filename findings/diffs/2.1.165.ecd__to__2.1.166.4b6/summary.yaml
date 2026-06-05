@@ -1,0 +1,14 @@
+---
+from: 2.1.165.ecd
+to: 2.1.166.4b6
+from_capture_date: 2026-06-05T05:22:54.507Z
+to_capture_date: 2026-06-05T19:02:58.341Z
+from_build_time: 2026-06-05T04:32:54Z
+to_build_time: 2026-06-05T16:25:43Z
+prompt_delta_chars: 0
+tools_changed_detail: {"Workflow": ["description"]}
+env_vars_added: ["CLAUDE_CODE_ARTIFACT", "CLAUDE_CODE_ENABLE_DESIGN_SYNC", "CLAUDE_CODE_FRAME_AUTO_OPEN", "CLAUDE_CODE_WEBFETCH_PROXY_PATH", "CLAUDE_PTY_HEARTBEAT_MS"]
+telemetry_events_added: ["tengu_api_fallback_last_resort", "tengu_fullscreen_upsell_dialog_accepted", "tengu_fullscreen_upsell_dialog_dismissed", "tengu_fullscreen_upsell_dialog_shown", "tengu_managed_settings_validation_errors", "tengu_mcp_command_inline", "tengu_refusal_fallback_suppressed", "tengu_request_user_dialog_implicit_cancel", "tengu_resume_worktree_fallback", "tengu_shell_allow_rule_added", "tengu_shell_allow_rules_at_init", "tengu_velvet_hammer", "tengu_velvet_mallet", "tengu_voice_init_gate", "tengu_write_tool_not_read_hypothetical"]
+telemetry_events_removed: ["tengu_cedar_hollow_7m", "tengu_fullscreen_upsell_shown", "tengu_ws_transport_closed", "tengu_ws_transport_reconnected", "tengu_ws_transport_reconnecting"]
+model_ids_added: ["claude-empty-s"]
+endpoints_added: ["https://support.claude.com/en/articles/15363606"]

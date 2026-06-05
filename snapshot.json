@@ -99,11 +99,20 @@
           "unpackedSize": 145798
         },
         "first_seen": "2026-06-05T05:23:40.320718+00:00"
+      },
+      "2.1.166": {
+        "fingerprint": {
+          "fileCount": 7,
+          "integrity": "sha512-Ipj2KoIrLTxfADOLt4lvUqGKTjuMc0BuP5suYV0U3/Vybq6R+5mYPDIn+HLBfXTDDQuCd12etZfY3B7HceVxnA==",
+          "shasum": "7f66d028da8629ab929fc78a8238e8228e6d10b6",
+          "unpackedSize": 146292
+        },
+        "first_seen": "2026-06-05T19:02:44.040594+00:00"
       }
     },
     "dist_tags": {
       "latest": "2.1.165",
-      "next": "2.1.165",
+      "next": "2.1.166",
       "stable": "2.1.153"
     }
   },
@@ -324,11 +333,20 @@
           "unpackedSize": 244918554
         },
         "first_seen": "2026-06-05T05:22:39.069151+00:00"
+      },
+      "2.1.166": {
+        "fingerprint": {
+          "fileCount": 4,
+          "integrity": "sha512-92PBUwRzFOI3dO52ARZW1YIsuxC5k32XOGdU9eR6SQWozFeq2jE3zjG3rLDpvdq3rb3j/LvJtoSZ8vBEViR5Fw==",
+          "shasum": "dabba081fbb8c946543906150a3e741376a6c648",
+          "unpackedSize": 245430554
+        },
+        "first_seen": "2026-06-05T19:02:44.040594+00:00"
       }
     },
     "dist_tags": {
       "latest": "2.1.165",
-      "next": "2.1.165",
+      "next": "2.1.166",
       "stable": "2.1.153"
     }
   },

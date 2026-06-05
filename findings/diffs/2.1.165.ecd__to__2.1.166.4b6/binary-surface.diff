@@ -1,0 +1,39 @@
+# Binary surface delta  2.1.165.ecd → 2.1.166.4b6
+# Categorized config/control surfaces extracted from the binary
+# (env vars, flags, telemetry, models, betas, endpoints, settings).
+
+## env_vars
+  + CLAUDE_CODE_ARTIFACT
+  + CLAUDE_CODE_ENABLE_DESIGN_SYNC
+  + CLAUDE_CODE_FRAME_AUTO_OPEN
+  + CLAUDE_CODE_WEBFETCH_PROXY_PATH
+  + CLAUDE_PTY_HEARTBEAT_MS
+
+## telemetry_events
+  + tengu_api_fallback_last_resort
+  + tengu_fullscreen_upsell_dialog_accepted
+  + tengu_fullscreen_upsell_dialog_dismissed
+  + tengu_fullscreen_upsell_dialog_shown
+  + tengu_managed_settings_validation_errors
+  + tengu_mcp_command_inline
+  + tengu_refusal_fallback_suppressed
+  + tengu_request_user_dialog_implicit_cancel
+  + tengu_resume_worktree_fallback
+  + tengu_shell_allow_rule_added
+  + tengu_shell_allow_rules_at_init
+  + tengu_velvet_hammer
+  + tengu_velvet_mallet
+  + tengu_voice_init_gate
+  + tengu_write_tool_not_read_hypothetical
+  - tengu_cedar_hollow_7m
+  - tengu_fullscreen_upsell_shown
+  - tengu_ws_transport_closed
+  - tengu_ws_transport_reconnected
+  - tengu_ws_transport_reconnecting
+
+## model_ids
+  + claude-empty-s
+
+## endpoints
+  + https://support.claude.com/en/articles/15363606
+
