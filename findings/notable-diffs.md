@@ -6,6 +6,17 @@ Flagged notable if `prompt_delta_chars` ≥ 300, a request-config lever moved (m
 
 **Diff dirs exist iff the transition is notable.** A diff dir under `findings/diffs/<from>__to__<to>/` is materialized exactly when this list includes the transition — both are governed by the same predicate (`auto-diff.is_notable_summary`). Non-notable transitions write nothing; the build still appears in `version-history.md` (it existed; its surface was identical to its predecessor's).
 
+## `2.1.168.91f` → `2.1.169.ab7`
+
+- **Prompt delta**: +279 chars (instructions block)
+- **Binary tools with changed definition**: `RemoteTrigger` (see `tools-from-binary.matrix`)
+- **Env vars**: added `CLAUDE_BG_CLAIM_AUTH`, `CLAUDE_BG_PTY_AUTH`, `CLAUDE_BG_RV_AUTH`, `CLAUDE_BG_SOCKET_TOKENS_PATH`, `CLAUDE_CODE_DISABLE_BUNDLED_SKILLS`, `CLAUDE_CODE_FORCE_SESSION_PERSISTENCE`, `CLAUDE_CODE_FRAME_MCP`, `CLAUDE_CODE_PEWTER_OWL_TOOL`, `CLAUDE_CODE_SAFE_MODE`, `CLAUDE_CODE_USER_DIALOG_TIMEOUT_MS`, `CLAUDE_CODE_WEBFETCH_USE_CCR_PROXY`; removed `CLAUDE_CODE_WEBFETCH_PROXY_PATH`
+- **Telemetry events**: added `tengu_amber_sextant`, `tengu_ant_yolo_equiv_strip_config`, `tengu_bg_rv_reply_rejected`, `tengu_cd_command`, `tengu_cedar_plume`, `tengu_dialog_waiting_in_transcript`, `tengu_event_watchdog_default_on`, `tengu_fallback_credit_strip_as_mint_model`, `tengu_inject_control_response_unknown_id`, `tengu_lsp_diagnostics_disabled`, `tengu_mcp_stateless_skip_init`, `tengu_partial_stream_retraction_closed`, `tengu_partial_stream_retraction_display_only`, `tengu_pending_action_republished`, `tengu_plugin_autoupdate_pass`, `tengu_plugin_delisted_enforcement`, `tengu_print_model_override_adopted`, `tengu_refusal_fallback_dialog_suppressed`, `tengu_refusal_fallback_latch_reset`, `tengu_refusal_fallback_resume_latch`, `tengu_refusal_fallback_rewind_unwind`, `tengu_refusal_fallback_supersedes`, `tengu_refusal_retraction_evicted`, `tengu_refusal_retraction_history_dropped`, `tengu_refusal_retraction_late_drop`, `tengu_refusal_retraction_orphan_tool_result`, `tengu_refusal_retraction_truncation_harvest`, `tengu_refusal_retraction_unauthenticated_signal`, `tengu_refusal_turn_classified_complete`, `tengu_reinit_pending_redelivery`, `tengu_request_user_dialog_late_answer`, `tengu_request_user_dialog_requires_action`, `tengu_request_user_dialog_response_ignored`, `tengu_request_user_dialog_timeout`, `tengu_resume_model_restore`, `tengu_resume_retracted_dropped`, `tengu_resume_stale_prompt_cancel`, `tengu_rotunda_pennant_applied`, `tengu_rotunda_pennant_credit_echoed`, `tengu_rotunda_pennant_esc`, `tengu_rotunda_pennant_malformed`, `tengu_rotunda_pennant_materialized`, `tengu_rotunda_pennant_replay`, `tengu_rotunda_pennant_strip`, `tengu_rotunda_pennant_tools`, `tengu_supported_dialog_kinds_restored`, `tengu_tombstone_persisted_removal`, `tengu_tool_input_coerced`
+- **Model ids**: added `claude-code-runtime`, `claude-design-contextual`, `claude-plugins-community`
+- **API beta tokens (binary)**: added `fallback-credit-2026-06-09`, `server-side-fallback-2026-06-01`
+- **Endpoints**: added `https://claude.ai/design?utm_source=claude_code&utm_medium=tip&utm_campaign=tengu_cedar_plume`, `https://code.claude.com/docs/en/overviewI&`, `https://platform.claude.com/docs/en/manage-claude/authentication.md`, `https://platform.claude.com/docs/en/manage-claude/wif-reference.md`
+- [Diff artifacts](diffs/2.1.168.91f__to__2.1.169.ab7/)
+
 ## `2.1.166.4b6` → `2.1.168.91f`
 
 - **Prompt delta**: +0 chars (instructions block)
