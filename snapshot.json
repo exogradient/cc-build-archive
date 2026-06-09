@@ -279,11 +279,20 @@
           "unpackedSize": 221921761
         },
         "first_seen": "2026-06-08T18:10:34.170150+00:00"
+      },
+      "2.1.170": {
+        "fingerprint": {
+          "fileCount": 4,
+          "integrity": "sha512-lnBfVVTO+Wk31IAh5KDOY+Cuu1vIHC3N3UjHY9SEroDat8XKqjFtckY50jPi50m5x0oWkeQiyDl4nPstgdkNwQ==",
+          "shasum": "cc517ca699938ea876dd0d6cda3e858aff152539",
+          "unpackedSize": 222103393
+        },
+        "first_seen": "2026-06-09T16:14:41.446580+00:00"
       }
     },
     "dist_tags": {
       "latest": "2.1.169",
-      "next": "2.1.169",
+      "next": "2.1.170",
       "stable": "2.1.153"
     }
   },
