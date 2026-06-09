@@ -3,7 +3,7 @@
 _Auto-maintained by `scripts/update-findings.py`. Do not edit by hand._
 
 - Currently present: yes
-- Definition changes: 4
+- Definition changes: 5
 
 ## Change log
 
@@ -87,6 +87,7 @@ _Auto-maintained by `scripts/update-findings.py`. Do not edit by hand._
   ```
 
   </details>
+- `2.1.170.6bc` — + `input_schema.properties.model.enum[3]`
 
 ## Current definition
 
@@ -116,7 +117,8 @@ _Auto-maintained by `scripts/update-findings.py`. Do not edit by hand._
         "enum": [
           "sonnet",
           "opus",
-          "haiku"
+          "haiku",
+          "fable"
         ]
       },
       "run_in_background": {

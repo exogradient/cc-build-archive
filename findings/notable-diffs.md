@@ -6,6 +6,18 @@ Flagged notable if `prompt_delta_chars` ≥ 300, a request-config lever moved (m
 
 **Diff dirs exist iff the transition is notable.** A diff dir under `findings/diffs/<from>__to__<to>/` is materialized exactly when this list includes the transition — both are governed by the same predicate (`auto-diff.is_notable_summary`). Non-notable transitions write nothing; the build still appears in `version-history.md` (it existed; its surface was identical to its predecessor's).
 
+## `2.1.169.ab7` → `2.1.170.6bc`
+
+- **Prompt delta**: +45 chars (instructions block)
+- **Tools with changed definition**: `Agent` (input_schema)
+- **Env vars**: added `ANTHROPIC_DEFAULT_FABLE_MODEL`, `ANTHROPIC_DEFAULT_FABLE_MODEL_DESCRIPTION`, `ANTHROPIC_DEFAULT_FABLE_MODEL_NAME`, `ANTHROPIC_DEFAULT_FABLE_MODEL_SUPPORTED_CAPABILITIES`; removed `CLAUDE_CODE_FORCE_SESSION_PERSISTENCE`
+- **Feature flags**: added `DISABLE_PROMPT_CACHING_FABLE`, `DISABLE_PROMPT_CACHING_MYTHOS`
+- **Telemetry events**: added `tengu_fable5_launch_shown`, `tengu_fallback_credit_forfeited`, `tengu_fallback_credit_minted`, `tengu_fallback_credit_outcome`, `tengu_loggia_carousel_config`, `tengu_saffron_lattice`; removed `tengu_opus48_launch_shown`
+- **Model ids**: added `claude-fable-5`, `claude-mythos-5`
+- **API beta tokens (binary)**: added `fallback-credit-2026-06-01`; removed `fallback-credit-2026-06-09`
+- **Endpoints**: removed `https://code.claude.com/docs/en/overviewI&`
+- [Tool definition diffs](diffs/2.1.169.ab7__to__2.1.170.6bc/tools.diff) · [all artifacts](diffs/2.1.169.ab7__to__2.1.170.6bc/)
+
 ## `2.1.168.91f` → `2.1.169.ab7`
 
 - **Prompt delta**: +279 chars (instructions block)

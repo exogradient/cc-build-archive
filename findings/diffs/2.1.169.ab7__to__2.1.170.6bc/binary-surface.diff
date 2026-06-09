@@ -1,0 +1,35 @@
+# Binary surface delta  2.1.169.ab7 → 2.1.170.6bc
+# Categorized config/control surfaces extracted from the binary
+# (env vars, flags, telemetry, models, betas, endpoints, settings).
+
+## env_vars
+  + ANTHROPIC_DEFAULT_FABLE_MODEL
+  + ANTHROPIC_DEFAULT_FABLE_MODEL_DESCRIPTION
+  + ANTHROPIC_DEFAULT_FABLE_MODEL_NAME
+  + ANTHROPIC_DEFAULT_FABLE_MODEL_SUPPORTED_CAPABILITIES
+  - CLAUDE_CODE_FORCE_SESSION_PERSISTENCE
+
+## feature_flags
+  + DISABLE_PROMPT_CACHING_FABLE
+  + DISABLE_PROMPT_CACHING_MYTHOS
+
+## telemetry_events
+  + tengu_fable5_launch_shown
+  + tengu_fallback_credit_forfeited
+  + tengu_fallback_credit_minted
+  + tengu_fallback_credit_outcome
+  + tengu_loggia_carousel_config
+  + tengu_saffron_lattice
+  - tengu_opus48_launch_shown
+
+## model_ids
+  + claude-fable-5
+  + claude-mythos-5
+
+## api_beta_tokens
+  + fallback-credit-2026-06-01
+  - fallback-credit-2026-06-09
+
+## endpoints
+  - https://code.claude.com/docs/en/overviewI&
+

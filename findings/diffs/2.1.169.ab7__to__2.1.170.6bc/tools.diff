@@ -1,0 +1,16 @@
+=== Agent ===
+changed fields: input_schema
+
+--- full definition (JSON) ---
+--- 2.1.169.ab7::Agent
++++ 2.1.170.6bc::Agent
+@@ -20,7 +20,8 @@
+         "enum": [
+           "sonnet",
+           "opus",
+-          "haiku"
++          "haiku",
++          "fable"
+         ],
+         "type": "string"
+       },

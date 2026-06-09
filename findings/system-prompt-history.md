@@ -16,7 +16,7 @@ generated_by: scripts/update-findings.py
   "system": [
     { "type": "text", "text": "x-anthropic-billing-header: cc_version=<VERSION>; cc_entrypoint=sdk-cli; cch=<HASH>;" },  // block 0
     { "type": "text", "text": "You are a Claude agent, built on Anthropic's Claude Agent SDK.", "cache_control": {…} },  // block 1
-    { "type": "text", "text": "… 5654 chars of markdown …", "cache_control": {…} }  // block 2 · expanded by section below
+    { "type": "text", "text": "… 5699 chars of markdown …", "cache_control": {…} }  // block 2 · expanded by section below
   ],
   "tools": [ … ],
   "metadata": { … },
@@ -92,7 +92,7 @@ You have been invoked in the following environment:
  - OS Version: Linux 6.17.0-1015-azure
  - You are powered by the model named Opus 4.8 (1M context). The exact model ID is claude-opus-4-8[1m].
  - Assistant knowledge cutoff is January 2026.
- - The most recent Claude model family is Claude 4.X. Model IDs — Opus 4.8: 'claude-opus-4-8', Sonnet 4.6: 'claude-sonnet-4-6', Haiku 4.5: 'claude-haiku-4-5-20251001'. When building AI applications, default to the latest and most capable Claude models.
+ - The most recent Claude models are Fable 5 and the Claude 4.X family. Model IDs — Fable 5: 'claude-fable-5', Opus 4.8: 'claude-opus-4-8', Sonnet 4.6: 'claude-sonnet-4-6', Haiku 4.5: 'claude-haiku-4-5-20251001'. When building AI applications, default to the latest and most capable Claude models.
  - Claude Code is available as a CLI in the terminal, desktop app (Mac/Windows), web app (claude.ai/code), and IDE extensions (VS Code, JetBrains).
  - Fast mode for Claude Code uses Claude Opus with faster output (it does not downgrade to a smaller model). It can be toggled with /fast and is available on Opus 4.8/4.7/4.6.
 ```
@@ -108,6 +108,17 @@ When you have enough information to act, act. Do not re-derive facts already est
 ## Change log
 
 _Sections present since `2.1.110.610` with no later change are not listed (they appear in **Current prompt** above). Newest change first._
+
+- `2.1.170.6bc` — **Environment** changed (941 → 986 chars, +45):
+
+  ```diff
+    - Assistant knowledge cutoff is January 2026.
+  - - The most recent Claude model family is Claude 4.X.
+  -Model IDs — Opus 4.8: 'claude-opus-4-8', Sonnet 4.6: 'claude-sonnet-4-6', Haiku 4.5: 'claude-haiku-4-5-20251001'.
+  + - The most recent Claude models are Fable 5 and the Claude 4.X family.
+  +Model IDs — Fable 5: 'claude-fable-5', Opus 4.8: 'claude-opus-4-8', Sonnet 4.6: 'claude-sonnet-4-6', Haiku 4.5: 'claude-haiku-4-5-20251001'.
+   When building AI applications, default to the latest and most capable Claude models.
+  ```
 
 - `2.1.169.ab7` — **Context management** changed (259 → 538 chars, +279):
 
