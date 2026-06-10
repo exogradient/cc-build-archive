@@ -6,6 +6,18 @@ Flagged notable if `prompt_delta_chars` ≥ 300, a request-config lever moved (m
 
 **Diff dirs exist iff the transition is notable.** A diff dir under `findings/diffs/<from>__to__<to>/` is materialized exactly when this list includes the transition — both are governed by the same predicate (`auto-diff.is_notable_summary`). Non-notable transitions write nothing; the build still appears in `version-history.md` (it existed; its surface was identical to its predecessor's).
 
+## `2.1.170.6bc` → `2.1.172.326`
+
+- **Prompt delta**: +0 chars (instructions block)
+- **Binary tools added**: `Artifact`, `ShowOnboardingRolePicker`
+- **Env vars**: added `CLAUDE_CODE_ARTIFACT_AUTO_OPEN`, `CLAUDE_CODE_ARTIFACT_DIRECT_UPLOAD`, `CLAUDE_CODE_ARTIFACT_MCP`, `CLAUDE_CODE_AUTO_MODE_SIBLING_CONTEXT`, `CLAUDE_CODE_AUTO_MODE_TEMPERATURE`, `CLAUDE_CODE_CHILD_SESSION`, `CLAUDE_CODE_DISABLE_ARTIFACT`, `CLAUDE_CODE_FORCE_SESSION_PERSISTENCE`, `CLAUDE_CODE_SKIP_PLUGIN_MCP_SERVERS`, `CLAUDE_RUNNER_FETCH_DEPTH`; removed `CLAUDE_CODE_FRAME`, `CLAUDE_CODE_FRAME_AUTO_OPEN`, `CLAUDE_CODE_FRAME_MCP`
+- **Telemetry events**: added `tengu_1m_credits_clamp_activated`, `tengu_auto_mode_sibling_context_error`, `tengu_ccr_preserved_event_ids_clamped`, `tengu_cobalt_plinth`, `tengu_cobalt_plinth_direct`, `tengu_compact_credits_clamp_rescue`, `tengu_fallback_credit_skipped`, `tengu_policy_limits_cache_write_failed`, `tengu_reactive_compact_remote`, `tengu_rotunda_pennant_sync_dropped`, `tengu_slate_fern`, `tengu_structured_output_late_retraction_drop`, `tengu_structured_output_retracted`, `tengu_structured_output_retraction_exhausted`, `tengu_web_fetch_provenance_prompt`
+- **Model ids**: added `claude-fable-5-mythos-5`, `claude-in-slack`
+- **API beta tokens (binary)**: added `server-side-fallback-2026-06-09`
+- **Endpoints**: added `https://api.anthropic.com/v1/deployments`, `https://platform.claude.com/docs/en/about-claude/models/introducing-claude-fable-5.md`, `https://www.anthropic.com/news/claude-fable-5-mythos-5`
+- **Settings keys**: removed `shouldBlock`, `thinking`
+- [Diff artifacts](diffs/2.1.170.6bc__to__2.1.172.326/)
+
 ## `2.1.169.ab7` → `2.1.170.6bc`
 
 - **Prompt delta**: +45 chars (instructions block)
