@@ -1,0 +1,9 @@
+--- 2.1.173.53a
++++ 2.1.174.d48
+@@ -49,5 +49,5 @@
+  - Platform: linux
+  - Shell: <SHELL>
+- - OS Version: Linux 6.17.0-1015-azure
++ - OS Version: Linux 6.17.0-1018-azure
+  - You are powered by the model named Opus 4.8 (1M context). The exact model ID is claude-opus-4-8[1m].
+  - Assistant knowledge cutoff is January 2026.

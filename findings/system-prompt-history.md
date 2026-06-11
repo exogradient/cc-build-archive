@@ -89,7 +89,7 @@ You have been invoked in the following environment:
  - Is a git repository: false
  - Platform: linux
  - Shell: <SHELL>
- - OS Version: Linux 6.17.0-1015-azure
+ - OS Version: Linux 6.17.0-1018-azure
  - You are powered by the model named Opus 4.8 (1M context). The exact model ID is claude-opus-4-8[1m].
  - Assistant knowledge cutoff is January 2026.
  - The most recent Claude models are Fable 5 and the Claude 4.X family. Model IDs — Fable 5: 'claude-fable-5', Opus 4.8: 'claude-opus-4-8', Sonnet 4.6: 'claude-sonnet-4-6', Haiku 4.5: 'claude-haiku-4-5-20251001'. When building AI applications, default to the latest and most capable Claude models.
@@ -108,6 +108,15 @@ When you have enough information to act, act. Do not re-derive facts already est
 ## Change log
 
 _Sections present since `2.1.110.610` with no later change are not listed (they appear in **Current prompt** above). Newest change first._
+
+- `2.1.174.d48` — **Environment** changed (986 → 986 chars, +0):
+
+  ```diff
+    - Shell: <SHELL>
+  - - OS Version: Linux 6.17.0-1015-azure
+  + - OS Version: Linux 6.17.0-1018-azure
+    - You are powered by the model named Opus 4.8 (1M context).
+  ```
 
 - `2.1.170.6bc` — **Environment** changed (941 → 986 chars, +45):
 

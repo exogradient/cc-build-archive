@@ -1,0 +1,28 @@
+# Binary surface delta  2.1.173.53a → 2.1.174.d48
+# Categorized config/control surfaces extracted from the binary
+# (env vars, flags, telemetry, models, betas, endpoints, settings).
+
+## env_vars
+  + CLAUDE_CODE_ENABLE_REMOTE_RECAP
+  + CLAUDE_CODE_HIDE_SETTINGS_HINT
+  + CLAUDE_OPUS_4_8
+  + CLAUDE_PROJECT_TOOL
+  + CLAUDE_PROJECT_UUID
+  + CLAUDE_STAGE_FILE_ROOT
+  - CLAUDE_CODE_ARTIFACT_MCP
+  - CLAUDE_CODE_VELVET_FALCON
+  - CLAUDE_OPUS_4_6
+
+## telemetry_events
+  + tengu_cobalt_plinth_fern
+  + tengu_harbor_moth
+  + tengu_malformed_tool_use_clean_retry
+  + tengu_malformed_tool_use_retry_outcome
+  + tengu_plugin_autoupdate_allow_credential_helper
+  + tengu_plugin_refresh_on_miss
+  + tengu_sunset_penguin_opus46
+  - tengu_velvet_falcon_model
+
+## model_ids
+  - claude-code-settings
+

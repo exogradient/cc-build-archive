@@ -6,6 +6,15 @@ Flagged notable if `prompt_delta_chars` ≥ 300, a request-config lever moved (m
 
 **Diff dirs exist iff the transition is notable.** A diff dir under `findings/diffs/<from>__to__<to>/` is materialized exactly when this list includes the transition — both are governed by the same predicate (`auto-diff.is_notable_summary`). Non-notable transitions write nothing; the build still appears in `version-history.md` (it existed; its surface was identical to its predecessor's).
 
+## `2.1.173.53a` → `2.1.174.d48`
+
+- **Prompt delta**: +0 chars (instructions block)
+- **Binary tools added**: `Projects`
+- **Env vars**: added `CLAUDE_CODE_ENABLE_REMOTE_RECAP`, `CLAUDE_CODE_HIDE_SETTINGS_HINT`, `CLAUDE_OPUS_4_8`, `CLAUDE_PROJECT_TOOL`, `CLAUDE_PROJECT_UUID`, `CLAUDE_STAGE_FILE_ROOT`; removed `CLAUDE_CODE_ARTIFACT_MCP`, `CLAUDE_CODE_VELVET_FALCON`, `CLAUDE_OPUS_4_6`
+- **Telemetry events**: added `tengu_cobalt_plinth_fern`, `tengu_harbor_moth`, `tengu_malformed_tool_use_clean_retry`, `tengu_malformed_tool_use_retry_outcome`, `tengu_plugin_autoupdate_allow_credential_helper`, `tengu_plugin_refresh_on_miss`, `tengu_sunset_penguin_opus46`; removed `tengu_velvet_falcon_model`
+- **Model ids**: removed `claude-code-settings`
+- [Diff artifacts](diffs/2.1.173.53a__to__2.1.174.d48/)
+
 ## `2.1.170.6bc` → `2.1.172.326`
 
 - **Prompt delta**: +0 chars (instructions block)

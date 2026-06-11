@@ -1,0 +1,16 @@
+---
+from: 2.1.173.53a
+to: 2.1.174.d48
+from_capture_date: 2026-06-11T02:10:14.374Z
+to_capture_date: 2026-06-11T22:28:09.694Z
+from_build_time: 2026-06-11T01:23:13Z
+to_build_time: 2026-06-11T17:15:35Z
+prompt_delta_chars: 0
+binary_tools_count_from: 46
+binary_tools_count_to: 47
+binary_tools_added: ["Projects"]
+env_vars_added: ["CLAUDE_CODE_ENABLE_REMOTE_RECAP", "CLAUDE_CODE_HIDE_SETTINGS_HINT", "CLAUDE_OPUS_4_8", "CLAUDE_PROJECT_TOOL", "CLAUDE_PROJECT_UUID", "CLAUDE_STAGE_FILE_ROOT"]
+env_vars_removed: ["CLAUDE_CODE_ARTIFACT_MCP", "CLAUDE_CODE_VELVET_FALCON", "CLAUDE_OPUS_4_6"]
+telemetry_events_added: ["tengu_cobalt_plinth_fern", "tengu_harbor_moth", "tengu_malformed_tool_use_clean_retry", "tengu_malformed_tool_use_retry_outcome", "tengu_plugin_autoupdate_allow_credential_helper", "tengu_plugin_refresh_on_miss", "tengu_sunset_penguin_opus46"]
+telemetry_events_removed: ["tengu_velvet_falcon_model"]
+model_ids_removed: ["claude-code-settings"]
