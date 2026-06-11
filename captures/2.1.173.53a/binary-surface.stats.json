@@ -1,0 +1,14 @@
+{
+  "binary": "/tmp/cc-capture.YI3Nxo/package/claude",
+  "binary_bytes": 248747728,
+  "binary_sha256": "cf7ea194e1748932fa30f180eaa9f56f9a7039dce370302988c2926629b2a219",
+  "category_counts": {
+    "env_vars": 484,
+    "feature_flags": 56,
+    "telemetry_events": 1381,
+    "model_ids": 114,
+    "api_beta_tokens": 44,
+    "endpoints": 206,
+    "settings_keys": 46
+  }
+}
