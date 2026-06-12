@@ -1,0 +1,14 @@
+{
+  "binary": "/tmp/cc-capture.rQmuql/package/claude",
+  "binary_bytes": 249566928,
+  "binary_sha256": "4fc72fa6090c9a03f1850e1b1ccb3d6806bf802b67e3cb9dc5f2ced4b7ed5ca1",
+  "category_counts": {
+    "env_vars": 487,
+    "feature_flags": 56,
+    "telemetry_events": 1387,
+    "model_ids": 113,
+    "api_beta_tokens": 44,
+    "endpoints": 206,
+    "settings_keys": 46
+  }
+}
