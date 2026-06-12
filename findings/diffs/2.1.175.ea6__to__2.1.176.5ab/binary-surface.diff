@@ -1,0 +1,26 @@
+# Binary surface delta  2.1.175.ea6 → 2.1.176.5ab
+# Categorized config/control surfaces extracted from the binary
+# (env vars, flags, telemetry, models, betas, endpoints, settings).
+
+## env_vars
+  + CLAUDE_CODE_TOTAL_TOKENS_REMINDER
+  + CLAUDE_IN_CHROME_DOMAIN_RULE_TOOL
+  + CLAUDE_IN_CHROME_MCP_SERVER_NAME
+
+## telemetry_events
+  + tengu_bg_exec_no_lastline
+  + tengu_chrome_auto_enable_prompt_shown
+  + tengu_fabricated_turn_candidate
+  + tengu_lantern_spool
+  + tengu_lapis_anchor
+  + tengu_mcp_first_party_auto_auth
+  + tengu_non_deferrable_builtins
+  + tengu_silent_harbor
+
+## model_ids
+  + claude-in-teams
+
+## endpoints
+  + https://claude.ai/code/artifact/
+  + https://claude.ai/code/artifact/$
+

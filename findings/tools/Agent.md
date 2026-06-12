@@ -3,7 +3,7 @@
 _Auto-maintained by `scripts/update-findings.py`. Do not edit by hand._
 
 - Currently present: yes
-- Definition changes: 5
+- Definition changes: 6
 
 ## Change log
 
@@ -88,6 +88,7 @@ _Auto-maintained by `scripts/update-findings.py`. Do not edit by hand._
 
   </details>
 - `2.1.170.6bc` — + `input_schema.properties.model.enum[3]`
+- `2.1.176.5ab` — ~ `input_schema.properties.model.description`
 
 ## Current definition
 
@@ -112,7 +113,7 @@ _Auto-maintained by `scripts/update-findings.py`. Do not edit by hand._
         "type": "string"
       },
       "model": {
-        "description": "Optional model override for this agent. Takes precedence over the agent definition's model frontmatter. If omitted, uses the agent definition's model, or inherits from the parent.",
+        "description": "Optional model override for this agent. Takes precedence over the agent definition's model frontmatter. If omitted, uses the agent definition's model, or inherits from the parent. Ignored for subagent_type: \"fork\" \u2014 forks always inherit the parent model.",
         "type": "string",
         "enum": [
           "sonnet",

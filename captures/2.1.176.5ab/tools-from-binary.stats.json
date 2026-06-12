@@ -1,0 +1,10 @@
+{
+  "binary": "/tmp/cc-capture.5jsfer/package/claude",
+  "binary_bytes": 250463952,
+  "search_hint_count": 47,
+  "name_props_resolved": 460,
+  "tools_paired": 47,
+  "tools_with_description": 21,
+  "description_filled_from_string_table": 8,
+  "orphan_hints": []
+}

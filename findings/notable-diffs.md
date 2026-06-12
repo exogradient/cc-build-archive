@@ -6,6 +6,16 @@ Flagged notable if `prompt_delta_chars` ≥ 300, a request-config lever moved (m
 
 **Diff dirs exist iff the transition is notable.** A diff dir under `findings/diffs/<from>__to__<to>/` is materialized exactly when this list includes the transition — both are governed by the same predicate (`auto-diff.is_notable_summary`). Non-notable transitions write nothing; the build still appears in `version-history.md` (it existed; its surface was identical to its predecessor's).
 
+## `2.1.175.ea6` → `2.1.176.5ab`
+
+- **Prompt delta**: +0 chars (instructions block)
+- **Tools with changed definition**: `Agent` (input_schema)
+- **Env vars**: added `CLAUDE_CODE_TOTAL_TOKENS_REMINDER`, `CLAUDE_IN_CHROME_DOMAIN_RULE_TOOL`, `CLAUDE_IN_CHROME_MCP_SERVER_NAME`
+- **Telemetry events**: added `tengu_bg_exec_no_lastline`, `tengu_chrome_auto_enable_prompt_shown`, `tengu_fabricated_turn_candidate`, `tengu_lantern_spool`, `tengu_lapis_anchor`, `tengu_mcp_first_party_auto_auth`, `tengu_non_deferrable_builtins`, `tengu_silent_harbor`
+- **Model ids**: added `claude-in-teams`
+- **Endpoints**: added `https://claude.ai/code/artifact/`, `https://claude.ai/code/artifact/$`
+- [Tool definition diffs](diffs/2.1.175.ea6__to__2.1.176.5ab/tools.diff) · [all artifacts](diffs/2.1.175.ea6__to__2.1.176.5ab/)
+
 ## `2.1.173.53a` → `2.1.174.d48`
 
 - **Prompt delta**: +0 chars (instructions block)

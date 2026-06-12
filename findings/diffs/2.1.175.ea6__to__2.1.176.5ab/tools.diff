@@ -1,0 +1,15 @@
+=== Agent ===
+changed fields: input_schema
+
+--- full definition (JSON) ---
+--- 2.1.175.ea6::Agent
++++ 2.1.176.5ab::Agent
+@@ -16,7 +16,7 @@
+         "type": "string"
+       },
+       "model": {
+-        "description": "Optional model override for this agent. Takes precedence over the agent definition's model frontmatter. If omitted, uses the agent definition's model, or inherits from the parent.",
++        "description": "Optional model override for this agent. Takes precedence over the agent definition's model frontmatter. If omitted, uses the agent definition's model, or inherits from the parent. Ignored for subagent_type: \"fork\" \u2014 forks always inherit the parent model.",
+         "enum": [
+           "sonnet",
+           "opus",
