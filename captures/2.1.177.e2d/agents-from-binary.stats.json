@@ -1,0 +1,16 @@
+{
+  "binary": "/tmp/cc-capture.vLJp8h/package/claude",
+  "binary_bytes": 250480336,
+  "agents_found": 9,
+  "by_source": {
+    "built-in": 8,
+    "userSettings": 1
+  },
+  "system_prompt_kinds": {
+    "resolved": 6,
+    "inline": 2,
+    "unresolved": 1
+  },
+  "prompts_captured": 8,
+  "agentdef_varref_skipped": 3
+}
