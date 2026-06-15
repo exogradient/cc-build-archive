@@ -1,0 +1,43 @@
+# Wire-captured tools (what the binary sent on this request).
+# Fingerprint = sha256 of the full tool definition (description,
+# input_schema, etc.) minus cache_control. See tools.diff for
+# the actual content delta on any divergent tool.
+#
+# Note: tools-from-binary.matrix is a SEPARATE artifact derived
+# from static extraction of the binary's JS. It only captures
+# {name, search_hint, max_result_size_chars} per tool — so
+# changes to `description` or `input_schema` show up here but
+# not there. Divergence here without divergence in
+# tools-from-binary is expected, not a bug.
+
+tool                   | 2.1.177.e2d      | 2.1.178.575     
+------------------------------------------------------------
+Agent                  | cc1e1e88         | 3b4261e5          ← DIVERGENT
+AskUserQuestion        | 6bff5161         | 6bff5161        
+Bash                   | 24c58667         | 24c58667        
+CronCreate             | 29ef73e9         | 29ef73e9        
+CronDelete             | beeecc9a         | beeecc9a        
+CronList               | 9ac9faa4         | 9ac9faa4        
+Edit                   | 786188a2         | 786188a2        
+EnterPlanMode          | fdbb125d         | fdbb125d        
+EnterWorktree          | 7d45e9ab         | 7d45e9ab        
+ExitPlanMode           | 89bdd090         | 89bdd090        
+ExitWorktree           | ea0c77fa         | ea0c77fa        
+NotebookEdit           | 96e18701         | 96e18701        
+Read                   | 6cd5200e         | 6cd5200e        
+ScheduleWakeup         | 7a50c310         | 7a50c310        
+Skill                  | 2425030b         | 31ac154f          ← DIVERGENT
+TaskCreate             | 8ec37fde         | 8ec37fde        
+TaskGet                | a284beeb         | a284beeb        
+TaskList               | a12e31e9         | a12e31e9        
+TaskOutput             | ad0e2005         | ad0e2005        
+TaskStop               | e88dff3d         | e88dff3d        
+TaskUpdate             | e1b33f46         | e1b33f46        
+WebFetch               | 954ed7a0         | 954ed7a0        
+WebSearch              | 171bc569         | 171bc569        
+Workflow               | acab814c         | 52b09240          ← DIVERGENT
+Write                  | 8c510431         | 8c510431        
+
+Added: []
+Removed: []
+Changed (shared name, different definition): ['Agent', 'Skill', 'Workflow']

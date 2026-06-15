@@ -6,6 +6,16 @@ Flagged notable if `prompt_delta_chars` ≥ 300, a request-config lever moved (m
 
 **Diff dirs exist iff the transition is notable.** A diff dir under `findings/diffs/<from>__to__<to>/` is materialized exactly when this list includes the transition — both are governed by the same predicate (`auto-diff.is_notable_summary`). Non-notable transitions write nothing; the build still appears in `version-history.md` (it existed; its surface was identical to its predecessor's).
 
+## `2.1.177.e2d` → `2.1.178.575`
+
+- **Prompt delta**: +0 chars (instructions block)
+- **Tools with changed definition**: `Agent` (description, input_schema), `Skill` (description), `Workflow` (description)
+- **Binary tools removed**: `TeamCreate`, `TeamDelete`
+- **System reminders (binary)**: 1 modified (see `system-reminders.matrix`)
+- **Env vars**: added `CLAUDE_CODE_COORDINATOR_EXTRA_TOOLS`, `CLAUDE_CODE_DESIGN_OAUTH_CLIENT_ID`, `CLAUDE_CODE_DISABLE_MEMORY_PERIODIC_RESYNC`, `CLAUDE_CODE_FABLE_BRIDGE_DIALOG_TIMEOUT_MS`, `CLAUDE_CODE_TODO_REMINDER_MODE`; removed `CLAUDE_CODE_AGENT_LIST_IN_MESSAGES`
+- **Telemetry events**: added `tengu_agent_tool_remote_launched`, `tengu_async_agent_stranded_tools_cleared`, `tengu_cedar_sundial`, `tengu_chrome_bridge_account_mismatch`, `tengu_config_fallback_write`, `tengu_convolute_arcades_tools`, `tengu_daemon_exit`, `tengu_design_oauth_login_error`, `tengu_design_oauth_login_success`, `tengu_design_oauth_manual_entry`, `tengu_edit_tool_stale_read`, `tengu_fallback_sweep_tools`, `tengu_juniper_shoal_shown`, `tengu_memory_store_resync_interval_minutes`, `tengu_neapolitan`, `tengu_precomputed_compact_arm_gated`, `tengu_repl_bridge_dialog_kinds_declared`, `tengu_soft_slate_nudge`, `tengu_wif_user_oauth_refresh_race_resolved`; removed `tengu_agent_list_attach`, `tengu_auto_background_agents`, `tengu_compass_dial`, `tengu_oauth_gateway_forced`, `tengu_oauth_gateway_selected`, `tengu_team_created`, `tengu_team_deleted`
+- [Tool definition diffs](diffs/2.1.177.e2d__to__2.1.178.575/tools.diff) · [all artifacts](diffs/2.1.177.e2d__to__2.1.178.575/)
+
 ## `2.1.175.ea6` → `2.1.176.5ab`
 
 - **Prompt delta**: +0 chars (instructions block)

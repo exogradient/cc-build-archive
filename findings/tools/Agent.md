@@ -3,7 +3,7 @@
 _Auto-maintained by `scripts/update-findings.py`. Do not edit by hand._
 
 - Currently present: yes
-- Definition changes: 6
+- Definition changes: 7
 
 ## Change log
 
@@ -89,13 +89,36 @@ _Auto-maintained by `scripts/update-findings.py`. Do not edit by hand._
   </details>
 - `2.1.170.6bc` — + `input_schema.properties.model.enum[3]`
 - `2.1.176.5ab` — ~ `input_schema.properties.model.description`
+- `2.1.178.575` — + `input_schema.properties.isolation.enum[1]`; ~ `description`; ~ `input_schema.properties.isolation.description`
+
+  <details><summary>description diff (2681 → 1227 chars)</summary>
+
+  ```diff
+   
+  -Available agent types and the tools they have access to:
+  -- claude: Catch-all for any task that doesn't fit a more specific agent.
+  -FleetView's default when no agent name is typed.
+  -(Tools: *)
+  -- Explore: Read-only search agent for broad fan-out searches — when answering means sweeping many files, directories, or naming conventions and you only need the conclusion, not the file dumps.
+  -It reads excerpts rather than whole files, so it locates code; it doesn't review or audit it.
+  -Specify search breadth: "medium" for moderate exploration, "very thorough" for multiple locations and naming conventions.
+  -(Tools: All tools except Agent, ExitPlanMode, Edit, Write, NotebookEdit)
+  -- general-purpose: General-purpose agent for researching complex questions, searching for code, and executing multi-step tasks.
+  -When you are searching for a keyword or file and are not confident that you will find the right match in the first few tries use this agent to perform the search for you.
+  -(Tools: *)
+  -- Plan: Software architect agent for designing implementation plans.
+  -Use this when you need to plan the implementation strategy for a task.
+    … (+8 more diff lines — see the version's tools.diff)
+  ```
+
+  </details>
 
 ## Current definition
 
 ```json
 {
   "name": "Agent",
-  "description": "Launch a new agent to handle complex, multi-step tasks. Each agent type has specific capabilities and tools available to it.\n\nAvailable agent types and the tools they have access to:\n- claude: Catch-all for any task that doesn't fit a more specific agent. FleetView's default when no agent name is typed. (Tools: *)\n- Explore: Read-only search agent for broad fan-out searches \u2014 when answering means sweeping many files, directories, or naming conventions and you only need the conclusion, not the file dumps. It reads excerpts rather than whole files, so it locates code; it doesn't review or audit it. Specify search breadth: \"medium\" for moderate exploration, \"very thorough\" for multiple locations and naming conventions. (Tools: All tools except Agent, ExitPlanMode, Edit, Write, NotebookEdit)\n- general-purpose: General-purpose agent for researching complex questions, searching for code, and executing multi-step tasks. When you are searching for a keyword or file and are not confident that you will find the right match in the first few tries use this agent to perform the search for you. (Tools: *)\n- Plan: Software architect agent for designing implementation plans. Use this when you need to plan the implementation strategy for a task. Returns step-by-step plans, identifies critical files, and considers architectural trade-offs. (Tools: All tools except Agent, ExitPlanMode, Edit, Write, NotebookEdit)\n- statusline-setup: Use this agent to configure the user's Claude Code status line setting. (Tools: Read, Edit)\n\nWhen using the Agent tool, specify a subagent_type parameter to select which agent type to use. If omitted, the general-purpose agent is used.\n\n## When to use\n\nReach for this when the task matches an available agent type, when you have independent work to run in parallel, or when answering would mean reading across several files \u2014 delegate it and you keep the conclusion, not the file dumps. For a single-fact lookup where you already know the file, symbol, or value, search directly. Once you've delegated a search, don't also run it yourself \u2014 wait for the result.\n\n- The agent's final message is returned to you as the tool result; it is not shown to the user \u2014 relay what matters.\n- Use SendMessage with the agent's ID or name to continue a previously spawned agent with its context intact; a new Agent call starts fresh.\n- `isolation: \"worktree\"` gives the agent its own git worktree (auto-cleaned if unchanged).\n- `run_in_background: true` runs the agent asynchronously; you'll be notified when it completes.\n- When you launch multiple agents for independent work, send them in a single message with multiple tool uses so they run concurrently",
+  "description": "Launch a new agent to handle complex, multi-step tasks. Each agent type has specific capabilities and tools available to it.\n\nAvailable agent types are listed in <system-reminder> messages in the conversation.\n\nWhen using the Agent tool, specify a subagent_type parameter to select which agent type to use. If omitted, the general-purpose agent is used.\n\n## When to use\n\nReach for this when the task matches an available agent type, when you have independent work to run in parallel, or when answering would mean reading across several files \u2014 delegate it and you keep the conclusion, not the file dumps. For a single-fact lookup where you already know the file, symbol, or value, search directly. Once you've delegated a search, don't also run it yourself \u2014 wait for the result.\n\n- The agent's final message is returned to you as the tool result; it is not shown to the user \u2014 relay what matters.\n- Use SendMessage with the agent's ID or name to continue a previously spawned agent with its context intact; a new Agent call starts fresh.\n- `isolation: \"worktree\"` gives the agent its own git worktree (auto-cleaned if unchanged).\n- `run_in_background: true` runs the agent asynchronously; you'll be notified when it completes.",
   "input_schema": {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "type": "object",
@@ -127,10 +150,11 @@ _Auto-maintained by `scripts/update-findings.py`. Do not edit by hand._
         "type": "boolean"
       },
       "isolation": {
-        "description": "Isolation mode. \"worktree\" creates a temporary git worktree so the agent works on an isolated copy of the repo.",
+        "description": "Isolation mode. \"worktree\" creates a temporary git worktree so the agent works on an isolated copy of the repo. \"remote\" launches the agent in a remote cloud environment (always runs in background; availability is gated).",
         "type": "string",
         "enum": [
-          "worktree"
+          "worktree",
+          "remote"
         ]
       }
     },

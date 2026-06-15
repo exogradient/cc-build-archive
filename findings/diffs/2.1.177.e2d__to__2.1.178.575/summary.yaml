@@ -1,0 +1,17 @@
+---
+from: 2.1.177.e2d
+to: 2.1.178.575
+from_capture_date: 2026-06-13T01:04:18.120Z
+to_capture_date: 2026-06-15T19:03:41.057Z
+from_build_time: 2026-06-13T00:21:57Z
+to_build_time: 2026-06-15T16:57:07Z
+prompt_delta_chars: 0
+tools_changed_detail: {"Agent": ["description", "input_schema"], "Skill": ["description"], "Workflow": ["description"]}
+binary_tools_count_from: 47
+binary_tools_count_to: 45
+binary_tools_removed: ["TeamCreate", "TeamDelete"]
+reminders_modified: [{"from_sha1": "419195b7", "to_sha1": "0981feb5", "similarity": 0.975}]
+env_vars_added: ["CLAUDE_CODE_COORDINATOR_EXTRA_TOOLS", "CLAUDE_CODE_DESIGN_OAUTH_CLIENT_ID", "CLAUDE_CODE_DISABLE_MEMORY_PERIODIC_RESYNC", "CLAUDE_CODE_FABLE_BRIDGE_DIALOG_TIMEOUT_MS", "CLAUDE_CODE_TODO_REMINDER_MODE"]
+env_vars_removed: ["CLAUDE_CODE_AGENT_LIST_IN_MESSAGES"]
+telemetry_events_added: ["tengu_agent_tool_remote_launched", "tengu_async_agent_stranded_tools_cleared", "tengu_cedar_sundial", "tengu_chrome_bridge_account_mismatch", "tengu_config_fallback_write", "tengu_convolute_arcades_tools", "tengu_daemon_exit", "tengu_design_oauth_login_error", "tengu_design_oauth_login_success", "tengu_design_oauth_manual_entry", "tengu_edit_tool_stale_read", "tengu_fallback_sweep_tools", "tengu_juniper_shoal_shown", "tengu_memory_store_resync_interval_minutes", "tengu_neapolitan", "tengu_precomputed_compact_arm_gated", "tengu_repl_bridge_dialog_kinds_declared", "tengu_soft_slate_nudge", "tengu_wif_user_oauth_refresh_race_resolved"]
+telemetry_events_removed: ["tengu_agent_list_attach", "tengu_auto_background_agents", "tengu_compass_dial", "tengu_oauth_gateway_forced", "tengu_oauth_gateway_selected", "tengu_team_created", "tengu_team_deleted"]

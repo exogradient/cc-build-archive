@@ -10,11 +10,20 @@ generated_by: scripts/update-findings.py
 ```jsonc
 "messages": [
   { "role": "user", "content": [ … ] },
-  { "role": "system", "content": "… 4471 chars …" }   // ← the skills list, rendered below
+  { "role": "system", "content": "… 5995 chars …" }   // ← the skills list, rendered below
 ]
 ```
 
-## Current skills (13)
+## Current skills (18)
+
+Available agent types for the Agent tool:
+- claude: Catch-all for any task that doesn't fit a more specific agent. FleetView's default when no agent name is typed. (Tools: *)
+- Explore: Read-only search agent for broad fan-out searches — when answering means sweeping many files, directories, or naming conventions and you only need the conclusion, not the file dumps. It reads excerpts rather than whole files, so it locates code; it doesn't review or audit it. Specify search breadth: "medium" for moderate exploration, "very thorough" for multiple locations and naming conventions. (Tools: All tools except Agent, ExitPlanMode, Edit, Write, NotebookEdit)
+- general-purpose: General-purpose agent for researching complex questions, searching for code, and executing multi-step tasks. When you are searching for a keyword or file and are not confident that you will find the right match in the first few tries use this agent to perform the search for you. (Tools: *)
+- Plan: Software architect agent for designing implementation plans. Use this when you need to plan the implementation strategy for a task. Returns step-by-step plans, identifies critical files, and considers architectural trade-offs. (Tools: All tools except Agent, ExitPlanMode, Edit, Write, NotebookEdit)
+- statusline-setup: Use this agent to configure the user's Claude Code status line setting. (Tools: Read, Edit)
+
+When you launch multiple agents for independent work, send them in a single message with multiple tool uses so they run concurrently.
 
 The following skills are available for use with the Skill tool:
 
@@ -38,6 +47,11 @@ SKIP only when another provider is being worked on (overrides all triggers): Ope
 
 _Skills present since `2.1.154.608` with no later change are not listed (they appear above). Newest change first._
 
+- `2.1.178.575` — **Explore** added.
+- `2.1.178.575` — **Plan** added.
+- `2.1.178.575` — **claude** added.
+- `2.1.178.575` — **general-purpose** added.
+- `2.1.178.575` — **statusline-setup** added.
 - `2.1.170.6bc` — **claude-api** description changed:
 
   ```diff

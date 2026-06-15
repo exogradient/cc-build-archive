@@ -189,11 +189,20 @@
           "unpackedSize": 150470
         },
         "first_seen": "2026-06-13T01:04:05.132835+00:00"
+      },
+      "2.1.177": {
+        "fingerprint": {
+          "fileCount": 7,
+          "integrity": "sha512-pbBlT4O36j60k7Zd1aPQlVU1HFFpvFaTTnrsWLAVKdIHK/EcLjVjE/qY8kz9/e62XerK/UhJrZ8GsLaBNQ+6Mw==",
+          "shasum": "e48ba2b593f51b40cbb997824002343a78cab891",
+          "unpackedSize": 150470
+        },
+        "first_seen": "2026-06-15T19:03:27.024212+00:00"
       }
     },
     "dist_tags": {
-      "latest": "2.1.176",
-      "next": "2.1.176",
+      "latest": "2.1.177",
+      "next": "2.1.177",
       "stable": "2.1.153"
     }
   },
@@ -396,11 +405,20 @@
           "unpackedSize": 225125089
         },
         "first_seen": "2026-06-13T01:04:05.132835+00:00"
+      },
+      "2.1.178": {
+        "fingerprint": {
+          "fileCount": 4,
+          "integrity": "sha512-y2oFhS2EPfUBl7RMaM1fcVZ9ZMCsSfKxst5j+kmy0WUtS0FE0538KN/ECLDlZkpslAg2WdBNz01M0woMLk6uqw==",
+          "shasum": "b391d5e01727361c737150fd8e916785d3c7ac9d",
+          "unpackedSize": 226033249
+        },
+        "first_seen": "2026-06-15T19:03:27.024212+00:00"
       }
     },
     "dist_tags": {
-      "latest": "2.1.176",
-      "next": "2.1.177",
+      "latest": "2.1.177",
+      "next": "2.1.178",
       "stable": "2.1.153"
     }
   },
@@ -603,11 +621,20 @@
           "unpackedSize": 250480922
         },
         "first_seen": "2026-06-13T01:04:05.132835+00:00"
+      },
+      "2.1.178": {
+        "fingerprint": {
+          "fileCount": 4,
+          "integrity": "sha512-W3XUZDHi3XtsftWK+phsnPyKWx5y7ULfyCiNQFLH5LNih73v0/wRg5t/Kqtj8+rl4pI0LCgcJW2USeK/7CCmvQ==",
+          "shasum": "dbdb56a0ec6b99117bd7885335ad7fdc0acbf9da",
+          "unpackedSize": 251373850
+        },
+        "first_seen": "2026-06-15T19:03:27.024212+00:00"
       }
     },
     "dist_tags": {
-      "latest": "2.1.176",
-      "next": "2.1.177",
+      "latest": "2.1.177",
+      "next": "2.1.178",
       "stable": "2.1.153"
     }
   },
