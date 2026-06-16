@@ -1,0 +1,12 @@
+---
+from: 2.1.178.575
+to: 2.1.179.61a
+from_capture_date: 2026-06-15T19:03:41.057Z
+to_capture_date: 2026-06-16T17:51:47.100Z
+from_build_time: 2026-06-15T16:57:07Z
+to_build_time: 2026-06-16T01:38:12Z
+prompt_delta_chars: 0
+env_vars_added: ["CLAUDE_CODE_ALTGR_AS_TEXT", "CLAUDE_CODE_ENABLE_DESIGN_MCP", "CLAUDE_CODE_OTEL_DIAG_STDERR", "CLAUDE_CODE_SYNC_PLUGINS_BUFFERED_DOWNLOAD", "CLAUDE_CODE_SYNC_PLUGINS_DOWNLOAD_STALL_MS"]
+telemetry_events_added: ["tengu_amber_moleskin", "tengu_ax_screen_reader", "tengu_heron_brook_applied", "tengu_omelette_whisk", "tengu_plugin_disuse_review_action", "tengu_precompute_arm_table_malformed", "tengu_precompute_compaction_setting_changed", "tengu_saffron_anchor", "tengu_streaming_partial_finalized"]
+telemetry_events_removed: ["tengu_iron_gate_closed"]
+endpoints_added: ["https://api.anthropic.com/v1/design/mcp"]

@@ -6,6 +6,14 @@ Flagged notable if `prompt_delta_chars` ≥ 300, a request-config lever moved (m
 
 **Diff dirs exist iff the transition is notable.** A diff dir under `findings/diffs/<from>__to__<to>/` is materialized exactly when this list includes the transition — both are governed by the same predicate (`auto-diff.is_notable_summary`). Non-notable transitions write nothing; the build still appears in `version-history.md` (it existed; its surface was identical to its predecessor's).
 
+## `2.1.178.575` → `2.1.179.61a`
+
+- **Prompt delta**: +0 chars (instructions block)
+- **Env vars**: added `CLAUDE_CODE_ALTGR_AS_TEXT`, `CLAUDE_CODE_ENABLE_DESIGN_MCP`, `CLAUDE_CODE_OTEL_DIAG_STDERR`, `CLAUDE_CODE_SYNC_PLUGINS_BUFFERED_DOWNLOAD`, `CLAUDE_CODE_SYNC_PLUGINS_DOWNLOAD_STALL_MS`
+- **Telemetry events**: added `tengu_amber_moleskin`, `tengu_ax_screen_reader`, `tengu_heron_brook_applied`, `tengu_omelette_whisk`, `tengu_plugin_disuse_review_action`, `tengu_precompute_arm_table_malformed`, `tengu_precompute_compaction_setting_changed`, `tengu_saffron_anchor`, `tengu_streaming_partial_finalized`; removed `tengu_iron_gate_closed`
+- **Endpoints**: added `https://api.anthropic.com/v1/design/mcp`
+- [Diff artifacts](diffs/2.1.178.575__to__2.1.179.61a/)
+
 ## `2.1.177.e2d` → `2.1.178.575`
 
 - **Prompt delta**: +0 chars (instructions block)
