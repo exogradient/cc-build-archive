@@ -1,0 +1,15 @@
+---
+from: 2.1.179.61a
+to: 2.1.181.2f9
+from_capture_date: 2026-06-16T17:51:47.100Z
+to_capture_date: 2026-06-17T22:08:43.629Z
+from_build_time: 2026-06-16T01:38:12Z
+to_build_time: 2026-06-17T17:10:37Z
+prompt_delta_chars: 0
+agents_changed: [{"agent": "Plan", "fields": ["prompt"]}]
+env_vars_added: ["CLAUDE_AX_SCREEN_READER", "CLAUDE_CLIENT_PRESENCE_FILE", "CLAUDE_CODE_ARTIFACTS_API_BASE_URL", "CLAUDE_CODE_BG_TASKS_REPORT_RUNNING", "CLAUDE_CODE_POWERUP_ONBOARDING", "CLAUDE_CODE_TERMINAL_MCP_TOOLS", "CLAUDE_IN_SLACK_V2", "CLAUDE_REPL_VERBOSE"]
+env_vars_removed: ["CLAUDE_CODE_TEAM_ONBOARDING"]
+telemetry_events_added: ["tengu_birch_lantern", "tengu_bridge_repl_evaluated", "tengu_ccr_delta_rehydrate", "tengu_cobalt_harbor", "tengu_config_shorthand", "tengu_human_origin_presumed", "tengu_mantle_default_check", "tengu_mantle_default_fallback", "tengu_mantle_probe_result", "tengu_mcp_tool_result_ended_turn", "tengu_powerup_discovery_shown", "tengu_remote_send_headless", "tengu_remote_send_headless_error", "tengu_remote_send_headless_success", "tengu_repl_inner_executing", "tengu_repl_inner_watchdog_fired", "tengu_repl_verbose_render", "tengu_tool_consecutive_validation_failures"]
+telemetry_events_removed: ["tengu_assistant_install", "tengu_cedar_inlet", "tengu_convolute_arcades_retry", "tengu_convolute_arcades_retry_outcome", "tengu_convolute_arcades_tools", "tengu_dune_wren", "tengu_garnet_finch", "tengu_pewter_lark", "tengu_team_onboarding_discovery_shown"]
+api_beta_tokens_removed: ["nightly-2025-12-10"]
+endpoints_added: ["https://claude.com/form/cyber-use-case"]

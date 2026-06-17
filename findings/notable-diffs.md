@@ -6,6 +6,16 @@ Flagged notable if `prompt_delta_chars` ≥ 300, a request-config lever moved (m
 
 **Diff dirs exist iff the transition is notable.** A diff dir under `findings/diffs/<from>__to__<to>/` is materialized exactly when this list includes the transition — both are governed by the same predicate (`auto-diff.is_notable_summary`). Non-notable transitions write nothing; the build still appears in `version-history.md` (it existed; its surface was identical to its predecessor's).
 
+## `2.1.179.61a` → `2.1.181.2f9`
+
+- **Prompt delta**: +0 chars (instructions block)
+- **Env vars**: added `CLAUDE_AX_SCREEN_READER`, `CLAUDE_CLIENT_PRESENCE_FILE`, `CLAUDE_CODE_ARTIFACTS_API_BASE_URL`, `CLAUDE_CODE_BG_TASKS_REPORT_RUNNING`, `CLAUDE_CODE_POWERUP_ONBOARDING`, `CLAUDE_CODE_TERMINAL_MCP_TOOLS`, `CLAUDE_IN_SLACK_V2`, `CLAUDE_REPL_VERBOSE`; removed `CLAUDE_CODE_TEAM_ONBOARDING`
+- **Telemetry events**: added `tengu_birch_lantern`, `tengu_bridge_repl_evaluated`, `tengu_ccr_delta_rehydrate`, `tengu_cobalt_harbor`, `tengu_config_shorthand`, `tengu_human_origin_presumed`, `tengu_mantle_default_check`, `tengu_mantle_default_fallback`, `tengu_mantle_probe_result`, `tengu_mcp_tool_result_ended_turn`, `tengu_powerup_discovery_shown`, `tengu_remote_send_headless`, `tengu_remote_send_headless_error`, `tengu_remote_send_headless_success`, `tengu_repl_inner_executing`, `tengu_repl_inner_watchdog_fired`, `tengu_repl_verbose_render`, `tengu_tool_consecutive_validation_failures`; removed `tengu_assistant_install`, `tengu_cedar_inlet`, `tengu_convolute_arcades_retry`, `tengu_convolute_arcades_retry_outcome`, `tengu_convolute_arcades_tools`, `tengu_dune_wren`, `tengu_garnet_finch`, `tengu_pewter_lark`, `tengu_team_onboarding_discovery_shown`
+- **API beta tokens (binary)**: removed `nightly-2025-12-10`
+- **Endpoints**: added `https://claude.com/form/cyber-use-case`
+- **Sub-agents**: changed `Plan` (prompt) (see `agents.diff`)
+- [Diff artifacts](diffs/2.1.179.61a__to__2.1.181.2f9/)
+
 ## `2.1.178.575` → `2.1.179.61a`
 
 - **Prompt delta**: +0 chars (instructions block)

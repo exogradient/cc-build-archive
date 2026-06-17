@@ -14,7 +14,7 @@ generated_by: scripts/update-findings.py
   "model": …,
   "messages": [ … ],
   "system": [
-    { "type": "text", "text": "x-anthropic-billing-header: cc_version=<VERSION>; cc_entrypoint=sdk-cli; cch=<HASH>;" },  // block 0
+    { "type": "text", "text": "x-anthropic-billing-header: cc_version=<VERSION>; cc_entrypoint=sdk-cli;" },  // block 0
     { "type": "text", "text": "You are a Claude agent, built on Anthropic's Claude Agent SDK.", "cache_control": {…} },  // block 1
     { "type": "text", "text": "… 5699 chars of markdown …", "cache_control": {…} }  // block 2 · expanded by section below
   ],
@@ -108,6 +108,14 @@ When you have enough information to act, act. Do not re-derive facts already est
 ## Change log
 
 _Sections present since `2.1.110.610` with no later change are not listed (they appear in **Current prompt** above). Newest change first._
+
+- `2.1.181.2f9` — **pre-heading text** changed (694 → 682 chars, -12):
+
+  ```diff
+  -x-anthropic-billing-header: cc_version=<VERSION>; cc_entrypoint=sdk-cli; cch=<HASH>;
+  +x-anthropic-billing-header: cc_version=<VERSION>; cc_entrypoint=sdk-cli;
+   
+  ```
 
 - `2.1.174.d48` — **Environment** changed (986 → 986 chars, +0):
 

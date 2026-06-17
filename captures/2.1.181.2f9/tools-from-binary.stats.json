@@ -1,0 +1,10 @@
+{
+  "binary": "/tmp/cc-capture.8oUyCr/package/claude",
+  "binary_bytes": 232830760,
+  "search_hint_count": 45,
+  "name_props_resolved": 457,
+  "tools_paired": 45,
+  "tools_with_description": 19,
+  "description_filled_from_string_table": 8,
+  "orphan_hints": []
+}
