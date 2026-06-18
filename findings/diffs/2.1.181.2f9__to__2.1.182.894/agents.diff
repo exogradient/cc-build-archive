@@ -1,0 +1,14 @@
+# Built-in sub-agent delta  2.1.181.2f9 → 2.1.182.894
+# Definitions extracted from the binary (system prompt, tool
+# allowlist, model). Diff is on the stable surface: normalized
+# prompt (${…} collapsed) + resolved tool names.
+
+~ agent: worker  (changed: prompt)
+    --- worker:prompt@2.1.181.2f9
+    +++ worker:prompt@2.1.182.894
+    @@ -22,3 +22,3 @@
+     
+    -- If a tool is denied, stop and report what you needed: "Bash was denied. I need shell access to run tests."
+    +- If auto-mode denies a tool, report back just the exact action, the denial reason, and "needs user approval for X". The coordinator will get the approval and send it to you — retry once it arrives; don't narrate the earlier denial.
+     - If the task is impossible (file missing, conflicting requirements), stop and explain why
+

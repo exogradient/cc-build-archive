@@ -6,6 +6,17 @@ Flagged notable if `prompt_delta_chars` ≥ 300, a request-config lever moved (m
 
 **Diff dirs exist iff the transition is notable.** A diff dir under `findings/diffs/<from>__to__<to>/` is materialized exactly when this list includes the transition — both are governed by the same predicate (`auto-diff.is_notable_summary`). Non-notable transitions write nothing; the build still appears in `version-history.md` (it existed; its surface was identical to its predecessor's).
 
+## `2.1.181.2f9` → `2.1.182.894`
+
+- **Prompt delta**: +0 chars (instructions block)
+- **Env vars**: added `CLAUDE_CODE_CONNECT_TIMEOUT_MS`, `CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS`, `CLAUDE_CODE_WEBSEARCH_USE_CCR_PROXY`; removed `ANTHROPIC_FOUNDRY_AUTH_TOKEN`
+- **Telemetry events**: added `tengu_cedar_lattice`, `tengu_dispatch_header_fallback`, `tengu_mcp_first_party_scope_expanded`, `tengu_migrate_apply`, `tengu_migrate_scan`, `tengu_rate_limit_options_menu_select_switch_model`, `tengu_team_mem_prompt_index_near_cap`, `tengu_thinking_disabled_sanitized`; removed `tengu_tool_consecutive_validation_failures`
+- **Model ids**: added `claude-in-amazon-bedrock`, `claude-in-microsoft-foundry`, `claude-on-vertex-ai`
+- **API beta tokens (binary)**: added `code-execution-2025-08-25`
+- **Endpoints**: added `https://docs.claude.com/en/docs/get-started):`; removed `https://platform.claude.com/docs/en/agents-and-tools/skills`
+- **Sub-agents**: changed `worker` (prompt) (see `agents.diff`)
+- [Diff artifacts](diffs/2.1.181.2f9__to__2.1.182.894/)
+
 ## `2.1.179.61a` → `2.1.181.2f9`
 
 - **Prompt delta**: +0 chars (instructions block)

@@ -1,0 +1,12 @@
+{
+  "binary": "/tmp/cc-capture.H2iLhM/package/claude",
+  "binary_bytes": 233965352,
+  "raw_open_tags": 78,
+  "raw_close_tags": 38,
+  "complete_reminders": 15,
+  "encoding_counts": {
+    "utf-8": 12,
+    "utf-16-le": 3
+  },
+  "unpaired_open_tags": 40
+}
