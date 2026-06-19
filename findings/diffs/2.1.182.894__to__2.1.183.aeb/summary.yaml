@@ -1,0 +1,9 @@
+---
+from: 2.1.182.894
+to: 2.1.183.aeb
+from_capture_date: 2026-06-18T22:07:37.149Z
+to_capture_date: 2026-06-19T00:02:53.323Z
+from_build_time: 2026-06-18T21:10:38Z
+to_build_time: 2026-06-18T23:04:10Z
+prompt_delta_chars: 0
+telemetry_events_removed: ["tengu_migrate_apply", "tengu_migrate_scan"]
