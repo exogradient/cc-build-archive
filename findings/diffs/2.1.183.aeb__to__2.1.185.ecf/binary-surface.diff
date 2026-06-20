@@ -1,0 +1,7 @@
+# Binary surface delta  2.1.183.aeb → 2.1.185.ecf
+# Categorized config/control surfaces extracted from the binary
+# (env vars, flags, telemetry, models, betas, endpoints, settings).
+
+## telemetry_events
+  - tengu_chert_bezel
+

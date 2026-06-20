@@ -1,0 +1,11 @@
+---
+from: 2.1.183.aeb
+to: 2.1.185.ecf
+from_capture_date: 2026-06-19T00:02:53.323Z
+to_capture_date: 2026-06-20T16:54:57.056Z
+from_build_time: 2026-06-18T23:04:10Z
+to_build_time: 2026-06-20T06:38:30Z
+prompt_delta_chars: 0
+api_betas_from: claude-code-20250219,context-1m-2025-08-07,interleaved-thinking-2025-05-14,context-management-2025-06-27,prompt-caching-scope-2026-01-05,mid-conversation-system-2026-04-07,effort-2025-11-24
+api_betas_to: claude-code-20250219,context-1m-2025-08-07,interleaved-thinking-2025-05-14,thinking-token-count-2026-05-13,context-management-2025-06-27,prompt-caching-scope-2026-01-05,mid-conversation-system-2026-04-07,effort-2025-11-24
+telemetry_events_removed: ["tengu_chert_bezel"]
