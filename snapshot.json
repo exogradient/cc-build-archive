@@ -1,51 +1,6 @@
 {
   "@anthropic-ai/claude-code": {
     "active": {
-      "2.1.170": {
-        "fingerprint": {
-          "fileCount": 7,
-          "integrity": "sha512-/kMpp+fz72boi8KvAW4EZ1G8FWtPAR3vH1uKGlYpoZ2O9SU5XdaYCTvw5tPyYGDoB+eFiOnolfTiKPUK8vnP7g==",
-          "shasum": "27b441cf9cedde13158d46d7fe3e1e404ab98fb0",
-          "unpackedSize": 146301
-        },
-        "first_seen": "2026-06-09T16:16:42.150838+00:00"
-      },
-      "2.1.172": {
-        "fingerprint": {
-          "fileCount": 7,
-          "integrity": "sha512-SfwC+5fQcmNbvvm+1vLiZbfUxt0PQz9lbXapj9+FI+XY/2e+3zgteBM4JFEXBjULZj1DtZXHmKtAROUrMM9GZg==",
-          "shasum": "3513d36403bfb987c09d90d82a369570818ad4a6",
-          "unpackedSize": 147525
-        },
-        "first_seen": "2026-06-10T20:52:02.341699+00:00"
-      },
-      "2.1.173": {
-        "fingerprint": {
-          "fileCount": 7,
-          "integrity": "sha512-bivKe/lhaK908Is16AG5xXWxwOtDhvJ46/u7U2j4xxQOhM3jC/4TikD4jJFRNZaeY8jjaReklhFg/aoXRd5vIg==",
-          "shasum": "af8cab6612f92c39d13c77db30dfefad8e71237f",
-          "unpackedSize": 147525
-        },
-        "first_seen": "2026-06-11T02:10:00.336874+00:00"
-      },
-      "2.1.174": {
-        "fingerprint": {
-          "fileCount": 7,
-          "integrity": "sha512-aFD7O0o7436DvN2Qj+tJFFhqMznahmtat/ZPfgeQEO8zTrZc897RY9Igjm4XzH3C9NtprrUybzK5GMaTUEpSnA==",
-          "shasum": "7b8643b302aa24b0dd419dc0510a812bcb59decb",
-          "unpackedSize": 150073
-        },
-        "first_seen": "2026-06-11T22:27:56.515852+00:00"
-      },
-      "2.1.175": {
-        "fingerprint": {
-          "fileCount": 7,
-          "integrity": "sha512-x37KEw7T1vz/CLkpLYqa8d6eyS/R1777+HMYJRqYf4e5+OhZwF/+d1LoTs5vFXTrFCWFjZTbWGZksW/gKpvCTQ==",
-          "shasum": "ed027055c1d138c87894963813d16bf2a7878367",
-          "unpackedSize": 150073
-        },
-        "first_seen": "2026-06-12T02:10:59.370301+00:00"
-      },
       "2.1.176": {
         "fingerprint": {
           "fileCount": 7,
@@ -108,61 +63,25 @@
           "unpackedSize": 151307
         },
         "first_seen": "2026-06-20T16:54:43.743410+00:00"
+      },
+      "2.1.185": {
+        "fingerprint": {
+          "fileCount": 7,
+          "integrity": "sha512-Hdajoh0bqjSyWaO78jb923Sk0hNUmKQ1kMFnysb/y5M0SPA7Nq9rRpL/my88Jcc/+dM+S7wnHrUyNCWA/IdTog==",
+          "shasum": "e447807bc23691d82832cd629c08dbefa706cc15",
+          "unpackedSize": 151307
+        },
+        "first_seen": "2026-06-22T18:03:56.451747+00:00"
       }
     },
     "dist_tags": {
-      "latest": "2.1.183",
-      "next": "2.1.183",
-      "stable": "2.1.170"
+      "latest": "2.1.185",
+      "next": "2.1.185",
+      "stable": "2.1.176"
     }
   },
   "@anthropic-ai/claude-code-darwin-arm64": {
     "active": {
-      "2.1.170": {
-        "fingerprint": {
-          "fileCount": 4,
-          "integrity": "sha512-lnBfVVTO+Wk31IAh5KDOY+Cuu1vIHC3N3UjHY9SEroDat8XKqjFtckY50jPi50m5x0oWkeQiyDl4nPstgdkNwQ==",
-          "shasum": "cc517ca699938ea876dd0d6cda3e858aff152539",
-          "unpackedSize": 222103393
-        },
-        "first_seen": "2026-06-09T16:14:41.446580+00:00"
-      },
-      "2.1.172": {
-        "fingerprint": {
-          "fileCount": 4,
-          "integrity": "sha512-pBRgDo8PAgbt2aE4oc6ZrKdOa/Ax36RAduhLCaI8NWD3a0RDb5mETzQciQLwnuenk0bs27vIRh9Yg1jAYG/0+A==",
-          "shasum": "e15525e9877fd1de850f55633415a395d11ee104",
-          "unpackedSize": 223391329
-        },
-        "first_seen": "2026-06-10T20:52:02.341699+00:00"
-      },
-      "2.1.173": {
-        "fingerprint": {
-          "fileCount": 4,
-          "integrity": "sha512-OSigC9K7UvkJFZIK9GEVT54GaTYUa59BhS26m/m+TdAaEMErKUqyv1v3Y6Su3jQcGU2J5voiLRXPd2gne5PdHw==",
-          "shasum": "91c6001cd858a1d35748e57ffc5ae5e7a4f03e12",
-          "unpackedSize": 223391329
-        },
-        "first_seen": "2026-06-11T02:10:00.336874+00:00"
-      },
-      "2.1.174": {
-        "fingerprint": {
-          "fileCount": 4,
-          "integrity": "sha512-aDU4VTJqkxn72ze6JKYDv5r/6K8oARaWdPYa44CwejdgQrmvyUdspOytetskWwlDSr+9seEPUxKx3UkwV9dCzA==",
-          "shasum": "5a7c59b08392f9aeac8a660677cd578fbac93e25",
-          "unpackedSize": 224051809
-        },
-        "first_seen": "2026-06-11T22:27:56.515852+00:00"
-      },
-      "2.1.175": {
-        "fingerprint": {
-          "fileCount": 4,
-          "integrity": "sha512-IHaWNzREnQ8QSxlUC5aYemKzmr+OnDhY7DDO/cQVSu7bCFbXwEel306eT1Xga4Nlr9GxIicLbaWaFc3OeTiYQA==",
-          "shasum": "61e625152bc11acb79b924d08142bedd4ccea8b9",
-          "unpackedSize": 224216929
-        },
-        "first_seen": "2026-06-12T02:10:59.370301+00:00"
-      },
       "2.1.176": {
         "fingerprint": {
           "fileCount": 4,
@@ -234,61 +153,25 @@
           "unpackedSize": 215953185
         },
         "first_seen": "2026-06-20T16:54:43.743410+00:00"
+      },
+      "2.1.186": {
+        "fingerprint": {
+          "fileCount": 4,
+          "integrity": "sha512-Ntv78PmtrnYBfawHDrgU6LK/6agzTrUUu7IXSlX9Bu0swk7LQ7T1SKHQVXsS9ur3D3yQ45cKcX4Kg8b+iYb+lQ==",
+          "shasum": "e7600a9423d59b4a48819e07102dc802c9f40152",
+          "unpackedSize": 216811809
+        },
+        "first_seen": "2026-06-22T18:03:56.451747+00:00"
       }
     },
     "dist_tags": {
-      "latest": "2.1.183",
-      "next": "2.1.185",
-      "stable": "2.1.170"
+      "latest": "2.1.185",
+      "next": "2.1.186",
+      "stable": "2.1.176"
     }
   },
   "@anthropic-ai/claude-code-linux-x64": {
     "active": {
-      "2.1.170": {
-        "fingerprint": {
-          "fileCount": 4,
-          "integrity": "sha512-SSQ6TsGbZJSC1s6R5pxlTZPq1bilSpoTR8JANOq8ALUkbRVhgVSl0PiSSNSnc3zNdDCA1iA3ywLmAuISuhlvKA==",
-          "shasum": "a4ddf6eb1079341b47c860367b3eea27189349db",
-          "unpackedSize": 247470362
-        },
-        "first_seen": "2026-06-09T16:15:40.490503+00:00"
-      },
-      "2.1.172": {
-        "fingerprint": {
-          "fileCount": 4,
-          "integrity": "sha512-RYCY9EHkmtoAlwBKcWRzGIhuus+GM2CIVCfU81cTQAwDcCHunoBeFn3NqAcFV1VKb4dk9TRarAmQcWMKJrpPig==",
-          "shasum": "92f8b1caca7877848ccddb30dd3ec039be13c80f",
-          "unpackedSize": 248744218
-        },
-        "first_seen": "2026-06-10T20:52:02.341699+00:00"
-      },
-      "2.1.173": {
-        "fingerprint": {
-          "fileCount": 4,
-          "integrity": "sha512-DRAW6QUAuKlkXlwXsZH1Hiau5qtrFdd9JucZlxbO6PtvKisH0XTv0l/8EGYkSN/1IiVuu5titKGQC99yazxkAw==",
-          "shasum": "a519826ce22e86cbc4e4271ece0cf3eb1c826866",
-          "unpackedSize": 248748314
-        },
-        "first_seen": "2026-06-11T02:10:00.336874+00:00"
-      },
-      "2.1.174": {
-        "fingerprint": {
-          "fileCount": 4,
-          "integrity": "sha512-iTgV4HqYdP1AaoXF6hJ1i5yczE4aiPhPubSKJ4ywyIdS5NUpa5pU/vkKT4dKcHiN8kQKLpyS48YToCzWZhs9ag==",
-          "shasum": "bae0cbc177b6089f3ed133c8c2a440831261faa3",
-          "unpackedSize": 249399578
-        },
-        "first_seen": "2026-06-11T22:27:56.515852+00:00"
-      },
-      "2.1.175": {
-        "fingerprint": {
-          "fileCount": 4,
-          "integrity": "sha512-RegEK8Cdj5tM2ZiePk887o+OwwfibR5jxI2yh3z0aKtelFH63kM2TZEGvroj5iCsKP33LMK3kFKwBD4gJ3d1LQ==",
-          "shasum": "af2ad60b128c7af5ebe9aecd6251386450a0576d",
-          "unpackedSize": 249567514
-        },
-        "first_seen": "2026-06-12T02:10:59.370301+00:00"
-      },
       "2.1.176": {
         "fingerprint": {
           "fileCount": 4,
@@ -360,12 +243,21 @@
           "unpackedSize": 233585010
         },
         "first_seen": "2026-06-20T16:54:43.743410+00:00"
+      },
+      "2.1.186": {
+        "fingerprint": {
+          "fileCount": 4,
+          "integrity": "sha512-qXncNDTDIjwZ5ZxoQ7t4TfsFCBiWuU5/7PwM9qsGNhgscA3vDztD8OWD6/lxKM3XYcm5ct2J+Wa/k+pMzxxmDA==",
+          "shasum": "614cfa7a10dba4f3d4338a09724f63bba53fabb0",
+          "unpackedSize": 234436978
+        },
+        "first_seen": "2026-06-22T18:03:56.451747+00:00"
       }
     },
     "dist_tags": {
-      "latest": "2.1.183",
-      "next": "2.1.185",
-      "stable": "2.1.170"
+      "latest": "2.1.185",
+      "next": "2.1.186",
+      "stable": "2.1.176"
     }
   },
   "_meta": {

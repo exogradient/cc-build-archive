@@ -10,7 +10,7 @@ generated_by: scripts/update-findings.py
 ```jsonc
 "messages": [
   { "role": "user", "content": [ … ] },
-  { "role": "system", "content": "… 5995 chars …" }   // ← the skills list, rendered below
+  { "role": "system", "content": "… 6042 chars …" }   // ← the skills list, rendered below
 ]
 ```
 
@@ -40,12 +40,19 @@ TRIGGER — read BEFORE opening the target file; don't skip because it "looks li
 SKIP only when another provider is being worked on (overrides all triggers): OpenAI/GPT/Gemini/Llama/Mistral/Cohere/Ollama named in the query; OR `grep -rE 'openai|langchain_openai|google.generativeai|genai|mistralai|cohere|ollama'` over the project hits (run this grep FIRST if no provider named — don't Read the file).
 - run: Launch and drive this project's app to see a change working. Use when asked to run, start, or screenshot the app, or to confirm a change works in the real app (not just tests). First looks for a project skill that already covers launching the app; otherwise falls back to built-in patterns per project type (CLI, server, TUI, Electron, browser-driven, library).
 - init: Initialize a new CLAUDE.md file with codebase documentation
-- review: Review a pull request
+- review: Review a GitHub pull request; for your working diff use /code-review
 - security-review: Complete a security review of the pending changes on the current branch
 
 ## Change log
 
 _Skills present since `2.1.154.608` with no later change are not listed (they appear above). Newest change first._
+
+- `2.1.186.75e` — **review** description changed:
+
+  ```diff
+  -Review a pull request
+  +Review a GitHub pull request; for your working diff use /code-review
+  ```
 
 - `2.1.178.575` — **Explore** added.
 - `2.1.178.575` — **Plan** added.

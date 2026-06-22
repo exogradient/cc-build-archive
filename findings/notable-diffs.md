@@ -6,6 +6,16 @@ Flagged notable if `prompt_delta_chars` ≥ 300, a request-config lever moved (m
 
 **Diff dirs exist iff the transition is notable.** A diff dir under `findings/diffs/<from>__to__<to>/` is materialized exactly when this list includes the transition — both are governed by the same predicate (`auto-diff.is_notable_summary`). Non-notable transitions write nothing; the build still appears in `version-history.md` (it existed; its surface was identical to its predecessor's).
 
+## `2.1.185.ecf` → `2.1.186.75e`
+
+- **Prompt delta**: +0 chars (instructions block)
+- **Tools added**: `SendMessage`
+- **Binary tools added**: `ReadMcpResourceDirTool`
+- **System reminders (binary)**: 1 added (see `system-reminders.matrix`)
+- **Env vars**: added `CLAUDE_CODE_DISABLE_LAUNCH_COMPOSER`, `CLAUDE_CODE_FORCE_STRIKETHROUGH`; removed `CLAUDE_CODE_CONNECT_TIMEOUT_MS`, `CLAUDE_PROJECT_TOOL`
+- **Telemetry events**: added `tengu_amber_heron`, `tengu_attachment_unc_read_blocked`, `tengu_bg_bridge_flush_truncated`, `tengu_code_review_routed`, `tengu_fine_survey_transcript_ask_config`, `tengu_left_arrow_blocked`, `tengu_left_arrow_confirm`, `tengu_mcp_arg_trailing_invoke_suffix`, `tengu_mcp_description_contains_toolcall_xml`, `tengu_mcp_login`, `tengu_mcp_logout`, `tengu_mcp_strip_trailing_xml_tags`, `tengu_memdir_entrypoint_near_cap`, `tengu_nonstreaming_fallback_success`, `tengu_oauth_aws_refresh_launched`, `tengu_oauth_gateway_done`, `tengu_streaming_529_retry`, `tengu_usage_overage_included_models`; removed `tengu_rate_limit_options_menu_select_switch_model`
+- [Diff artifacts](diffs/2.1.185.ecf__to__2.1.186.75e/)
+
 ## `2.1.183.aeb` → `2.1.185.ecf`
 
 - **Prompt delta**: +0 chars (instructions block)

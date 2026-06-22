@@ -1,0 +1,11 @@
+metric                   2.1.185.ecf        2.1.186.75e       
+--------------------------------------------------------------
+reminders                15                 16                
+unchanged                14
+modified (paired)        0
+added (net)              1
+removed (net)            0
+
+ADDED REMINDERS:
+  [b51fb90d] (83b) The model for this session has been changed to ${qn}. You are now running as ${qn}.
+

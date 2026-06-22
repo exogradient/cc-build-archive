@@ -1,0 +1,21 @@
+---
+from: 2.1.185.ecf
+to: 2.1.186.75e
+from_capture_date: 2026-06-20T16:54:57.056Z
+to_capture_date: 2026-06-22T18:04:10.046Z
+from_build_time: 2026-06-20T06:38:30Z
+to_build_time: 2026-06-22T16:43:00Z
+prompt_delta_chars: 0
+tools_count_from: 25
+tools_count_to: 26
+tools_added: ["SendMessage"]
+binary_tools_count_from: 45
+binary_tools_count_to: 46
+binary_tools_added: ["ReadMcpResourceDirTool"]
+reminders_count_from: 15
+reminders_count_to: 16
+reminders_added: ["b51fb90d"]
+env_vars_added: ["CLAUDE_CODE_DISABLE_LAUNCH_COMPOSER", "CLAUDE_CODE_FORCE_STRIKETHROUGH"]
+env_vars_removed: ["CLAUDE_CODE_CONNECT_TIMEOUT_MS", "CLAUDE_PROJECT_TOOL"]
+telemetry_events_added: ["tengu_amber_heron", "tengu_attachment_unc_read_blocked", "tengu_bg_bridge_flush_truncated", "tengu_code_review_routed", "tengu_fine_survey_transcript_ask_config", "tengu_left_arrow_blocked", "tengu_left_arrow_confirm", "tengu_mcp_arg_trailing_invoke_suffix", "tengu_mcp_description_contains_toolcall_xml", "tengu_mcp_login", "tengu_mcp_logout", "tengu_mcp_strip_trailing_xml_tags", "tengu_memdir_entrypoint_near_cap", "tengu_nonstreaming_fallback_success", "tengu_oauth_aws_refresh_launched", "tengu_oauth_gateway_done", "tengu_streaming_529_retry", "tengu_usage_overage_included_models"]
+telemetry_events_removed: ["tengu_rate_limit_options_menu_select_switch_model"]
