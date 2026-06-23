@@ -1,0 +1,20 @@
+# Binary surface delta  2.1.186.75e → 2.1.187.cfe
+# Categorized config/control surfaces extracted from the binary
+# (env vars, flags, telemetry, models, betas, endpoints, settings).
+
+## env_vars
+  + CLAUDE_CHROME_CLASSIFIER_FLOOR
+  + CLAUDE_CODE_MCP_TOOL_IDLE_TIMEOUT
+
+## telemetry_events
+  + tengu_client_data_cache_key
+  + tengu_cowork_chrome_automode_default
+  + tengu_silk_almanac
+  + tengu_startup_announcements
+  + tengu_team_mem_foreign_partition_suppressed
+  + tengu_team_mem_push_manifest_gate
+  + tengu_team_mem_store_set_rebuilt
+  - tengu_desktop_upsell_shown
+  - tengu_fable5_launch_shown
+  - tengu_slate_fern
+

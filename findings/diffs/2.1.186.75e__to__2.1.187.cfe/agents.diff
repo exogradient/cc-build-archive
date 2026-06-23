@@ -1,0 +1,11 @@
+# Built-in sub-agent delta  2.1.186.75e → 2.1.187.cfe
+# Definitions extracted from the binary (system prompt, tool
+# allowlist, model). Diff is on the stable surface: normalized
+# prompt (${…} collapsed) + resolved tool names.
+
+~ agent: Explore  (changed: disallowed_tools)
+    disallowed_tools: ['Agent', 'ExitPlanMode', 'Edit', 'Write', 'NotebookEdit'] → ['Agent', 'Artifact', 'ExitPlanMode', 'Edit', 'Write', 'NotebookEdit']
+
+~ agent: Plan  (changed: disallowed_tools)
+    disallowed_tools: ['Agent', 'ExitPlanMode', 'Edit', 'Write', 'NotebookEdit'] → ['Agent', 'Artifact', 'ExitPlanMode', 'Edit', 'Write', 'NotebookEdit']
+

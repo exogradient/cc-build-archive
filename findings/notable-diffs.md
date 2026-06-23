@@ -6,6 +6,15 @@ Flagged notable if `prompt_delta_chars` ≥ 300, a request-config lever moved (m
 
 **Diff dirs exist iff the transition is notable.** A diff dir under `findings/diffs/<from>__to__<to>/` is materialized exactly when this list includes the transition — both are governed by the same predicate (`auto-diff.is_notable_summary`). Non-notable transitions write nothing; the build still appears in `version-history.md` (it existed; its surface was identical to its predecessor's).
 
+## `2.1.186.75e` → `2.1.187.cfe`
+
+- **Prompt delta**: +0 chars (instructions block)
+- **Tools removed**: `AskUserQuestion`, `EnterPlanMode`, `ExitPlanMode`
+- **Env vars**: added `CLAUDE_CHROME_CLASSIFIER_FLOOR`, `CLAUDE_CODE_MCP_TOOL_IDLE_TIMEOUT`
+- **Telemetry events**: added `tengu_client_data_cache_key`, `tengu_cowork_chrome_automode_default`, `tengu_silk_almanac`, `tengu_startup_announcements`, `tengu_team_mem_foreign_partition_suppressed`, `tengu_team_mem_push_manifest_gate`, `tengu_team_mem_store_set_rebuilt`; removed `tengu_desktop_upsell_shown`, `tengu_fable5_launch_shown`, `tengu_slate_fern`
+- **Sub-agents**: changed `Explore` (disallowed_tools), `Plan` (disallowed_tools) (see `agents.diff`)
+- [Diff artifacts](diffs/2.1.186.75e__to__2.1.187.cfe/)
+
 ## `2.1.185.ecf` → `2.1.186.75e`
 
 - **Prompt delta**: +0 chars (instructions block)

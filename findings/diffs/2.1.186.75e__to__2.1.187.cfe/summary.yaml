@@ -1,0 +1,15 @@
+---
+from: 2.1.186.75e
+to: 2.1.187.cfe
+from_capture_date: 2026-06-22T18:04:10.046Z
+to_capture_date: 2026-06-23T17:56:00.543Z
+from_build_time: 2026-06-22T16:43:00Z
+to_build_time: 2026-06-23T16:59:46Z
+prompt_delta_chars: 0
+tools_count_from: 26
+tools_count_to: 23
+tools_removed: ["AskUserQuestion", "EnterPlanMode", "ExitPlanMode"]
+agents_changed: [{"agent": "Explore", "fields": ["disallowed_tools"]}, {"agent": "Plan", "fields": ["disallowed_tools"]}]
+env_vars_added: ["CLAUDE_CHROME_CLASSIFIER_FLOOR", "CLAUDE_CODE_MCP_TOOL_IDLE_TIMEOUT"]
+telemetry_events_added: ["tengu_client_data_cache_key", "tengu_cowork_chrome_automode_default", "tengu_silk_almanac", "tengu_startup_announcements", "tengu_team_mem_foreign_partition_suppressed", "tengu_team_mem_push_manifest_gate", "tengu_team_mem_store_set_rebuilt"]
+telemetry_events_removed: ["tengu_desktop_upsell_shown", "tengu_fable5_launch_shown", "tengu_slate_fern"]
