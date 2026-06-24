@@ -1,0 +1,15 @@
+---
+from: 2.1.190.349
+to: 2.1.191.8d2
+from_capture_date: 2026-06-24T14:40:01.261Z
+to_capture_date: 2026-06-24T18:55:03.153Z
+from_build_time: 2026-06-24T02:21:52Z
+to_build_time: 2026-06-24T11:24:03Z
+prompt_delta_chars: 0
+agents_changed: [{"agent": "Explore", "fields": ["disallowed_tools"]}, {"agent": "Plan", "fields": ["disallowed_tools"]}]
+telemetry_events_added: ["tengu_amber_quill", "tengu_cobalt_harbor_notice", "tengu_cobalt_heron", "tengu_cobalt_plinth_reader_persist", "tengu_config_auto_repaired", "tengu_context_tip_classifier_outcome", "tengu_context_tip_reception", "tengu_long_context_survey_event", "tengu_long_context_survey_question_variant", "tengu_long_context_survey_threshold", "tengu_mcp_oauth_browser_open", "tengu_mcp_startup_policy_seed", "tengu_media_byte_cap", "tengu_media_byte_cap_stripped", "tengu_orford_ness", "tengu_rewind_first_message", "tengu_slate_moth", "tengu_team_discovery"]
+telemetry_events_removed: ["tengu_billiard_aviary"]
+model_ids_added: ["claude-code-error-tracking"]
+endpoints_added: ["https://anthropic.com/legal/privacyz", "https://api-staging.anthropic.com/v1/design/mcp"]
+endpoints_removed: ["https://code.claude.com/docs/en/data-usage#session-quality-surveysH7"]
+settings_keys_added: ["on", "tip"]

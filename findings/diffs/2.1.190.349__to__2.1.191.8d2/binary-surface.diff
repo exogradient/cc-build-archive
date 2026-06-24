@@ -1,0 +1,37 @@
+# Binary surface delta  2.1.190.349 → 2.1.191.8d2
+# Categorized config/control surfaces extracted from the binary
+# (env vars, flags, telemetry, models, betas, endpoints, settings).
+
+## telemetry_events
+  + tengu_amber_quill
+  + tengu_cobalt_harbor_notice
+  + tengu_cobalt_heron
+  + tengu_cobalt_plinth_reader_persist
+  + tengu_config_auto_repaired
+  + tengu_context_tip_classifier_outcome
+  + tengu_context_tip_reception
+  + tengu_long_context_survey_event
+  + tengu_long_context_survey_question_variant
+  + tengu_long_context_survey_threshold
+  + tengu_mcp_oauth_browser_open
+  + tengu_mcp_startup_policy_seed
+  + tengu_media_byte_cap
+  + tengu_media_byte_cap_stripped
+  + tengu_orford_ness
+  + tengu_rewind_first_message
+  + tengu_slate_moth
+  + tengu_team_discovery
+  - tengu_billiard_aviary
+
+## model_ids
+  + claude-code-error-tracking
+
+## endpoints
+  + https://anthropic.com/legal/privacyz
+  + https://api-staging.anthropic.com/v1/design/mcp
+  - https://code.claude.com/docs/en/data-usage#session-quality-surveysH7
+
+## settings_keys
+  + on
+  + tip
+

@@ -6,6 +6,16 @@ Flagged notable if `prompt_delta_chars` ≥ 300, a request-config lever moved (m
 
 **Diff dirs exist iff the transition is notable.** A diff dir under `findings/diffs/<from>__to__<to>/` is materialized exactly when this list includes the transition — both are governed by the same predicate (`auto-diff.is_notable_summary`). Non-notable transitions write nothing; the build still appears in `version-history.md` (it existed; its surface was identical to its predecessor's).
 
+## `2.1.190.349` → `2.1.191.8d2`
+
+- **Prompt delta**: +0 chars (instructions block)
+- **Telemetry events**: added `tengu_amber_quill`, `tengu_cobalt_harbor_notice`, `tengu_cobalt_heron`, `tengu_cobalt_plinth_reader_persist`, `tengu_config_auto_repaired`, `tengu_context_tip_classifier_outcome`, `tengu_context_tip_reception`, `tengu_long_context_survey_event`, `tengu_long_context_survey_question_variant`, `tengu_long_context_survey_threshold`, `tengu_mcp_oauth_browser_open`, `tengu_mcp_startup_policy_seed`, `tengu_media_byte_cap`, `tengu_media_byte_cap_stripped`, `tengu_orford_ness`, `tengu_rewind_first_message`, `tengu_slate_moth`, `tengu_team_discovery`; removed `tengu_billiard_aviary`
+- **Model ids**: added `claude-code-error-tracking`
+- **Endpoints**: added `https://anthropic.com/legal/privacyz`, `https://api-staging.anthropic.com/v1/design/mcp`; removed `https://code.claude.com/docs/en/data-usage#session-quality-surveysH7`
+- **Settings keys**: added `on`, `tip`
+- **Sub-agents**: changed `Explore` (disallowed_tools), `Plan` (disallowed_tools) (see `agents.diff`)
+- [Diff artifacts](diffs/2.1.190.349__to__2.1.191.8d2/)
+
 ## `2.1.187.cfe` → `2.1.190.349`
 
 - **Prompt delta**: +0 chars (instructions block)
