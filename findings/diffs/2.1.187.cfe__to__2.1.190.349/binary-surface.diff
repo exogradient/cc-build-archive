@@ -1,0 +1,11 @@
+# Binary surface delta  2.1.187.cfe → 2.1.190.349
+# Categorized config/control surfaces extracted from the binary
+# (env vars, flags, telemetry, models, betas, endpoints, settings).
+
+## telemetry_events
+  + tengu_saffron_credits_only_tiers
+  + tengu_saffron_picker_dim
+
+## endpoints
+  + https://code.claude.com/docs/en/data-usage#session-quality-surveysH7
+

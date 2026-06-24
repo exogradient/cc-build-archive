@@ -1,0 +1,10 @@
+---
+from: 2.1.187.cfe
+to: 2.1.190.349
+from_capture_date: 2026-06-23T17:56:00.543Z
+to_capture_date: 2026-06-24T14:40:01.261Z
+from_build_time: 2026-06-23T16:59:46Z
+to_build_time: 2026-06-24T02:21:52Z
+prompt_delta_chars: 0
+telemetry_events_added: ["tengu_saffron_credits_only_tiers", "tengu_saffron_picker_dim"]
+endpoints_added: ["https://code.claude.com/docs/en/data-usage#session-quality-surveysH7"]
