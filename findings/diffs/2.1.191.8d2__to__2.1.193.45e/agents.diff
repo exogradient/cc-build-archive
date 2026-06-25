@@ -1,0 +1,27 @@
+# Built-in sub-agent delta  2.1.191.8d2 → 2.1.193.45e
+# Definitions extracted from the binary (system prompt, tool
+# allowlist, model). Diff is on the stable surface: normalized
+# prompt (${…} collapsed) + resolved tool names.
+
+~ agent: Explore  (changed: disallowed_tools)
+    disallowed_tools: ['Agent', '\n${D?T:""}THANK YOU! ${Y}', 'ExitPlanMode', 'Edit', 'Write', 'NotebookEdit'] → ['Agent', 'Artifact', 'ExitPlanMode', 'Edit', 'Write', 'NotebookEdit']
+
+~ agent: Plan  (changed: disallowed_tools, prompt)
+    disallowed_tools: ['Agent', '\n${D?T:""}THANK YOU! ${Y}', 'ExitPlanMode', 'Edit', 'Write', 'NotebookEdit'] → ['Agent', 'Artifact', 'ExitPlanMode', 'Edit', 'Write', 'NotebookEdit']
+    --- Plan:prompt@2.1.191.8d2
+    +++ Plan:prompt@2.1.193.45e
+    @@ -51,3 +51,3 @@
+            "repo": {                 // Optional: repository identity from the origin remote
+    -         "host": "string",       // Remote host (e.g., "github.com")
+    +         "host": "string",       // Remote host (e.g. github.com)
+              "owner": "string",      // Repository owner/organization (e.g., "anthropics")
+
+~ agent: statusline-setup  (changed: prompt)
+    --- statusline-setup:prompt@2.1.191.8d2
+    +++ statusline-setup:prompt@2.1.193.45e
+    @@ -51,3 +51,3 @@
+            "repo": {                 // Optional: repository identity from the origin remote
+    -         "host": "string",       // Remote host (e.g., "github.com")
+    +         "host": "string",       // Remote host (e.g. github.com)
+              "owner": "string",      // Repository owner/organization (e.g., "anthropics")
+

@@ -1,0 +1,13 @@
+---
+from: 2.1.191.8d2
+to: 2.1.193.45e
+from_capture_date: 2026-06-24T18:55:03.153Z
+to_capture_date: 2026-06-25T21:46:11.341Z
+from_build_time: 2026-06-24T11:24:03Z
+to_build_time: 2026-06-25T18:18:11Z
+prompt_delta_chars: 0
+agents_changed: [{"agent": "Explore", "fields": ["disallowed_tools"]}, {"agent": "Plan", "fields": ["disallowed_tools", "prompt"]}, {"agent": "statusline-setup", "fields": ["prompt"]}]
+env_vars_added: ["CLAUDE_BG_POST_CLEAR_RESPAWN", "CLAUDE_CODE_COORDINATOR_PROPAGATE_NESTED_MEMORY", "CLAUDE_CODE_DISABLE_BG_SHELL_PRESSURE_REAP", "CLAUDE_CODE_DISABLE_NOTIFICATION_PRESENCE_CHECK", "CLAUDE_CODE_ENABLE_LAUNCH_COMPOSER", "CLAUDE_CODE_SHOJI_ENGINE"]
+telemetry_events_added: ["tengu_cobalt_plinth_putguard", "tengu_fleet_suggestion_dispatch", "tengu_fleetview_onboarding_v2", "tengu_left_arrow_gesture", "tengu_pencil_farmer", "tengu_plugin_renamed", "tengu_shoji_engine", "tengu_sunset_penguin_opus47"]
+telemetry_events_removed: ["tengu_bash_allowlist_strip_all"]
+endpoints_removed: ["https://anthropic.com/legal/privacyz"]

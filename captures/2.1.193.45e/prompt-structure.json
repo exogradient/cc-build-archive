@@ -1,0 +1,73 @@
+{
+  "system_blocks": [
+    {
+      "index": 0,
+      "chars": 74,
+      "sha1": "c6341b6ef6c1",
+      "cache_control": null
+    },
+    {
+      "index": 1,
+      "chars": 62,
+      "sha1": "6775d4b1f9bc",
+      "cache_control": {
+        "type": "ephemeral"
+      }
+    },
+    {
+      "index": 2,
+      "chars": 5699,
+      "sha1": "ebedd06c7094",
+      "cache_control": {
+        "type": "ephemeral"
+      }
+    }
+  ],
+  "message_parts": [
+    {
+      "msg_index": 0,
+      "role": "user",
+      "part_index": 0,
+      "type": "text",
+      "chars": 302,
+      "sha1": "04bfe7a74523",
+      "cache_control": null,
+      "is_system_reminder": true
+    },
+    {
+      "msg_index": 0,
+      "role": "user",
+      "part_index": 1,
+      "type": "text",
+      "chars": 2,
+      "sha1": "c22b5f917834",
+      "cache_control": {
+        "type": "ephemeral"
+      },
+      "is_system_reminder": false
+    },
+    {
+      "msg_index": 1,
+      "role": "system",
+      "part_index": 0,
+      "type": "text",
+      "chars": 6062,
+      "sha1": "048d1cbd8a28",
+      "cache_control": null,
+      "is_system_reminder": false
+    }
+  ],
+  "cache_breakpoints": [
+    "system[1]",
+    "system[2]",
+    "messages[0][1]"
+  ],
+  "wire_reminders": [
+    {
+      "location": "messages[0][0]",
+      "chars": 302,
+      "sha1": "04bfe7a74523",
+      "body": "<system-reminder>\nAs you answer the user's questions, you can use the following context:\n# currentDate\nToday's date is <DATE>.\n\n      IMPORTANT: this context may or may not be relevant to your tasks. You should not respond to this context unless it is highly relevant to your task.\n</system-reminder>\n\n"
+    }
+  ]
+}

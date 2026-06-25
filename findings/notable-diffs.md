@@ -6,6 +6,15 @@ Flagged notable if `prompt_delta_chars` ≥ 300, a request-config lever moved (m
 
 **Diff dirs exist iff the transition is notable.** A diff dir under `findings/diffs/<from>__to__<to>/` is materialized exactly when this list includes the transition — both are governed by the same predicate (`auto-diff.is_notable_summary`). Non-notable transitions write nothing; the build still appears in `version-history.md` (it existed; its surface was identical to its predecessor's).
 
+## `2.1.191.8d2` → `2.1.193.45e`
+
+- **Prompt delta**: +0 chars (instructions block)
+- **Env vars**: added `CLAUDE_BG_POST_CLEAR_RESPAWN`, `CLAUDE_CODE_COORDINATOR_PROPAGATE_NESTED_MEMORY`, `CLAUDE_CODE_DISABLE_BG_SHELL_PRESSURE_REAP`, `CLAUDE_CODE_DISABLE_NOTIFICATION_PRESENCE_CHECK`, `CLAUDE_CODE_ENABLE_LAUNCH_COMPOSER`, `CLAUDE_CODE_SHOJI_ENGINE`
+- **Telemetry events**: added `tengu_cobalt_plinth_putguard`, `tengu_fleet_suggestion_dispatch`, `tengu_fleetview_onboarding_v2`, `tengu_left_arrow_gesture`, `tengu_pencil_farmer`, `tengu_plugin_renamed`, `tengu_shoji_engine`, `tengu_sunset_penguin_opus47`; removed `tengu_bash_allowlist_strip_all`
+- **Endpoints**: removed `https://anthropic.com/legal/privacyz`
+- **Sub-agents**: changed `Explore` (disallowed_tools), `Plan` (disallowed_tools, prompt), `statusline-setup` (prompt) (see `agents.diff`)
+- [Diff artifacts](diffs/2.1.191.8d2__to__2.1.193.45e/)
+
 ## `2.1.190.349` → `2.1.191.8d2`
 
 - **Prompt delta**: +0 chars (instructions block)

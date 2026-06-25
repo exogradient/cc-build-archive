@@ -1,0 +1,26 @@
+# Binary surface delta  2.1.191.8d2 → 2.1.193.45e
+# Categorized config/control surfaces extracted from the binary
+# (env vars, flags, telemetry, models, betas, endpoints, settings).
+
+## env_vars
+  + CLAUDE_BG_POST_CLEAR_RESPAWN
+  + CLAUDE_CODE_COORDINATOR_PROPAGATE_NESTED_MEMORY
+  + CLAUDE_CODE_DISABLE_BG_SHELL_PRESSURE_REAP
+  + CLAUDE_CODE_DISABLE_NOTIFICATION_PRESENCE_CHECK
+  + CLAUDE_CODE_ENABLE_LAUNCH_COMPOSER
+  + CLAUDE_CODE_SHOJI_ENGINE
+
+## telemetry_events
+  + tengu_cobalt_plinth_putguard
+  + tengu_fleet_suggestion_dispatch
+  + tengu_fleetview_onboarding_v2
+  + tengu_left_arrow_gesture
+  + tengu_pencil_farmer
+  + tengu_plugin_renamed
+  + tengu_shoji_engine
+  + tengu_sunset_penguin_opus47
+  - tengu_bash_allowlist_strip_all
+
+## endpoints
+  - https://anthropic.com/legal/privacyz
+
